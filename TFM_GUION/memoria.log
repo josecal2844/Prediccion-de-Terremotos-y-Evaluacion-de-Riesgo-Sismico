@@ -1,0 +1,3472 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.21)  13 JUL 2026 08:28
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/josec/OneDrive/Escritorio/Universidad Internacional de Valencia/TFM/TFM-Terremotos-Deep-Learning/TFM_GUION/memoria.tex"
+(c:/Users/josec/OneDrive/Escritorio/Universidad Internacional de Valencia/TFM/TFM-Terremotos-Deep-Learning/TFM_GUION/memoria.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(class_diss.cls
+Document Class: class_diss 1999/09/10 v1.4a Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen151
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count284
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count285
+\leftroot@=\count286
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count287
+\DOTSCASE@=\count288
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count289
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count290
+\dotsspace@=\muskip17
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
+\tag@help=\toks19
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
+\andhelp@=\toks20
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsxtra.sty
+Package: amsxtra 1999/11/15 v1.2c AMS extra commands
+LaTeX Info: Redefining \nobreakspace on input line 54.
+) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks28
+) (C:\Program Files\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count296
+\Gm@cntv=\count297
+\c@Gm@tempcnt=\count298
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks29
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip57
+\cftbeforetoctitleskip=\skip58
+\cftaftertoctitleskip=\skip59
+\cftbeforepartskip=\skip60
+\cftpartnumwidth=\skip61
+\cftpartindent=\skip62
+\cftbeforechapskip=\skip63
+\cftchapindent=\skip64
+\cftchapnumwidth=\skip65
+\cftbeforesecskip=\skip66
+\cftsecindent=\skip67
+\cftsecnumwidth=\skip68
+\cftbeforesubsecskip=\skip69
+\cftsubsecindent=\skip70
+\cftsubsecnumwidth=\skip71
+\cftbeforesubsubsecskip=\skip72
+\cftsubsubsecindent=\skip73
+\cftsubsubsecnumwidth=\skip74
+\cftbeforeparaskip=\skip75
+\cftparaindent=\skip76
+\cftparanumwidth=\skip77
+\cftbeforesubparaskip=\skip78
+\cftsubparaindent=\skip79
+\cftsubparanumwidth=\skip80
+\cftbeforeloftitleskip=\skip81
+\cftafterloftitleskip=\skip82
+\cftbeforefigskip=\skip83
+\cftfigindent=\skip84
+\cftfignumwidth=\skip85
+\c@lofdepth=\count299
+\c@lotdepth=\count300
+\cftbeforelottitleskip=\skip86
+\cftafterlottitleskip=\skip87
+\cftbeforetabskip=\skip88
+\cfttabindent=\skip89
+\cfttabnumwidth=\skip90
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip91
+\f@nch@offset@elh=\skip92
+\f@nch@offset@erh=\skip93
+\f@nch@offset@olh=\skip94
+\f@nch@offset@orh=\skip95
+\f@nch@offset@elf=\skip96
+\f@nch@offset@erf=\skip97
+\f@nch@offset@olf=\skip98
+\f@nch@offset@orf=\skip99
+\f@nch@height=\skip100
+\f@nch@footalignment=\skip101
+\f@nch@widthL=\skip102
+\f@nch@widthC=\skip103
+\f@nch@widthR=\skip104
+\@temptokenb=\toks30
+) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on input line 265.
+
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Program Files\MiKTeX\tex/latex/xcolor\svgnam.def
+File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
+) (C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen168
+\ar@mcellbox=\box55
+\extrarowheight=\dimen169
+\NC@list=\toks31
+\extratabsurround=\skip105
+\backup@length=\skip106
+\ar@cellbox=\box56
+)
+\everycr=\toks32
+\minrowclearance=\skip107
+\rownum=\count301
+) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks33
+\pgfutil@tempdima=\dimen170
+\pgfutil@tempdimb=\dimen171
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box57
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks36
+))
+\pgf@x=\dimen172
+\pgf@y=\dimen173
+\pgf@xa=\dimen174
+\pgf@ya=\dimen175
+\pgf@xb=\dimen176
+\pgf@yb=\dimen177
+\pgf@xc=\dimen178
+\pgf@yc=\dimen179
+\pgf@xd=\dimen180
+\pgf@yd=\dimen181
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count302
+\c@pgf@countb=\count303
+\c@pgf@countc=\count304
+\c@pgf@countd=\count305
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
+\pgf@sys@id@count=\count306
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count307
+\pgfsyssoftpath@bigbuffer@items=\count308
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen182
+\pgfmath@count=\count309
+\pgfmath@box=\box58
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count310
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen183
+\pgf@picmaxx=\dimen184
+\pgf@picminy=\dimen185
+\pgf@picmaxy=\dimen186
+\pgf@pathminx=\dimen187
+\pgf@pathmaxx=\dimen188
+\pgf@pathminy=\dimen189
+\pgf@pathmaxy=\dimen190
+\pgf@xx=\dimen191
+\pgf@xy=\dimen192
+\pgf@yx=\dimen193
+\pgf@yy=\dimen194
+\pgf@zx=\dimen195
+\pgf@zy=\dimen196
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen197
+\pgf@path@lasty=\dimen198
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen199
+\pgf@shorten@start@additional=\dimen256
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count311
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen257
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen258
+\pgf@pt@y=\dimen259
+\pgf@pt@temp=\dimen260
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen261
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen262
+\pgf@sys@shading@range@num=\count312
+\pgf@shadingcount=\count313
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box62
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box63
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen263
+\pgf@nodesepend=\dimen264
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen265
+\pgffor@skip=\dimen266
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count314
+\pgfplotmarksize=\dimen267
+)
+\tikz@lastx=\dimen268
+\tikz@lasty=\dimen269
+\tikz@lastxsaved=\dimen270
+\tikz@lastysaved=\dimen271
+\tikz@lastmovetox=\dimen272
+\tikz@lastmovetoy=\dimen273
+\tikzleveldistance=\dimen274
+\tikzsiblingdistance=\dimen275
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count315
+\tikznumberofchildren=\count316
+\tikznumberofcurrentchild=\count317
+\tikz@fig@count=\count318
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count319
+\pgfmatrixcurrentcolumn=\count320
+\pgf@matrix@numberofcolumns=\count321
+)
+\tikz@expandcount=\count322
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+Package: glossaries 2026/04/21 v5.1 (NLCT)
+ (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count323
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+ (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count324
+)
+\@glsmfirst=\toks47
+\@glsmrest=\toks48
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-base.sty
+Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tracklang\tracklang.sty
+Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/tracklang\tracklang.tex))
+\l__datatool_tmpa_int=\count325
+\l__datatool_tmpb_int=\count326
+\l__datatool_tmpc_int=\count327
+\l__datatool_tmpd_int=\count328
+\l__datatool_count_int=\count329
+\l__datatool_tmp_datatype_int=\count330
+\l__datatool_tmpa_dim=\dimen276
+\l__datatool_tmpb_dim=\dimen277
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-l3fp.def
+File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@toks=\toks49
+\@dtl@tmpcount=\count331
+\dtl@tmplength=\skip108
+\l__datatool_measure_box=\box68
+\dtl@sortresult=\count332
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
+File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@datatype=\count333
+\c_datatool_unknown_int=\count334
+\l__datatool_year_int=\count335
+\l__datatool_month_int=\count336
+\l__datatool_day_int=\count337
+\l__datatool_hour_int=\count338
+\l__datatool_minute_int=\count339
+\l__datatool_second_int=\count340
+\l__datatool_tzhour_int=\count341
+\l__datatool_tzminute_int=\count342
+\l__datatool_julian_int=\count343
+\l__datatool_local_julian_int=\count344
+\l__datatool_prefix_int=\count345
+\l__datatool_suffix_int=\count346
+\@dtl@foreach@level=\count347
+\dtl@codeA=\count348
+\dtl@codeB=\count349
+)
+\gls@level=\count350
+\@gls@tmpb=\toks50
+\gls@tmplen=\skip109
+\l__glossaries_tmpa_dim=\dimen278
+\l__glossaries_tmpb_dim=\dimen279
+\glskeylisttok=\toks51
+\glslabeltok=\toks52
+\glsshorttok=\toks53
+\glslongtok=\toks54
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
+Package: glossary-hypernav 2026/04/21 v5.1 (NLCT)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
+Package: glossary-list 2026/04/21 v5.1 (NLCT)
+\glslistdottedwidth=\skip110
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
+Package: glossary-long 2026/04/21 v5.1 (NLCT)
+ (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip111
+\LTright=\skip112
+\LTpre=\skip113
+\LTpost=\skip114
+\LTchunksize=\count351
+\LTcapwidth=\dimen280
+\LT@head=\box69
+\LT@firsthead=\box70
+\LT@foot=\box71
+\LT@lastfoot=\box72
+\LT@gbox=\box73
+\LT@cols=\count352
+\LT@rows=\count353
+\c@LT@tables=\count354
+\c@LT@chunks=\count355
+\LT@p@ftn=\toks55
+)
+\glsdescwidth=\skip115
+\glspagelistwidth=\skip116
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
+Package: glossary-super 2026/04/21 v5.1 (NLCT)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/supertabular\supertabular.sty
+Package: supertabular 2025/06/26 v4.2d the supertabular environment
+\c@tracingst=\count356
+\ST@wd=\dimen281
+\ST@rightskip=\skip117
+\ST@leftskip=\skip118
+\ST@parfillskip=\skip119
+\ST@pageleft=\dimen282
+\ST@headht=\dimen283
+\ST@tailht=\dimen284
+\ST@pagesofar=\dimen285
+\ST@pboxht=\dimen286
+\ST@rowht=\dimen287
+\ST@prevht=\dimen288
+\ST@toadd=\dimen289
+\ST@dimen=\dimen290
+\ST@pbox=\box74
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
+Package: glossary-tree 2026/04/21 v5.1 (NLCT)
+\l__glossaries_tree_max_known_level_int=\count357
+\l__glossaries_tree_offset_dim=\dimen291
+\l__glossaries_tree_namewidth_dim=\dimen292
+\l__glossaries_tree_symbolwidth_dim=\dimen293
+\l__glossaries_tree_prenamesym_width_dim=\dimen294
+\l__glossaries_tree_presubnamesym_width_dim=\dimen295
+\l__glossaries_tree_namewidth_padding_dim=\dimen296
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen297
+\l__glossaries_tree_namesymbolwidth_dim=\dimen298
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen299
+\l__glossaries_tree_level_int=\count358
+\glstreeindent=\skip120
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks56
+\inpenc@posthook=\toks57
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count359
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
+\U@D=\dimen300
+\l@unhyphenated=\language79
+ (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count360
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex)
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 4320.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks58
+\es@quotdepth=\count361
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 31.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 31.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box75
+\beforetitleunit=\skip121
+\aftertitleunit=\skip122
+\ttl@plus=\dimen301
+\ttl@minus=\dimen302
+\ttl@toksa=\toks59
+\titlewidth=\dimen303
+\titlewidthlast=\dimen304
+\titlewidthfirst=\dimen305
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxtext.sty
+Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex support for TeXGyreTermesX
+ `newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+ (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count362
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count363
+\xs_countb=\count364
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+\ntx@tmpcnta=\count365
+\ntx@cnt=\count366
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/figureversions\figureversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+)
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+)
+\tx@sixem=\dimen306
+\tx@y=\dimen307
+\tx@x=\dimen308
+\tx@tmpdima=\dimen309
+\tx@tmpdimb=\dimen310
+\tx@tmpdimc=\dimen311
+\tx@tmpdimd=\dimen312
+\tx@tmpdime=\dimen313
+\tx@tmpdimf=\dimen314
+\tx@dimA=\dimen315
+\tx@dimAA=\dimen316
+\tx@dimB=\dimen317
+\tx@dimBB=\dimen318
+\tx@dimC=\dimen319
+LaTeX Info: Redefining \oldstylenums on input line 902.
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxmath.sty
+Package: newtxmath 2024/09/22 v1.754
+ `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (C:\Program Files\MiKTeX\tex/latex/oberdiek\centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count367
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+\tx@Isdigit=\count368
+\tx@IsAlNum=\count369
+\tx@tA=\toks60
+\tx@tB=\toks61
+\tx@su=\read4
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/minntx/m/n --> OT1/minntx/b/n on input line 403.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 412.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 423.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 426.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 535.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 582.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 584.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 605.
+\symAMSm=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 630.
+\symsymbolsC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 651.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
+\symlargesymbolsTXA=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
+\tx@sbptoks=\toks62
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 905.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 910.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 911.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 913.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 915.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 919.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 920.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 991.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 992.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
+LaTeX Info: Redefining \Bbbk on input line 2847.
+LaTeX Info: Redefining \not on input line 2995.
+LaTeX Info: Redefining \textsquare on input line 3025.
+LaTeX Info: Redefining \openbox on input line 3027.
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\bbold.sty
+Package: bbold 1994/04/06 Bbold symbol package
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count370
+\algocf@hangindent=\skip123
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count371
+) (C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip124
+\skiplinenumber=\skip125
+\skiprule=\skip126
+\skiphlne=\skip127
+\skiptext=\skip128
+\skiplength=\skip129
+\algomargin=\skip130
+\skipalgocfslide=\skip131
+\algowidth=\dimen320
+\inoutsize=\dimen321
+\inoutindent=\dimen322
+\interspacetitleruled=\dimen323
+\interspacealgoruled=\dimen324
+\interspacetitleboxruled=\dimen325
+\algocf@ruledwidth=\skip132
+\algocf@inoutbox=\box76
+\algocf@inputbox=\box77
+\AlCapSkip=\skip133
+\AlCapHSkip=\skip134
+\algoskipindent=\skip135
+\algocf@nlbox=\box78
+\algocf@hangingbox=\box79
+\algocf@untilbox=\box80
+\algocf@skipuntil=\skip136
+\algocf@capbox=\box81
+\algocf@lcaptionbox=\skip137
+\algoheightruledefault=\skip138
+\algoheightrule=\skip139
+\algotitleheightruledefault=\skip140
+\algotitleheightrule=\skip141
+\c@algocfline=\count372
+\c@algocfproc=\count373
+\c@algocf=\count374
+\algocf@algoframe=\box82
+\algocf@algobox=\box83
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count375
+\c@ALC@line=\count376
+\c@ALC@rem=\count377
+\c@ALC@depth=\count378
+\ALC@tlm=\skip142
+\algorithmicindent=\skip143
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count379
+\float@exts=\toks63
+\float@box=\box84
+\@float@everytoks=\toks64
+\@floatcapt=\box85
+) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen326
+\lightrulewidth=\dimen327
+\cmidrulewidth=\dimen328
+\belowrulesep=\dimen329
+\belowbottomsep=\dimen330
+\aboverulesep=\dimen331
+\abovetopsep=\dimen332
+\cmidrulesep=\dimen333
+\cmidrulekern=\dimen334
+\defaultaddspace=\dimen335
+\@cmidla=\count380
+\@cmidlb=\count381
+\@aboverulesep=\dimen336
+\@belowrulesep=\dimen337
+\@thisruleclass=\count382
+\@lastruleclass=\count383
+\@thisrulewidth=\dimen338
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip144
+\multirow@cntb=\count384
+\multirow@dima=\skip145
+\bigstrutjot=\dimen339
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip146
+\enit@outerparindent=\dimen340
+\enit@toks=\toks65
+\enit@inbox=\box86
+\enit@count@id=\count385
+\enitdp@description=\count386
+) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+\c@r@tfl@t=\count387
+\rotFPtop=\skip147
+\rotFPbot=\skip148
+\rot@float@box=\box87
+\rot@mess@toks=\toks66
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count388
+\lst@gtempboxa=\box88
+\lst@token=\toks67
+\lst@length=\count389
+\lst@currlwidth=\dimen341
+\lst@column=\count390
+\lst@pos=\count391
+\lst@lostspace=\dimen342
+\lst@width=\dimen343
+\lst@newlines=\count392
+\lst@lineno=\count393
+\lst@maxwidth=\dimen344
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count394
+\lst@skipnumbers=\count395
+\lst@framebox=\box89
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (C:\Program Files\MiKTeX\tex/latex/base\flafter.sty
+Package: flafter 2025/08/22 v1.4z Standard LaTeX floats after reference (FMi)
+Applying: [2025/06/01] float order in 2-column on input line 49.
+Already applied: [2015/01/01] float order in 2-column on input line 152.
+Already applied: [0000/00/00] float order in 2-column on input line 254.
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+\MT@toks=\toks68
+\MT@tempbox=\box90
+\MT@count=\count396
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks69
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen345
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count397
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip149
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+\c@definition=\count398
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodepartlowerbox=\box91
+\pgfnodeparttwobox=\box92
+\pgfnodepartthreebox=\box93
+\pgfnodepartfourbox=\box94
+\pgfnodeparttwentybox=\box95
+\pgfnodepartnineteenbox=\box96
+\pgfnodeparteighteenbox=\box97
+\pgfnodepartseventeenbox=\box98
+\pgfnodepartsixteenbox=\box99
+\pgfnodepartfifteenbox=\box100
+\pgfnodepartfourteenbox=\box101
+\pgfnodepartthirteenbox=\box102
+\pgfnodeparttwelvebox=\box103
+\pgfnodepartelevenbox=\box104
+\pgfnodeparttenbox=\box105
+\pgfnodepartninebox=\box106
+\pgfnodeparteightbox=\box107
+\pgfnodepartsevenbox=\box108
+\pgfnodepartsixbox=\box109
+\pgfnodepartfivebox=\box110
+)))
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `memoria.glo'.
+
+Package glossaries Info: Writing glossary file memoria.glo on input line 95.
+\glo@acronym@file=\write6
+\openout6 = `memoria.acn'.
+
+Package glossaries Info: Writing glossary file memoria.acn on input line 95.
+\acrcolwidth=\skip150
+ (secciones/glosario.tex) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip151
+\bibsep=\skip152
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count399
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypernat\hypernat.sty
+Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/notoccite\notoccite.sty
+Package: notoccite 2000/07/20
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count400
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen346
+\Hy@linkcounter=\count401
+\Hy@pagecounter=\count402
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count403
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `final' set `true' on input line 4066.
+Package hyperref Info: Option `plainpages' set `false' on input line 4066.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count404
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen347
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count405
+\Field@Width=\dimen348
+\Fld@charsize=\dimen349
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count406
+\c@Item=\count407
+\c@Hfootnote=\count408
+)
+Package hyperref Info: Driver: hpdftex.
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count409
+\c@bookmark@seq@number=\count410
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip153
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypcap\hypcap.sty
+Package: hypcap 2024-07-26 v1.13 Adjusting the anchors of captions (HO)
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+))
+Package hyperref Info: Option `linktocpage' set `true' on input line 138.
+Package hyperref Info: Option `colorlinks' set `true' on input line 138.
+Package hyperref Info: Option `breaklinks' set `true' on input line 138.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 138.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 153.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 153.
+ (memoria.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 22.
+)
+\openout1 = `memoria.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 153.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 153.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 153.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 153.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 153.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 153.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 153.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 153.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count411
+\scratchdimen=\dimen350
+\scratchbox=\box111
+\nofMPsegments=\count412
+\nofMParguments=\count413
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count414
+\MPscratchDim=\dimen351
+\MPnumerator=\count415
+\makeMPintoPDFobject=\count416
+\everyMPtoPDFconversion=\toks71
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Command `\dddot' is already robust on input line 153.
+LaTeX Info: Command `\ddddot' is already robust on input line 153.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=644.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=65.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+\c@mv@tabular=\count417
+\c@mv@boldtabular=\count418
+\c@lstlisting=\count419
+LaTeX Info: Redefining \microtypecontext on input line 153.
+Package microtype Info: Applying patch `item' on input line 153.
+Package microtype Info: Applying patch `toc' on input line 153.
+Package microtype Info: Applying patch `eqnum' on input line 153.
+Package microtype Info: Applying patch `footnote' on input line 153.
+Package microtype Info: Applying patch `verbatim' on input line 153.
+LaTeX Info: Redefining \microtypesetup on input line 153.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 15, shrink: 15, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 153.
+(memoria.out) (memoria.out)
+\@outlinefile=\write7
+\openout7 = `memoria.out'.
+
+ (secciones/portada.tex
+<figuras/portada.png, id=474, 597.213pt x 844.902pt>
+File: figuras/portada.png Graphic file (type png)
+<use figuras/portada.png>
+Package pdftex.def Info: figuras/portada.png  used on input line 5.
+(pdftex.def)             Requested size: 597.53047pt x 845.06752pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 16.41594pt on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 20.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 26.
+ [1
+
+\openout4 = `memoria.ist'.
+
+{C:/Users/josec/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./figuras/portada.png>])
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 162.
+
+(secciones/frase-favorita.tex
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 18.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 10.95pt on input line 18.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `minntx' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 18.
+ (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 18.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 18.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 18.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.1pt on input line 18.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 18.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd))
+<figuras/logo_viu.png, id=482, 626.34pt x 313.17pt>
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 167.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [2
+
+ <./figuras/logo_viu.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 19.70294pt on input line 186.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 19.70294pt on input line 186.
+ (memoria.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 23.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 32.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [3
+
+
+]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 71.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 71.
+ [4]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 124.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+ [5])
+\tf@toc=\write8
+\openout8 = `memoria.toc'.
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 187.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+ [6] (memoria.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lof=\write9
+\openout9 = `memoria.lof'.
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 188.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [7
+
+{C:/Users/josec/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] (memoria.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lot=\write10
+\openout10 = `memoria.lot'.
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 191.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [8
+
+] (memoria.loa)
+\tf@loa=\write11
+\openout11 = `memoria.loa'.
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 194.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [9
+
+] (secciones/resumen.tex) (secciones/abstract.tex
+Underfull \hbox (badness 1354) in paragraph at lines 14--1
+\T1/phv/b/n/10.95 (+15) Palabras cla-ve: \T1/phv/m/n/10.95 (+15) pro-nós-ti-co sís-mi-co, pre-dic-ción de te-rre-mo-tos, apren-di-za-je pro-fun-do,
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[10
+
+
+]) (secciones/introduccion.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 5.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [11
+
+
+]
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 10.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 10.
+
+Underfull \hbox (badness 2096) in paragraph at lines 15--16
+[]\T1/phv/m/n/10.95 (+15) Frente a es-ta li-mi-ta-ción fun-da-men-tal, la co-mu-ni-dad sis-mo-ló-gi-ca ha des-pla-za-do
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 25.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[12
+
+
+]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 41.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+ [13]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 61.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [14]
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 10.40245pt on input line 65.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 86.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
+ [15]
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 89.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 89.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ntxtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 101.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+ [16]) (secciones/objetivos.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 5.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [17]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 1320) in paragraph at lines 28--29
+\T1/phv/m/sl/10.95 (+15) de-clus-te-red \T1/phv/m/n/10.95 (+15) ([]Al-go-rit-mo de de-clus-te-ring de Gard-ner y Kno-poff (1974) (G-K)) y
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 31.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[18
+
+
+]) (secciones/estado-del-arte.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 5.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [19]
+Cap\'{\i }tulo 3.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 15.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 33.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[20
+
+
+]
+
+pdfTeX warning: pdflatex (file ./figuras/ondas_p_s.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/ondas_p_s.pdf, id=955, 469.87544pt x 258.12436pt>
+File: figuras/ondas_p_s.pdf Graphic file (type pdf)
+<use figuras/ondas_p_s.pdf>
+Package pdftex.def Info: figuras/ondas_p_s.pdf  used on input line 41.
+(pdftex.def)             Requested size: 341.43437pt x 187.57451pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 47.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+[21 <./figuras/ondas_p_s.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 48.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 11.39996pt on input line 48.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 10.95pt on input line 67.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 8.0pt on input line 67.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 6.1pt on input line 67.
+<figuras/figura_gr_california.pdf, id=1089, 565.39233pt x 407.81923pt>
+File: figuras/figura_gr_california.pdf Graphic file (type pdf)
+<use figuras/figura_gr_california.pdf>
+Package pdftex.def Info: figuras/figura_gr_california.pdf  used on input line 71.
+(pdftex.def)             Requested size: 405.45047pt x 292.45972pt.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 76.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 76.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 80.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+ [22]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 83.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+ [23 <./figuras/figura_gr_california.pdf>]
+Underfull \hbox (badness 1603) in paragraph at lines 85--86
+[]\T1/phv/b/sl/10.95 (+15) Entire-magnitude-range method \T1/phv/b/n/10.95 (+15) (EMR). \T1/phv/m/n/10.95 (+15) El mé-to-do más ro-bus-to ac-tual-men-te
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 107.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 5.79498pt on input line 107.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 107.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+[24]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 123.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+ [25]
+<figuras/figura_UCERF3.png, id=1277, 2095.83pt x 1497.595pt>
+File: figuras/figura_UCERF3.png Graphic file (type png)
+<use figuras/figura_UCERF3.png>
+Package pdftex.def Info: figuras/figura_UCERF3.png  used on input line 130.
+(pdftex.def)             Requested size: 362.77525pt x 259.20377pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 139.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+ [26 <./figuras/figura_UCERF3.png>]
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 150.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\ubbold.fd)
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 163.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+ [27]
+<figuras/figura_dropout.pdf, id=1304, 657.70486pt x 387.2869pt>
+File: figuras/figura_dropout.pdf Graphic file (type pdf)
+<use figuras/figura_dropout.pdf>
+Package pdftex.def Info: figuras/figura_dropout.pdf  used on input line 172.
+(pdftex.def)             Requested size: 405.45047pt x 238.75029pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 192.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+ [28]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 197.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
+ [29 <./figuras/figura_dropout.pdf>]
+<figuras/figura_tcn.pdf, id=1388, 713.30492pt x 348.88028pt>
+File: figuras/figura_tcn.pdf Graphic file (type pdf)
+<use figuras/figura_tcn.pdf>
+Package pdftex.def Info: figuras/figura_tcn.pdf  used on input line 213.
+(pdftex.def)             Requested size: 384.1096pt x 187.87083pt.
+
+Underfull \hbox (badness 1308) in paragraph at lines 232--233
+\T1/phv/m/n/10.95 (+15) con-vo-lu-cio-nal a gra-fos ar-bi-tra-rios y son por tan-to la ar-qui-tec-tu-ra na-tu-ral pa-ra es-ta
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 233.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 233.
+LaTeX Info: Redefining \% on input line 233.
+[30]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 243.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
+ [31 <./figuras/figura_tcn.pdf>]
+LaTeX Font Info:    Freeze math alphabet allocation in version normal.
+(Font)              Allocated math groups: 14 (local: 2) on input line 251.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 10.95pt on input line 251.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 8.0pt on input line 251.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 6.1pt on input line 251.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 252.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 252.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 253.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 253.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 258.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 258.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 258.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 258.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 261.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 261.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 262.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 262.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 267.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 267.
+LaTeX Info: Redefining \% on input line 267.
+ [32]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 271.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 271.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 271.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 271.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 275.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 276.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 276.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 278.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 278.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 278.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 278.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 285.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 285.
+LaTeX Info: Redefining \% on input line 285.
+ [33]
+<figuras/figura_mapa_riesgo.pdf, id=1484, 625.48683pt x 387.88977pt>
+File: figuras/figura_mapa_riesgo.pdf Graphic file (type pdf)
+<use figuras/figura_mapa_riesgo.pdf>
+Package pdftex.def Info: figuras/figura_mapa_riesgo.pdf  used on input line 298.
+(pdftex.def)             Requested size: 384.1096pt x 238.20454pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 301.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 301.
+LaTeX Info: Redefining \% on input line 301.
+ [34]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 312.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 313.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 313.
+LaTeX Info: Redefining \% on input line 313.
+ [35 <./figuras/figura_mapa_riesgo.pdf>]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 323.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 323.
+LaTeX Info: Redefining \% on input line 323.
+ [36]
+
+pdfTeX warning: pdflatex (file ./figuras/figura_eqtransformer.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/figura_eqtransformer.pdf, id=1578, 496.82213pt x 608.60571pt>
+File: figuras/figura_eqtransformer.pdf Graphic file (type pdf)
+<use figuras/figura_eqtransformer.pdf>
+Package pdftex.def Info: figuras/figura_eqtransformer.pdf  used on input line 326.
+(pdftex.def)             Requested size: 341.43437pt x 418.25752pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 332.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 332.
+LaTeX Info: Redefining \% on input line 332.
+[37 <./figuras/figura_eqtransformer.pdf>]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 350.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 350.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 350.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 350.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 351.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 351.
+LaTeX Info: Redefining \% on input line 351.
+ [38]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 356.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 356.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 356.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 356.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 359.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 359.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 361.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 364.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 364.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 376.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 376.
+LaTeX Info: Redefining \% on input line 376.
+ [39]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 383.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 384.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 387.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 387.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 389.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 389.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 393.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 393.
+LaTeX Info: Redefining \% on input line 393.
+ [40]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 396.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 396.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 396.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 396.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 398.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 398.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 398.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 398.
+<figuras/figura_histograma_stead.pdf, id=1667, 568.42809pt x 351.30058pt>
+File: figuras/figura_histograma_stead.pdf Graphic file (type pdf)
+<use figuras/figura_histograma_stead.pdf>
+Package pdftex.def Info: figuras/figura_histograma_stead.pdf  used on input line 402.
+(pdftex.def)             Requested size: 362.77525pt x 224.2098pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 403.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 403.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 410.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 410.
+LaTeX Info: Redefining \% on input line 410.
+ [41 <./figuras/figura_histograma_stead.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 410.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/txfonts\t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/b/n' in size <10.95> not available
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 410.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `txtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 410.
+
+Underfull \hbox (badness 3088) in paragraph at lines 410--411
+[]\T1/phv/b/n/10.95 (+15) Terremotos lo-ca-les (\T1/txtt/bx/n/10.95 earthquake_local\T1/phv/b/n/10.95 (+15) ): \T1/phv/m/n/10.95 (+15) Al-re-de-dor de $\OT1/minntx/m/n/10.95 1 050 000$ \T1/phv/m/n/10.95 (+15) tra-zas que
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 411.
+
+Overfull \hbox (13.62904pt too wide) in paragraph at lines 425--426
+[]\T1/txtt/bx/n/10.95 receiver_code\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.95 receiver_latitude\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.95 receiver_longitude \T1/phv/b/n/10.95 (-15) y \T1/txtt/bx/n/10.95 receiver_elevation_m\T1/phv/b/n/10.95 (-15) :
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 426.
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+[]\T1/txtt/bx/n/10.95 source_latitude\T1/phv/b/n/10.95 (+15) , \T1/txtt/bx/n/10.95 source_longitude \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/10.95 source_depth_km\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Des-cri-ben las
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 429.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 429.
+LaTeX Info: Redefining \% on input line 429.
+[42]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 429.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 429.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+[]\T1/txtt/bx/n/10.95 p_arrival_sample \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/10.95 s_arrival_sample\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Va-ria-bles ob-je-ti-vo (\T1/phv/m/sl/10.95 (+15) ground truth\T1/phv/m/n/10.95 (+15) )
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 437--438
+\T1/phv/m/n/10.95 (+15) en la li-te-ra-tu-ra, ta-les co-mo Pha-se-Net [[]] y EQ-Trans-for-mer [[]], apro-ve-chan-do su
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 447--448
+\T1/phv/m/n/10.95 (+15) me-tro-ló-gi-ca-men-te sig-ni-fi-ca-ti-va so-bre los \T1/phv/m/sl/10.95 (+15) ba-se-li-nes \T1/phv/m/n/10.95 (+15) clá-si-cos en una re-gión bien
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 449.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 449.
+LaTeX Info: Redefining \% on input line 449.
+[43]) (secciones/desarrollo-resultados.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 5.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [44]
+Cap\'{\i }tulo 4.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 45.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 5.5pt on input line 46.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 46.
+
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 5.5pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 7.3pt on input line 46.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 5.5pt on input line 46.
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 46.
+
+
+LaTeX Font Warning: Font shape `U/bbold/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 46.
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 48.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 50.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 50.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 56.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 68.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[45
+
+
+]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 82.
+<figuras/03_eda_catalogo.png, id=1755, 1148.1294pt x 322.3242pt>
+File: figuras/03_eda_catalogo.png Graphic file (type png)
+<use figuras/03_eda_catalogo.png>
+Package pdftex.def Info: figuras/03_eda_catalogo.png  used on input line 93.
+(pdftex.def)             Requested size: 426.79135pt x 119.81384pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 94.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 94.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 102.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 102.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 103.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 103.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 103.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 103.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 104.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 104.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 108.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+ [46]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 109.
+
+Underfull \hbox (badness 7869) in paragraph at lines 128--131
+[]\T1/phv/b/n/10.95 (+15) Literatura de re-fe-ren-cia abun-dan-te. \T1/phv/m/n/10.95 (+15) Am-bas re-gio-nes es-tán am-plia-men-te
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 131.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
+[47 <./figuras/03_eda_catalogo.png>]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 158.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 159.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 170.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 170.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 173.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
+ [48]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 188.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 188.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 190.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 191.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 192.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 192.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 194.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 195.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 196.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 200.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 212.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 218.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
+ [49]
+<figuras/05_grid_espacial_M4.5_min30.png, id=1783, 742.2129pt x 561.7788pt>
+File: figuras/05_grid_espacial_M4.5_min30.png Graphic file (type png)
+<use figuras/05_grid_espacial_M4.5_min30.png>
+Package pdftex.def Info: figuras/05_grid_espacial_M4.5_min30.png  used on input line 221.
+(pdftex.def)             Requested size: 392.64725pt x 297.2013pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 222.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 222.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 230.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 230.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 231.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 234.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 234.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 239.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
+ [50 <./figuras/05_grid_espacial_M4.5_min30.png>]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 239.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 279.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 280.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 282.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 282.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 285.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 286.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 286.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 291.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 301.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 301.
+LaTeX Info: Redefining \% on input line 301.
+ [51]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 306.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 306.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 306.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 306.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 306.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 307.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 307.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 307.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 308.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 309.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 310.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 310.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 318.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 320.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 320.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 320.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 327.
+<figuras/05_grafo_celdas_d100km.png, id=1804, 750.8853pt x 561.7788pt>
+File: figuras/05_grafo_celdas_d100km.png Graphic file (type png)
+<use figuras/05_grafo_celdas_d100km.png>
+Package pdftex.def Info: figuras/05_grafo_celdas_d100km.png  used on input line 338.
+(pdftex.def)             Requested size: 392.64725pt x 293.76392pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 341.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 341.
+LaTeX Info: Redefining \% on input line 341.
+ [52]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 363.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 363.
+LaTeX Info: Redefining \% on input line 363.
+ [53 <./figuras/05_grafo_celdas_d100km.png>]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 369.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 370.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 371.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 372.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 380.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 382.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 383.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 384.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 384.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 386.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 387.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 387.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 388.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 390.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 407.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 407.
+LaTeX Info: Redefining \% on input line 407.
+ [54]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 412.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 412.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 412.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 412.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 414.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 420.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/it' in size <10.95> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 420.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 420.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 420.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 420.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 423.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 426.
+
+Underfull \hbox (badness 1509) in paragraph at lines 431--438
+\T1/phv/m/n/10.95 (+15) de-no-mi-na-da \T1/phv/m/sl/10.95 (+15) Spa-tio-Tem-po-ral-GNN\T1/phv/m/n/10.95 (+15) , com-bi-na dos blo-ques. En pri-mer lu-gar, una \T1/phv/b/n/10.95 (+15) TCN
+ []
+
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 440.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 440.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 440.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 441.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 442.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 443.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 444.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 451.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 451.
+LaTeX Info: Redefining \% on input line 451.
+[55]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 468.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 468.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 469.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 469.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 471.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 485.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 495.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 495.
+LaTeX Info: Redefining \% on input line 495.
+ [56]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 500.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 500.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 500.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 500.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 500.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 500.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 500.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 501.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 505.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 505.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 505.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 505.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 505.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 510.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 510.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 510.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 510.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 510.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 516.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 516.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 516.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 516.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 516.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 516.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 516.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 516.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 517.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 517.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 517.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 526.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 529.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 531.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 533.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 539.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 540.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 545.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 545.
+LaTeX Info: Redefining \% on input line 545.
+ [57]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 550.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 564.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 564.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 564.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 586.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 586.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 590.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 606.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 606.
+LaTeX Info: Redefining \% on input line 606.
+ [58]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 612.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 630.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 630.
+LaTeX Info: Redefining \% on input line 630.
+ [59]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 646.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 648.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 657.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 657.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 658.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 665.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 665.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 666.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 666.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 667.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 667.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 676.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 677.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 678.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 678.
+LaTeX Info: Redefining \% on input line 678.
+ [60]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 680.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 680.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 680.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 680.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 680.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 680.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 680.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 681.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 689.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 694.
+<figuras/04_desbalance.png, id=1868, 534.0753pt x 317.0244pt>
+File: figuras/04_desbalance.png Graphic file (type png)
+<use figuras/04_desbalance.png>
+Package pdftex.def Info: figuras/04_desbalance.png  used on input line 698.
+(pdftex.def)             Requested size: 332.89673pt x 197.60764pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 710.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 710.
+LaTeX Info: Redefining \% on input line 710.
+ [61 <./figuras/04_desbalance.png>]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 745.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 745.
+LaTeX Info: Redefining \% on input line 745.
+ [62]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 761.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 761.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 761.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 763.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 775.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 798.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 798.
+LaTeX Info: Redefining \% on input line 798.
+ [63]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 834.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 834.
+LaTeX Info: Redefining \% on input line 834.
+ [64]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 876.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 876.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 877.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 878.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 886.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 886.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 886.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 886.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 886.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 886.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 886.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 897.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 897.
+LaTeX Info: Redefining \% on input line 897.
+ [65]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 921.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 929.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 929.
+LaTeX Info: Redefining \% on input line 929.
+ [66]
+<figuras/output_phasnet.png, id=1904, 859.2903pt x 281.853pt>
+File: figuras/output_phasnet.png Graphic file (type png)
+<use figuras/output_phasnet.png>
+Package pdftex.def Info: figuras/output_phasnet.png  used on input line 932.
+(pdftex.def)             Requested size: 392.64725pt x 128.7895pt.
+<figuras/output_eqtransformer.png, id=1905, 859.2903pt x 281.853pt>
+File: figuras/output_eqtransformer.png Graphic file (type png)
+<use figuras/output_eqtransformer.png>
+Package pdftex.def Info: figuras/output_eqtransformer.png  used on input line 939.
+(pdftex.def)             Requested size: 392.64725pt x 128.7895pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 962.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 974.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 974.
+LaTeX Info: Redefining \% on input line 974.
+ [67 <./figuras/output_phasnet.png> <./figuras/output_eqtransformer.png>]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 984.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 987.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 988.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 990.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 991.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 991.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 991.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 991.
+<figuras/03_roc_test.png, id=1916, 496.254pt x 497.6994pt>
+File: figuras/03_roc_test.png Graphic file (type png)
+<use figuras/03_roc_test.png>
+Package pdftex.def Info: figuras/03_roc_test.png  used on input line 1005.
+(pdftex.def)             Requested size: 273.1462pt x 273.94055pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1012.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1014.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1014.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1015.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1017.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1019.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1023.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1024.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1025.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1027.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1027.
+LaTeX Info: Redefining \% on input line 1027.
+ [68]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1035.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1036.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1038.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1039.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1039.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1039.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1039.
+<figuras/05_curvas_multiseed.png, id=1923, 1004.7939pt x 357.9774pt>
+File: figuras/05_curvas_multiseed.png Graphic file (type png)
+<use figuras/05_curvas_multiseed.png>
+Package pdftex.def Info: figuras/05_curvas_multiseed.png  used on input line 1045.
+(pdftex.def)             Requested size: 426.79135pt x 152.05371pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1059.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1059.
+LaTeX Info: Redefining \% on input line 1059.
+ [69 <./figuras/03_roc_test.png>]
+<figuras/comparativa_modelos.png, id=1930, 787.743pt x 302.5704pt>
+File: figuras/comparativa_modelos.png Graphic file (type png)
+<use figuras/comparativa_modelos.png>
+Package pdftex.def Info: figuras/comparativa_modelos.png  used on input line 1062.
+(pdftex.def)             Requested size: 426.79135pt x 163.93036pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1063.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1063.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1063.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1063.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1075.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1075.
+LaTeX Info: Redefining \% on input line 1075.
+ [70 <./figuras/05_curvas_multiseed.png> <./figuras/comparativa_modelos.png>]
+<figuras/05_roc_test.png, id=1939, 488.3043pt x 497.6994pt>
+File: figuras/05_roc_test.png Graphic file (type png)
+<use figuras/05_roc_test.png>
+Package pdftex.def Info: figuras/05_roc_test.png  used on input line 1078.
+(pdftex.def)             Requested size: 281.68385pt x 287.10902pt.
+<figuras/05_molchan.png, id=1940, 461.0826pt x 459.1554pt>
+File: figuras/05_molchan.png Graphic file (type png)
+<use figuras/05_molchan.png>
+Package pdftex.def Info: figuras/05_molchan.png  used on input line 1085.
+(pdftex.def)             Requested size: 264.60855pt x 263.50786pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1100.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1100.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1100.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1104.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1104.
+LaTeX Info: Redefining \% on input line 1104.
+ [71 <./figuras/05_roc_test.png>]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1113.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1114.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1115.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1116.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1117.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1118.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1120.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1121.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1121.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1121.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1121.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1121.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1121.
+<figuras/05_lift_curve.png, id=1949, 534.798pt x 353.1594pt>
+File: figuras/05_lift_curve.png Graphic file (type png)
+<use figuras/05_lift_curve.png>
+Package pdftex.def Info: figuras/05_lift_curve.png  used on input line 1127.
+(pdftex.def)             Requested size: 315.82794pt x 208.5616pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1128.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1133.
+<figuras/05_pr_curve.png, id=1951, 498.663pt x 425.1885pt>
+File: figuras/05_pr_curve.png Graphic file (type png)
+<use figuras/05_pr_curve.png>
+Package pdftex.def Info: figuras/05_pr_curve.png  used on input line 1142.
+(pdftex.def)             Requested size: 281.68385pt x 240.18004pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1145.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1145.
+LaTeX Info: Redefining \% on input line 1145.
+ [72 <./figuras/05_molchan.png>]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1157.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1157.
+LaTeX Info: Redefining \% on input line 1157.
+ [73 <./figuras/05_lift_curve.png> <./figuras/05_pr_curve.png>]
+<figuras/05_score_dist.png, id=1965, 498.663pt x 317.0244pt>
+File: figuras/05_score_dist.png Graphic file (type png)
+<use figuras/05_score_dist.png>
+Package pdftex.def Info: figuras/05_score_dist.png  used on input line 1160.
+(pdftex.def)             Requested size: 307.29028pt x 195.35825pt.
+<figuras/05_auc_temporal.png, id=1968, 498.663pt x 317.0244pt>
+File: figuras/05_auc_temporal.png Graphic file (type png)
+<use figuras/05_auc_temporal.png>
+Package pdftex.def Info: figuras/05_auc_temporal.png  used on input line 1184.
+(pdftex.def)             Requested size: 315.82794pt x 200.78581pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1187.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1187.
+LaTeX Info: Redefining \% on input line 1187.
+ [74 <./figuras/05_score_dist.png>]
+<figuras/04_roc_test.png, id=1975, 488.3043pt x 497.6994pt>
+File: figuras/04_roc_test.png Graphic file (type png)
+<use figuras/04_roc_test.png>
+Package pdftex.def Info: figuras/04_roc_test.png  used on input line 1208.
+(pdftex.def)             Requested size: 209.1301pt x 213.156pt.
+<figuras/04_molchan.png, id=1976, 461.0826pt x 459.1554pt>
+File: figuras/04_molchan.png Graphic file (type png)
+<use figuras/04_molchan.png>
+Package pdftex.def Info: figuras/04_molchan.png  used on input line 1209.
+(pdftex.def)             Requested size: 209.1301pt x 208.25745pt.
+<figuras/04_auc_temporal.png, id=1977, 498.663pt x 317.0244pt>
+File: figuras/04_auc_temporal.png Graphic file (type png)
+<use figuras/04_auc_temporal.png>
+Package pdftex.def Info: figuras/04_auc_temporal.png  used on input line 1210.
+(pdftex.def)             Requested size: 256.07741pt x 162.80257pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1223.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1223.
+LaTeX Info: Redefining \% on input line 1223.
+ [75 <./figuras/05_auc_temporal.png>]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1233.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1233.
+LaTeX Info: Redefining \% on input line 1233.
+ [76 <./figuras/04_roc_test.png> <./figuras/04_molchan.png> <./figuras/04_auc_temporal.png>]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1241.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1243.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1246.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1248.
+<figuras/06_calibracion.png, id=1992, 498.663pt x 497.6994pt>
+File: figuras/06_calibracion.png Graphic file (type png)
+<use figuras/06_calibracion.png>
+Package pdftex.def Info: figuras/06_calibracion.png  used on input line 1268.
+(pdftex.def)             Requested size: 256.07741pt x 255.5852pt.
+<figuras/06_mapa_riesgo_gp_california.png, id=1995, 1061.6463pt x 428.5611pt>
+File: figuras/06_mapa_riesgo_gp_california.png Graphic file (type png)
+<use figuras/06_mapa_riesgo_gp_california.png>
+Package pdftex.def Info: figuras/06_mapa_riesgo_gp_california.png  used on input line 1284.
+(pdftex.def)             Requested size: 426.79135pt x 172.28458pt.
+<figuras/06_mapa_riesgo_gp_alaska.png, id=1996, 1062.6099pt x 428.5611pt>
+File: figuras/06_mapa_riesgo_gp_alaska.png Graphic file (type png)
+<use figuras/06_mapa_riesgo_gp_alaska.png>
+Package pdftex.def Info: figuras/06_mapa_riesgo_gp_alaska.png  used on input line 1291.
+(pdftex.def)             Requested size: 426.79135pt x 172.12764pt.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1303.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1303.
+LaTeX Info: Redefining \% on input line 1303.
+ [77]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1315.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1315.
+LaTeX Info: Redefining \% on input line 1315.
+ [78 <./figuras/06_calibracion.png> <./figuras/06_mapa_riesgo_gp_california.png>]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1321.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1335.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1360.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1366.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1366.
+LaTeX Info: Redefining \% on input line 1366.
+ [79 <./figuras/06_mapa_riesgo_gp_alaska.png>]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1379.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1379.
+LaTeX Info: Redefining \% on input line 1379.
+ [80]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1421.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1421.
+LaTeX Info: Redefining \% on input line 1421.
+ [81]) (secciones/conclusion-trabajos-futuros.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [82]
+Cap\'{\i }tulo 5.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 50.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[83
+
+
+]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 87.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+ [84]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 125.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 125.
+LaTeX Info: Redefining \% on input line 125.
+ [85]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 160.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+ [86]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 202.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+ [87]) (memoria.acr
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [88]
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 60.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [89
+
+
+]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 72.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 118.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+ [90]) (memoria.gls) (secciones/apendices.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [91]
+Ap\'{e}ndice A.
+
+Underfull \hbox (badness 3849) in paragraph at lines 13--20
+[]\T1/phv/m/n/10.95 (+15) Esta sec-ción re-co-ge, con fi-nes de re-pro-du-ci-bi-li-dad, el con-jun-to com-ple-to de
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.93497pt on input line 34.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 5.22498pt on input line 34.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 34.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 34.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 40.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 53.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 53.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 53.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 57.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 57.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 57.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 57.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 65.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 79.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[92
+
+
+]
+<figuras/07_stead_vs_usgs_cobertura.png, id=2104, 787.743pt x 353.8821pt>
+File: figuras/07_stead_vs_usgs_cobertura.png Graphic file (type png)
+<use figuras/07_stead_vs_usgs_cobertura.png>
+Package pdftex.def Info: figuras/07_stead_vs_usgs_cobertura.png  used on input line 82.
+(pdftex.def)             Requested size: 392.64725pt x 176.39522pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 83.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 83.
+<figuras/07_stead_vs_usgs_magnitud_mc.png, id=2105, 1004.7939pt x 353.1594pt>
+File: figuras/07_stead_vs_usgs_magnitud_mc.png Graphic file (type png)
+<use figuras/07_stead_vs_usgs_magnitud_mc.png>
+Package pdftex.def Info: figuras/07_stead_vs_usgs_magnitud_mc.png  used on input line 89.
+(pdftex.def)             Requested size: 392.64725pt x 138.00642pt.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 101.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 13.67995pt on input line 101.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 108.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+ [93 <./figuras/07_stead_vs_usgs_cobertura.png>]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 134.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 143.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 143.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 143.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 150.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 150.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 150.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 158.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 159.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 159.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 159.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 159.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 159.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 159.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 161.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+ [94 <./figuras/07_stead_vs_usgs_magnitud_mc.png>]
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 190.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 190.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 190.
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]\T1/phv/b/n/10.95 (+15) Tabla A.5\T1/phv/m/n/10.95 (+15) : \T1/phv/b/sl/10.95 (+15) Trans-fe-ren-cia com-ple-ta. \T1/phv/m/sl/10.95 (+15) Mé-tri-cas del Trans-for-mer (en-tre-na-do en
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 207.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 9.49997pt on input line 207.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 207.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 209.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 210.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 211.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 212.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 214.
+
+Overfull \hbox (4.19519pt too wide) in paragraph at lines 205--215
+ [][] 
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 225.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 225.
+LaTeX Info: Redefining \% on input line 225.
+[95]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 235.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 237.
+) (secciones/anexos.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [96]
+Ap\'{e}ndice B.
+(tablas/tabla_tcn_vs_lstm.tex
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 21.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 21.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 22.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 22.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 22.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 22.
+)
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 17.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [97
+
+
+]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 23.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 23.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 23.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 26.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 26.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 33.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 33.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 33.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 43.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 44.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 44.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 44.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 44.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 44.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 44.
+) (secciones/declaracion-ia.tex
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 1.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [98])
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 215.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 216.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+ [99
+
+
+] (memoria.bbl
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `OT1/minntx/m/it' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 14.
+
+Underfull \hbox (badness 1152) in paragraph at lines 9--15
+\T1/phv/m/n/9 (+15) Risk Re-duc-tion 2015--2030.  Adop-ted at the
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 9--15
+\T1/phv/m/n/9 (+15) Third UN World Con-fe-ren-ce, Sen-dai, Ja-pan,
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 9--15
+\T1/phv/m/n/9 (+15) 2015.  URL [][]$\T1/ntxtt/m/n/9 https : / / www . undrr . org /
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 9--15
+\T1/ntxtt/m/n/9 publication / sendai -[] framework -[] disaster -[]
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.54997pt on input line 19.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--30
+[]\T1/phv/m/n/9 (+15) Thomas H. Jor-dan, Yun-Tai Chen, Pao-lo
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 23--30
+\T1/phv/m/n/9 (+15) Ope-ra-tio-nal earth-qua-ke fo-re-cas-ting: sta-te of
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 42--51
+[]\T1/phv/m/n/9 (+15) Edward H. Field, Glenn P. Bia-si, Pe-ter Bird,
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 42--51
+\T1/phv/m/n/9 (+15) Po-wers, Bru-ce E. Shaw, Way-ne R. That-cher,
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 54--61
+[]\T1/phv/m/n/9 (+15) Edward H. Field, Ke-vin R. Mil-ner, Jean-ne L.
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 64--69
+\T1/phv/m/n/9 (+15) maps for earth-qua-kes in Southern Ca-li-for-nia.
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 77--80
+[]\T1/phv/m/n/9 (+15) Ian Good-fe-llow, Yoshua Ben-gio, and Aa-ron
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 90--95
+\T1/phv/m/n/9 (+15) pro-cess un-ders-tan-ding for data-driven Earth
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 90--95
+\T1/phv/m/n/9 (+15) sys-tem scien-ce.  \T1/phv/m/sl/9 (+15) Na-tu-re\T1/phv/m/n/9 (+15) , 566(7743):195--204,
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 105--108
+[]\T1/phv/m/n/9 (+15) Gregory C. Be-ro-za, Mar-ga-ri-ta Se-gou, and
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 105--108
+\T1/phv/m/n/9 (+15) S. Mos-ta-fa Mou-sa-vi.  Ma-chi-ne lear-ning and
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 105--108
+\T1/phv/m/n/9 (+15) earth-qua-ke fo-re-cas-ting^^Vnext steps.  \T1/phv/m/sl/9 (+15) Na-tu-re
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 110--114
+[]\T1/phv/m/n/9 (+15) S. Mos-ta-fa Mou-sa-vi and Gre-gory C. Be-ro-za.
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 110--114
+\T1/phv/m/n/9 (+15) Ma-chi-ne lear-ning in earth-qua-ke seis-mo-logy.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+[]\T1/phv/m/n/9 (+15) S. Mos-ta-fa Mou-sa-vi, Wi-lliam L. Ells-worth,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+\T1/phv/m/n/9 (+15) Wei-qiang Zhu, Lind-say Y. Chuang, and
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 132--136
+[]\T1/phv/m/n/9 (+15) Zachary E. Ross, Men-Andrin Meier, Egill
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 132--136
+\T1/phv/m/n/9 (+15) seis-mic pha-se de-tec-tion with deep lear-ning.
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 138--141
+\T1/phv/m/n/9 (+15) Con-vo-lu-tio-nal neu-ral net-work for earth-qua-ke
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 151.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+[100
+
+
+]
+Underfull \hbox (badness 1762) in paragraph at lines 152--159
+[]\T1/phv/m/n/9 (+15) Jack Woo-llam, Jan-nes Münch-me-yer, Fre-de-rik
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Til-mann, An-dreas Riet-brock, Die-trich Lan-ge,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Flo-rian Has-lin-ger, Da-rio Jo-zi-no-vi¢, Al-ber-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Mi-che-li-ni, Joa-chim Saul, and Hu-go So-to.
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Seis-Bench^^Va tool-box for ma-chi-ne lear-ning
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 163--172
+[]\T1/phv/m/n/9 (+15) Adam Pasz-ke, Sam Gross, Fran-cis-co Mas-sa,
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 163--172
+\T1/phv/m/n/9 (+15) Alykhan Te-ja-ni, Sa-sank Chi-lam-kurthy, Be-noit
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 180--185
+\T1/phv/m/n/9 (+15) oc-cu-rren-ces and re-si-dual analy-sis for point
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 193--197
+\T1/phv/m/n/9 (+15) of earth-qua-kes in Ca-li-for-nia.  \T1/phv/m/sl/9 (+15) Bu-lle-tin of the
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 199--203
+[]\T1/phv/m/n/9 (+15) Fusakichi Omo-ri.  On the after-shocks of
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 211--216
+\T1/phv/m/n/9 (+15) for Southern Ca-li-for-nia (1981 to Ju-ne 2011).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--223
+\T1/phv/m/n/9 (+15) re-lo-ca-tion of two de-ca-des of Northern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--223
+\T1/phv/m/n/9 (+15) Ca-li-for-nia seis-mi-city using cross-correlation
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 218--223
+\T1/phv/m/n/9 (+15) and double-difference methods.  \T1/phv/m/sl/9 (+15) Jour-nal of
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 226--231
+\T1/phv/m/n/9 (+15) The graph neu-ral net-work mo-del.  \T1/phv/m/sl/9 (+15) IEEE
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 255--260
+[]\T1/phv/m/n/9 (+15) Kelian Dascher-Cousineau, Olek-sandr Sh-chur,
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 269--272
+\T1/phv/m/n/9 (+15) Wi-lliams.  \T1/phv/m/sl/9 (+15) Gaus-sian Pro-ces-ses for Ma-chi-ne
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 274--279
+\T1/phv/m/n/9 (+15) of earth-qua-kes in Southern Ca-li-for-nia, with
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 274--279
+\T1/phv/m/sl/9 (+15) the Seis-mo-lo-gi-cal So-ciety of Ame-ri-ca\T1/phv/m/n/9 (+15) , 64(5):
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 286.
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
+File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 286.
+ (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 286.
+
+Underfull \hbox (badness 3291) in paragraph at lines 289--294
+[]\T1/phv/m/n/9 (+15) Stefan Wie-mer and Max Wyss.  Mi-ni-mum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--294
+\T1/phv/m/n/9 (+15) mag-ni-tu-de of com-ple-te-ness in earth-qua-ke
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 300.
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 301.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 301.
+LaTeX Info: Redefining \% on input line 301.
+[101{C:/Users/josec/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+Underfull \hbox (badness 1062) in paragraph at lines 310--315
+[]\T1/phv/m/n/9 (+15) Ashish Vas-wa-ni, Noam Sha-zeer, Ni-ki Par-mar,
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 310--315
+\T1/phv/m/n/9 (+15) is all you need.  In \T1/phv/m/sl/9 (+15) Ad-van-ces in Neu-ral
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 327.
+
+Underfull \hbox (badness 7151) in paragraph at lines 323--328
+[]\T1/phv/m/n/9 (+15) Peter Bor-mann, edi-tor.  \T1/phv/m/sl/9 (+15) New Ma-nual of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--328
+\T1/phv/m/n/9 (+15) Deu-ts-ches Geo-Fors-chungs-Zen-trum (GFZ),
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 331.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 331.
+
+Underfull \hbox (badness 1622) in paragraph at lines 337--341
+[]\T1/phv/m/n/9 (+15) Thomas C. Hanks and Hi-roo Ka-na-mo-ri.  A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
+[]\T1/phv/m/n/9 (+15) Beno Gu-ten-berg and Char-les F. Rich-ter.
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 343--348
+\T1/phv/m/n/9 (+15) Earth-qua-ke mag-ni-tu-de, in-ten-sity, energy, and
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 343--348
+\T1/phv/m/n/9 (+15) ac-ce-le-ra-tion (se-cond pa-per).  \T1/phv/m/sl/9 (+15) Bu-lle-tin of the
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 356--359
+\T1/phv/m/n/9 (+15) Cam-brid-ge Uni-ver-sity Press, Cam-brid-ge, 2nd
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 365.
+
+Underfull \hbox (badness 1038) in paragraph at lines 361--366
+[]\T1/phv/m/n/9 (+15) IRIS Con-sor-tium.  Ex-plo-ring the Earth using
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 369.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 372.
+
+Underfull \hbox (badness 1122) in paragraph at lines 368--373
+\OML/ntxmi/m/it/9 b$ \T1/phv/m/n/9 (+15) va-lues; or, much ado about 1.0.  \T1/phv/m/sl/9 (+15) Jour-nal
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 376.
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--380
+[]\T1/phv/m/n/9 (+15) Danijel Schor-lem-mer and Ste-fan Wie-mer.
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 383.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 383.
+
+Underfull \hbox (badness 1112) in paragraph at lines 382--387
+\T1/phv/m/sl/9 (+15) Bu-lle-tin of the Earth-qua-ke Re-search Ins-ti-tu-te,
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 393.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 401.
+
+Underfull \hbox (badness 1371) in paragraph at lines 404--408
+[]\T1/phv/m/n/9 (+15) Paul Reasen-berg.  Second-order mo-ment of
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 410--414
+\T1/phv/m/n/9 (+15) fault sys-tem.  Fact Sheet 2015-3009, U.S.
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 419.
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--452
+[]\T1/phv/m/n/9 (+15) Petar Ve-li£-ko-vi¢, Gui-llem Cu-cu-rull, Arantxa
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 447--452
+\T1/phv/m/n/9 (+15) Ca-sa-no-va, Adria-na Ro-me-ro, Pie-tro Liò, and
+ []
+
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 459.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 459.
+LaTeX Info: Redefining \% on input line 459.
+[102]
+Underfull \hbox (badness 1221) in paragraph at lines 467--472
+[]\T1/phv/m/n/9 (+15) John Platt.  Pro-ba-bi-lis-tic out-puts for sup-port
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 482--486
+[]\T1/phv/m/n/9 (+15) Ian W. Mc-Brearty and Gre-gory C. Be-ro-za.
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 488--493
+\T1/phv/m/n/9 (+15) deep graph neu-ral net-works.  \T1/phv/m/sl/9 (+15) Geophy-si-cal
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 499.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 506.
+
+Underfull \hbox (badness 2538) in paragraph at lines 502--507
+[]\T1/phv/m/n/9 (+15) Takaya Sai-to and Marc Rehms-meier.  The
+ []
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 512.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 519.
+
+Underfull \hbox (badness 7468) in paragraph at lines 523--528
+\T1/phv/m/n/9 (+15) Jack-son.  Com-pa-ri-son of short-term and
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 530--533
+\T1/phv/m/n/9 (+15) ver-sus deep lear-ning in af-tershock pre-dic-tion.
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 537--545
+[]\T1/phv/m/n/9 (+15) Jannes Münch-me-yer, Jack Woo-llam, An-dreas
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 537--545
+\T1/phv/m/n/9 (+15) Riet-brock, Fre-de-rik Til-mann, Die-trich Lan-ge,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--545
+\T1/phv/m/n/9 (+15) Flo-rian Has-lin-ger, Da-rio Jo-zi-no-vi¢, Al-ber-to
+ []
+
+)
+File: figuras/logo_viu.png Graphic file (type png)
+<use figuras/logo_viu.png>
+Package pdftex.def Info: figuras/logo_viu.png  used on input line 225.
+(pdftex.def)             Requested size: 113.80673pt x 56.9055pt.
+LaTeX Info: Redefining \. on input line 225.
+LaTeX Info: Redefining \% on input line 225.
+ [103] (memoria.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+Package rerunfilecheck Info: File `memoria.out' has not changed.
+(rerunfilecheck)             Checksum: 56C8F6C59B87543D7FA99F9A1171F65C;26607.
+ ) 
+Here is how much of TeX's memory you used:
+ 45478 strings out of 467871
+ 861648 string characters out of 5428443
+ 1353177 words of memory out of 5000000
+ 72468 multiletter control sequences out of 15000+600000
+ 809533 words of font info for 639 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,20n,94p,2620b,944s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\josec\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi657\bbold10.pk><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
+Output written on memoria.pdf (103 pages, 9466440 bytes).
+PDF statistics:
+ 2358 PDF objects out of 2487 (max. 8388607)
+ 434 named destinations out of 1000 (max. 500000)
+ 113242 words of extra memory for PDF output out of 128383 (max. 10000000)
+

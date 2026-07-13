@@ -1,0 +1,37 @@
+\babel@toc {spanish}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Trayectorias y tiempos de viaje de las ondas P y S a través del interior de la Tierra \citep {iris2010seismology}}}{21}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ley de Gutenberg--Richter empírica para California y Alaska (USGS 2010--2024)}}{23}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mapa UCERF3 de probabilidad de terremoto $M\geq 6.7$ a 30 años en California \citep {wikipediaucerf3, field2015ucerf3factsheet}}}{26}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mecanismo de \textit {dropout} durante el entrenamiento}}{29}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Arquitectura de una \textit {Temporal Convolutional Network} (TCN)}}{31}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Transición de predicciones discretas a mapas continuos de peligrosidad}}{35}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Arquitectura de EQTransformer \citep {mousavi2020eqtransformer}}}{37}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Distribución de magnitudes en el catálogo STEAD}}{41}{figure.3.8}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Exploración del catálogo USGS de California y Alaska}}{47}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Discretización espacial en celdas y celdas activas}}{50}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Grafo de vecindad entre celdas activas}}{53}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Distribución del objetivo por celda}}{61}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Ejemplo de detección y \textit {picking} con PhaseNet}}{67}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ejemplo de detección y \textit {picking} con EQTransformer}}{67}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Curva ROC del TCN temporal global}}{69}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Curvas de entrenamiento del Transformer multi-semilla}}{70}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparativa de métricas entre modelos espaciales}}{70}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Curva ROC del Transformer en test}}{71}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de Molchan del Transformer}}{72}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Curva de \textit {lift} del Transformer}}{73}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Curva \textit {precision}-\textit {recall} del Transformer}}{73}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Distribución de las probabilidades predichas}}{74}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Distribución de la AUC temporal por celda}}{75}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Resultados de la red de grafos}}{76}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Curva de calibración y \textit {Brier score}}}{78}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Mapa de riesgo e incertidumbre para California}}{78}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Mapa de riesgo e incertidumbre para Alaska}}{79}{figure.4.19}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Cobertura temporal de STEAD frente a USGS}}{93}{figure.Alph1.1}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Distribución de magnitudes y completitud de STEAD frente a USGS}}{94}{figure.Alph1.2}%
+\addvspace {10\p@ }

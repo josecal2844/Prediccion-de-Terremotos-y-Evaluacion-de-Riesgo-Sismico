@@ -1,0 +1,14 @@
+\cleardoublepage
+
+\chapter*{Resumen}
+\label{resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+
+La predicción determinista de terremotos sigue siendo un problema abierto en geofísica, pero los avances en aprendizaje profundo permiten abordar un \emph{pronóstico probabilístico} de patrones precursores. Este Trabajo de Fin de Máster diseña, implementa y evalúa un \emph{pipeline} integrado de cinco modelos de aprendizaje profundo para la detección automática de fases sísmicas, la identificación de patrones precursores y la generación de mapas de riesgo sísmico a corto plazo.
+
+El sistema encadena redes preentrenadas \textit{PhaseNet} y \textit{EQTransformer} para el \textit{picking} de ondas P/S sobre el \textit{STanford EArthquake Dataset} (STEAD); una \textit{Temporal Convolutional Network} (TCN), una \textit{Graph Neural Network} (GNN) y un \textit{Transformer} con codificación geoespacial para el pronóstico sobre el catálogo del \textit{United States Geological Survey} (USGS) en California y Alaska (2000--2024); y un \textit{Gaussian Process} para cartografiar el riesgo con su incertidumbre. La metodología cumple estándares compatibles con publicaciones de alto impacto: \textit{declustering} de Gardner--Knopoff, particiones temporales sin fugas de información, evaluación multi-semilla con tests estadísticos y comparación frente a \textit{baselines} clásicos (persistencia, regresión logística, Poisson).
+
+Los resultados sitúan al \textit{Transformer} geoespacial como mejor modelo, con un AUC en test de \(0.728\) que supera de forma estadísticamente significativa a la climatología de Poisson. La aportación principal es metodológica: una métrica propia --la AUC temporal por celda-- demuestra que la capacidad del sistema reside en la dimensión \emph{espacial} (\emph{dónde}) y no en la \emph{temporal} a 30 días (\emph{cuándo}), y un experimento de transferencia a nueve regiones sísmicas confirma que el modelo cartografía una estructura de peligro propia de cada contexto tectónico.
+
+\medskip
+\noindent\textbf{Palabras clave:} pronóstico sísmico, predicción de terremotos, aprendizaje profundo, \textit{Transformer} geoespacial, redes neuronales de grafos, redes convolucionales temporales, procesos gaussianos, riesgo sísmico, STEAD, USGS.

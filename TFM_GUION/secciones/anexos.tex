@@ -1,0 +1,46 @@
+\cleardoublepage
+
+\chapter{Anexos I}
+\label{anexos-i}
+
+Este anexo reúne material que no es de elaboración propia, sino tomado de otros autores, pero que respalda algunas decisiones del trabajo: la comparación de arquitecturas que justifica el uso de una TCN y las ventanas de \textit{declustering} aplicadas al catálogo.
+
+\section{Comparativa empírica TCN vs redes recurrentes}
+\label{anexo-tcn-lstm}
+
+La Tabla~\ref{tab:tcn-vs-lstm} reproduce los resultados de \citet{bai2018tcn} sobre la comparación sistemática entre \emph{Temporal Convolutional Networks} (TCN), \emph{Long Short-Term Memory} (LSTM), \emph{Gated Recurrent Units} (GRU) y redes recurrentes simples (RNN) en una batería heterogénea de tareas de modelado de secuencias: tareas sintéticas (\textit{adding problem}, \textit{copy memory}), reconocimiento de imagen secuencializado (\textit{Sequential} y \textit{Permuted MNIST}), modelado polifónico de música (\textit{JSB Chorales}, \textit{Nottingham}) y modelado de lenguaje a nivel de palabra y carácter (\textit{Penn TreeBank}, \textit{Wikitext-103}, \textit{LAMBADA}, \textit{text8}).
+
+\input{tablas/tabla_tcn_vs_lstm.tex}
+
+Este estudio empírico es la principal evidencia citada en la literatura para justificar el uso de TCN como reemplazo de las arquitecturas recurrentes en problemas de series temporales, y motiva su elección en este TFM como columna vertebral del modelo descrito en el capítulo~\ref{desarrollo-del-proyecto-y-resultados}.
+
+\section{Ventanas de \textit{declustering} de Gardner--Knopoff}
+\label{anexo-gardner-knopoff}
+
+El \textit{declustering} del catálogo (Sección~\ref{declustering}) emplea las ventanas
+espacio-temporales de \citet{gardner1974poissonian}, en la formulación continua de
+\citet{vanstiphout2012declustering}. Para cada evento candidato a \textit{mainshock} de magnitud
+\(M\) se define un radio espacial \(L(M)\)~\eqref{eq:gk-L} y una duración temporal \(T(M)\)~\eqref{eq:gk-T},
+y se descartan como dependientes todos los eventos de menor magnitud que caen dentro de esa ventana.
+La Tabla~\ref{tab:gk-ventanas} muestra los valores de ambas ventanas para varias magnitudes; el
+salto en \(T(M)\) a partir de \(M = 6.5\) corresponde al cambio de rama de la fórmula original.
+
+\begin{table}[ht!]
+  \centering
+  \small
+  \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \textbf{Magnitud \(M\)} & \textbf{Radio \(L(M)\) (km)} & \textbf{Duración \(T(M)\) (días)} \\
+    \midrule
+    4.5                     & 34.7                         & 77                                \\
+    5.0                     & 40.0                         & 144                               \\
+    5.5                     & 46.1                         & 268                               \\
+    6.0                     & 53.2                         & 499                               \\
+    6.5                     & 61.3                         & 885                               \\
+    7.0                     & 70.7                         & 918                               \\
+    7.5                     & 81.6                         & 953                               \\
+    \bottomrule
+  \end{tabular}
+  \caption[Ventanas de \textit{declustering} de Gardner--Knopoff]{\textbf{Ventanas de Gardner--Knopoff} en su forma continua \citep{vanstiphout2012declustering}: radio espacial \(L(M) = 10^{0.1238\,M + 0.983}\) km y duración temporal \(T(M)\), que cambia de rama en \(M = 6.5\).}
+  \label{tab:gk-ventanas}
+\end{table}

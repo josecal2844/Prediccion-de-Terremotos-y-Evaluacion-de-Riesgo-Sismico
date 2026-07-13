@@ -1,0 +1,14 @@
+\cleardoublepage
+
+\chapter*{Abstract}
+\label{abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+Deterministic earthquake prediction remains an open problem in geophysics, yet advances in deep learning make it possible to address a \emph{probabilistic forecasting} of precursory patterns. This Master's Thesis designs, implements, and evaluates an integrated \emph{pipeline} of five deep learning models for automatic seismic phase detection, precursory pattern identification, and short-term seismic hazard mapping.
+
+The system chains pretrained \textit{PhaseNet} and \textit{EQTransformer} networks for P/S wave \textit{picking} on the \textit{STanford EArthquake Dataset} (STEAD); a \textit{Temporal Convolutional Network} (TCN), a \textit{Graph Neural Network} (GNN), and a \textit{Transformer} with geospatial encoding for forecasting on the \textit{United States Geological Survey} (USGS) catalog over California and Alaska (2000--2024); and a \textit{Gaussian Process} to map hazard with its uncertainty. The methodology follows standards compatible with high-impact publications: Gardner--Knopoff \textit{declustering}, strict temporal splits without information leakage, multi-seed evaluation with statistical tests, and comparison against classical baselines (persistence, logistic regression, Poisson).
+
+The results establish the geospatial \textit{Transformer} as the best model, with a test AUC of \(0.728\) that statistically significantly surpasses the Poisson climatology. The main contribution is methodological: a purpose-built metric --the per-cell temporal AUC-- shows that the system's capacity lies in the \emph{spatial} dimension (\emph{where}) and not in the \emph{temporal} one at 30 days (\emph{when}), and a transfer experiment to nine seismic regions confirms that the model maps a hazard structure specific to each tectonic setting.
+
+\medskip
+\noindent\textbf{Keywords:} seismic forecasting, earthquake prediction, deep learning, geospatial transformer, graph neural networks, temporal convolutional networks, gaussian processes, seismic hazard, STEAD, USGS.

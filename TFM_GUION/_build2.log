@@ -1,0 +1,15 @@
+Rc files read (in order):
+  ./.latexmkrc
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+Latexmk: Nothing to do for 'memoria.tex'.
+Latexmk: All targets (memoria.pdf) are up-to-date
+Collected error summary (may duplicate other messages):
+  pdflatex: gave an error in previous invocation of latexmk.
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+latexmk: major issue: So far, you have not checked for updates as a MiKTeX user.

@@ -1,0 +1,132 @@
+Rc files read (in order):
+  ./.latexmkrc
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+Force everything to be remade.
+Latexmk: applying rule 'cusdep glo gls memoria'...
+Rule 'cusdep glo gls memoria':  Reasons for rerun
+Category 'other':
+  Rerun of 'cusdep glo gls memoria' forced or previously required:
+    Reason or flag: 'go_mode'
+
+------------
+Run number 1 of rule 'cusdep glo gls memoria'
+------------
+makeglossaries version 5.1 (2026-04-21)
+added glossary type 'main' (glg,gls,glo)
+added glossary type 'acronym' (alg,acr,acn)
+makeindex  -s "memoria.ist" -t "memoria.alg" -o "memoria.acr" "memoria.acn"
+Warning: File 'memoria.glo' is empty.
+Have you used any entries defined in glossary 'main'?
+Remember to use package option 'nomain' if you
+don't want to use the main glossary.
+This is makeindex, version 2.16 [MiKTeX 25.12].
+Scanning style file ./memoria.ist...........................done (27 attributes redefined, 0 ignored).
+Scanning input file memoria.acn....done (26 entries accepted, 0 rejected).
+Sorting entries....done (122 comparisons).
+Generating output file memoria.acr....done (45 lines written, 0 warnings).
+Output written in memoria.acr.
+Transcript written in memoria.alg.
+makeglossaries: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: applying rule 'bibtex memoria'...
+Rule 'bibtex memoria':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex memoria' forced or previously required:
+    Reason or flag: 'go_mode'
+
+------------
+Run number 1 of rule 'bibtex memoria'
+------------
+------------
+Running 'bibtex  "memoria.aux"'
+------------
+This is BibTeX, Version 0.99e (MiKTeX 25.12)
+The top-level auxiliary file: memoria.aux
+The style file: unsrtnat.bst
+I found no \bibdata command---while reading file memoria.aux
+Warning--I didn't find a database entry for "un2015sendai"
+Warning--I didn't find a database entry for "geller1997unpredictable"
+Warning--I didn't find a database entry for "jordan2011oef"
+Warning--I didn't find a database entry for "marzocchi2014oef"
+Warning--I didn't find a database entry for "field2014ucerf3"
+Warning--I didn't find a database entry for "field2017ucerf3etas"
+Warning--I didn't find a database entry for "wald1999shakemap"
+Warning--I didn't find a database entry for "lecun2015deep"
+Warning--I didn't find a database entry for "goodfellow2016deep"
+Warning--I didn't find a database entry for "bergen2019sciencedata"
+Warning--I didn't find a database entry for "reichstein2019deep"
+Warning--I didn't find a database entry for "kong2019mlseismology"
+Warning--I didn't find a database entry for "beroza2021dlreview"
+Warning--I didn't find a database entry for "mousavi2023review"
+Warning--I didn't find a database entry for "zhu2018phasenet"
+Warning--I didn't find a database entry for "mousavi2020eqtransformer"
+Warning--I didn't find a database entry for "ross2018generalized"
+Warning--I didn't find a database entry for "perol2018convnetquake"
+Warning--I didn't find a database entry for "mousavi2019stead"
+Warning--I didn't find a database entry for "woollam2022seisbench"
+Warning--I didn't find a database entry for "paszke2019pytorch"
+Warning--I didn't find a database entry for "fey2019pyg"
+Warning--I didn't find a database entry for "ogata1988etas"
+Warning--I didn't find a database entry for "ogata1998spacetime"
+Warning--I didn't find a database entry for "gutenberg1944frequency"
+Warning--I didn't find a database entry for "omori1894aftershocks"
+Warning--I didn't find a database entry for "utsu1961statistical"
+Warning--I didn't find a database entry for "hauksson2012relocated"
+Warning--I didn't find a database entry for "waldhauser2008doubledifference"
+Warning--I didn't find a database entry for "scarselli2009gnn"
+Warning--I didn't find a database entry for "kipf2017gcn"
+Warning--I didn't find a database entry for "devries2018aftershocks"
+Warning--I didn't find a database entry for "rouetleroy2017slowslip"
+Warning--I didn't find a database entry for "vandenende2024forecasting"
+Warning--I didn't find a database entry for "gal2016mcdropout"
+Warning--I didn't find a database entry for "rasmussen2006gp"
+Warning--I didn't find a database entry for "gardner1974poissonian"
+Warning--I didn't find a database entry for "vanstiphout2012declustering"
+Warning--I didn't find a database entry for "wiemer2000mc"
+Warning--I didn't find a database entry for "mignan2012mc"
+Warning--I didn't find a database entry for "bai2018tcn"
+Warning--I didn't find a database entry for "vaswani2017attention"
+Warning--I didn't find a database entry for "stein2003introduction"
+Warning--I didn't find a database entry for "bormann2012nmsop"
+Warning--I didn't find a database entry for "bormann2011mw"
+Warning--I didn't find a database entry for "hanks1979moment"
+Warning--I didn't find a database entry for "gutenberg1956energy"
+Warning--I didn't find a database entry for "kanamori1977energy"
+Warning--I didn't find a database entry for "shearer2009introduction"
+Warning--I didn't find a database entry for "iris2010seismology"
+Warning--I didn't find a database entry for "frohlich1993bvalues"
+Warning--I didn't find a database entry for "schorlemmer2005bvalue"
+Warning--I didn't find a database entry for "aki1965bvalue"
+Warning--I didn't find a database entry for "wiemer2002mapping"
+Warning--I didn't find a database entry for "woessner2005assessing"
+Warning--I didn't find a database entry for "reasenberg1985declustering"
+Warning--I didn't find a database entry for "field2015ucerf3factsheet"
+Warning--I didn't find a database entry for "wikipediaucerf3"
+Warning--I didn't find a database entry for "kingma2015adam"
+Warning--I didn't find a database entry for "he2009imbalanced"
+Warning--I didn't find a database entry for "lin2017focal"
+Warning--I didn't find a database entry for "hochreiter1997lstm"
+Warning--I didn't find a database entry for "velickovic2018gat"
+Warning--I didn't find a database entry for "cornell1968engineering"
+Warning--I didn't find a database entry for "mcguire1995probabilistic"
+Warning--I didn't find a database entry for "platt1999probabilistic"
+Warning--I didn't find a database entry for "mousavi2019cred"
+Warning--I didn't find a database entry for "mcbrearty2023gnn"
+Warning--I didn't find a database entry for "vandenende2020tcnseismic"
+Warning--I didn't find a database entry for "davis2006relationship"
+Warning--I didn't find a database entry for "saito2015precision"
+Warning--I didn't find a database entry for "molchan1991structure"
+Warning--I didn't find a database entry for "zechar2008testing"
+(There was 1 error message)
+bibtex: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  bibtex memoria: Bibtex errors: See file 'memoria.blg'
+  pdflatex: gave an error in previous invocation of latexmk.
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+latexmk: major issue: So far, you have not checked for updates as a MiKTeX user.

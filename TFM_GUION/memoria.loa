@@ -1,0 +1,13 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {algocf}{\numberline {1}{\ignorespaces Construcción del conjunto de datos espacio-temporal}}{52}{algocf.1}%
+\contentsline {algocf}{\numberline {2}{\ignorespaces Paso hacia delante de la red convolucional temporal (TCN)}}{55}{algocf.2}%
+\contentsline {algocf}{\numberline {3}{\ignorespaces Paso hacia delante de los modelos espaciales (GNN / Transformer)}}{57}{algocf.3}%
+\contentsline {algocf}{\numberline {4}{\ignorespaces Protocolo de evaluación multi-semilla}}{60}{algocf.4}%
+\contentsline {algocf}{\numberline {5}{\ignorespaces Evaluación de la detección y \textit {picking} de fases}}{63}{algocf.5}%
+\contentsline {algocf}{\numberline {6}{\ignorespaces Cartografía del riesgo con calibración y Proceso Gaussiano}}{66}{algocf.6}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

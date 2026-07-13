@@ -1,0 +1,487 @@
+Rc files read (in order):
+  ./.latexmkrc
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  secciones/desarrollo-resultados.tex
+Category 'changed_user':
+  secciones/desarrollo-resultados.tex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex --shell-escape -interaction=nonstopmode -synctex=1 -file-line-error  -interaction=nonstopmode -halt-on-error -recorder  "memoria.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ \write18 enabled.
+entering extended mode
+(memoria.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(class_diss.cls
+Document Class: class_diss 1999/09/10 v1.4a Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size11.clo))
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def)))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsxtra.sty)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\latexsym.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
+put line 265.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\MiKTeX\tex/latex/xcolor\svgnam.def)
+(C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty))
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)))
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.
+tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
+de.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
+tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
+cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
+ex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
+x)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
+.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
+x) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty))
+ (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty)
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xfor\xfor.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-base.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tracklang\tracklang.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/tracklang\tracklang.tex))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-l3fp.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-utf8.ldf))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-hyp
+ernav.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-lis
+t.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-lon
+g.sty (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-sup
+er.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/supertabular\supertabular.sty)
+)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-tre
+e.sty)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\helvet.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxtext.sty
+`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def))
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/figureversions\figureversions.
+sty))) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (C:\Program Files\MiKTeX\tex/latex/oberdiek\centernot.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+amsthm NOT loaded
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\bbold.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty)
+(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithmic.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/float\float.sty)
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata
+.sty (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty)))
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+(C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\flafter.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.geometric.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geom
+etric.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.misc.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc
+.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.symbols.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symb
+ols.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.arrows.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arro
+ws.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.callouts.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.call
+outs.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.multipart.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.mult
+ipart.code.tex))) (secciones/glosario.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypernat\hypernat.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/notoccite\notoccite.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.st
+y) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestrin
+g.sty (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty)
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.
+sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.
+sty))) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypcap\hypcap.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1phv.fd) (memoria.aux)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd)
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty)
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(memoria.out) (memoria.out) (secciones/portada.tex [1{C:/Users/josec/AppData/Lo
+cal/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips
+/base/8r.enc} <./figuras/portada.png>])
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 160.
+
+(secciones/frase-favorita.tex
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg)
+(C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd))
+(secciones/agradecimientos.tex [2 <./figuras/logo_viu.png>]) [3] (memoria.toc
+[4] [5]) [6] [7] (memoria.lof) [8{C:/Users/josec/AppData/Roaming/MiKTeX/fonts/e
+nc/dvips/newtx/ntx-ot1-tlf.enc}] (memoria.lot) [9] (memoria.loa) [10]
+(secciones/resumen.tex) (secciones/abstract.tex [11])
+(secciones/introduccion.tex [12]
+Cap\'{\i }tulo 1.
+
+Underfull \hbox (badness 2096) in paragraph at lines 15--16
+[]\T1/phv/m/n/10.95 (+15) Frente a es-ta li-mi-ta-ción fun-da-men-tal, la co-mu
+-ni-dad sis-mo-ló-gi-ca ha des-pla-za-do
+[13]
+Underfull \hbox (badness 1297) in paragraph at lines 29--30
+[]\T1/phv/b/n/10.95 (+15) Madurez tec-no-ló-gi-ca. \T1/phv/m/n/10.95 (+15) La d
+is-po-ni-bi-li-dad de da-ta-sets ma-si-vos eti-que-ta-dos [[]],
+[14] [15] [16]
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\t1ntxtt.fd) [17])
+(secciones/objetivos.tex [18]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 1320) in paragraph at lines 28--29
+\T1/phv/m/sl/10.95 (+15) de-clus-te-red \T1/phv/m/n/10.95 (+15) ([]Al-go-rit-mo
+ de de-clus-te-ring de Gard-ner y Kno-poff (1974) (G-K)) y
+[19]) (secciones/estado-del-arte.tex [20]
+Cap\'{\i }tulo 3.
+[21]
+
+pdfTeX warning: pdflatex.exe (file ./figuras/ondas_p_s.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+[22 <./figuras/ondas_p_s.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 76.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+[23] [24 <./figuras/figura_gr_california.pdf>]
+Underfull \hbox (badness 1603) in paragraph at lines 85--86
+[]\T1/phv/b/sl/10.95 (+15) Entire-magnitude-range method \T1/phv/b/n/10.95 (+15
+) (EMR). \T1/phv/m/n/10.95 (+15) El mé-to-do más ro-bus-to ac-tual-men-te
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+[25] [26] [27 <./figuras/figura_UCERF3.png>]
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\ubbold.fd) [28]
+Underfull \hbox (badness 1270) in paragraph at lines 180--182
+[]\T1/phv/m/n/10.95 (+15) El pro-nós-ti-co sís-mi-co es un pro-ble-ma fuer-te-m
+en-te des-ba-lan-cea-do: en Ca-li-for-nia
+[29] [30 <./figuras/figura_dropout.pdf>]
+Underfull \hbox (badness 1308) in paragraph at lines 232--233
+\T1/phv/m/n/10.95 (+15) con-vo-lu-cio-nal a gra-fos ar-bi-tra-rios y son por ta
+n-to la ar-qui-tec-tu-ra na-tu-ral pa-ra es-ta
+[31] [32 <./figuras/figura_tcn.pdf>] [33] [34]
+
+LaTeX Warning: Reference `sendai' on page 35 undefined on input line 304.
+
+[35] [36 <./figuras/figura_mapa_riesgo.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figuras/figura_eqtransformer.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+[37] [38 <./figuras/figura_eqtransformer.pdf>] [39] [40] [41]
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/txfonts\t1txtt.fd)
+Underfull \hbox (badness 3088) in paragraph at lines 410--411
+[]\T1/phv/b/n/10.95 (+15) Terremotos lo-ca-les (\T1/txtt/bx/n/10.95 earthquake_
+local\T1/phv/b/n/10.95 (+15) ): \T1/phv/m/n/10.95 (+15) Al-re-de-dor de $\OT1/m
+inntx/m/n/10.95 1 050 000$ \T1/phv/m/n/10.95 (+15) tra-zas que
+[42 <./figuras/figura_histograma_stead.pdf>]
+Overfull \hbox (13.62904pt too wide) in paragraph at lines 425--426
+[]\T1/txtt/bx/n/10.95 receiver_code\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.9
+5 receiver_latitude\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.95 receiver_longi
+tude \T1/phv/b/n/10.95 (-15) y \T1/txtt/bx/n/10.95 receiver_elevation_m\T1/phv/
+b/n/10.95 (-15) :
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+[]\T1/txtt/bx/n/10.95 source_latitude\T1/phv/b/n/10.95 (+15) , \T1/txtt/bx/n/10
+.95 source_longitude \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/10.95 source_depth
+_km\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Des-cri-ben las
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+[]\T1/txtt/bx/n/10.95 p_arrival_sample \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/
+10.95 s_arrival_sample\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Va-ria-
+bles ob-je-ti-vo (\T1/phv/m/sl/10.95 (+15) ground truth\T1/phv/m/n/10.95 (+15) 
+)
+[43]
+Underfull \hbox (badness 1297) in paragraph at lines 437--438
+\T1/phv/m/n/10.95 (+15) en la li-te-ra-tu-ra, ta-les co-mo Pha-se-Net [[]] y EQ
+-Trans-for-mer [[]], apro-ve-chan-do su
+
+Underfull \hbox (badness 1062) in paragraph at lines 447--448
+\T1/phv/m/n/10.95 (+15) me-tro-ló-gi-ca-men-te sig-ni-fi-ca-ti-va so-bre los \T
+1/phv/m/sl/10.95 (+15) ba-se-li-nes \T1/phv/m/n/10.95 (+15) clá-si-cos en una r
+e-gión bien
+[44]) (secciones/desarrollo-resultados.tex [45]
+Cap\'{\i }tulo 4.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 48.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 48.
+
+
+LaTeX Font Warning: Font shape `U/bbold/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 48.
+
+[46]
+
+LaTeX Warning: Reference `fig:eda' on page 47 undefined on input line 82.
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 81--90
+\T1/phv/m/n/10.95 (+15) pro-fun-di-da-des. La ac-ti-vi-dad anual es re-la-ti-va
+-men-te es-ta-ble, con pi-cos aso-cia-dos a
+[47]
+Underfull \hbox (badness 7869) in paragraph at lines 120--123
+[]\T1/phv/b/n/10.95 (+15) Literatura de re-fe-ren-cia abun-dan-te. \T1/phv/m/n/
+10.95 (+15) Am-bas re-gio-nes es-tán am-plia-men-te
+[48 <./figuras/03_eda_catalogo.png>] [49] [50] [51 <./figuras/05b_grid_espacial
+_M4.5_min30.png>] [52 <./figuras/05b_grafo_celdas_d100km.png>]
+Underfull \hbox (badness 1509) in paragraph at lines 301--312
+\T1/phv/m/n/10.95 (+15) de-no-mi-na-da \T1/phv/m/sl/10.95 (+15) Spa-tio-Tem-po-
+ral-GNN\T1/phv/m/n/10.95 (+15) , com-bi-na dos blo-ques. En pri-mer lu-gar, una
+ \T1/phv/b/n/10.95 (+15) TCN
+[53] [54]
+
+LaTeX Warning: Reference `tab:hiperparametros' on page 55 undefined on input li
+ne 377.
+
+[55] [56]
+
+LaTeX Warning: Reference `fig:desbalance' on page 57 undefined on input line 47
+3.
+
+[57] [58 <./figuras/04_desbalance.png>] [59] [60] [61] [62 <./figuras/03_roc_te
+st.png>]
+
+LaTeX Warning: Reference `fig:lift' on page 63 undefined on input line 725.
+
+secciones/desarrollo-resultados.tex:730: Incompatible glue units.
+\es@sppercent ...fnum \gluestretchorder \lastskip 
+                                                  =\z@ \unskip \fi \textorma...
+l.730 ... mejora respecto a una alerta aleatoria.}
+                                                  
+secciones/desarrollo-resultados.tex:730:  ==> Fatal error occurred, no output P
+DF file produced!
+Transcript written on memoria.log.
+pdflatex: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: Getting log file 'memoria.log'
+Latexmk: Examining 'memoria.fls'
+Latexmk: Examining 'memoria.log'
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 5 reference(s)
+Latexmk: ====Problematic refs and citations with line #s in .tex file:
+  Reference `sendai' on page 35 undefined on input line 304
+  Reference `fig:eda' on page 47 undefined on input line 82
+  Reference `tab:hiperparametros' on page 55 undefined on input line 377
+  Reference `fig:desbalance' on page 57 undefined on input line 473
+  Reference `fig:lift' on page 63 undefined on input line 725
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'memoria.log' and/or above output for details
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+latexmk: major issue: So far, you have not checked for updates as a MiKTeX user.

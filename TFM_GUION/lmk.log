@@ -1,0 +1,745 @@
+Rc files read (in order):
+  ./.latexmkrc
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+Latexmk: Getting log file 'memoria.log'
+Latexmk: Examining 'memoria.log'
+Latexmk: Found input bbl file 'memoria.bbl'
+Latexmk: Log file says output to 'memoria.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'memoria.bbl' for 'pdflatex'
+Create bibtex memoria
+kpsewhich: major issue: So far, you have not checked for updates as a MiKTeX user.
+kpsewhich: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: Found bibliography file(s):
+  ./bibliografia.bib
+Latexmk: applying rule 'cusdep glo gls memoria'...
+Rule 'cusdep glo gls memoria':  Reasons for rerun
+Changed files or newly in use/created:
+  memoria.glo
+Category 'changed_user':
+  memoria.glo
+
+------------
+Run number 1 of rule 'cusdep glo gls memoria'
+------------
+Warning: File 'memoria.glo' is empty.
+Have you used any entries defined in glossary 'main'?
+Remember to use package option 'nomain' if you
+don't want to use the main glossary.
+makeglossaries version 5.1 (2026-04-21)
+added glossary type 'main' (glg,gls,glo)
+added glossary type 'acronym' (alg,acr,acn)
+makeindex  -s "memoria.ist" -t "memoria.alg" -o "memoria.acr" "memoria.acn"
+This is makeindex, version 2.16 [MiKTeX 25.12].
+Scanning style file ./memoria.ist...........................done (27 attributes redefined, 0 ignored).
+Scanning input file memoria.acn....done (67 entries accepted, 0 rejected).
+Sorting entries....done (424 comparisons).
+Generating output file memoria.acr....done (125 lines written, 0 warnings).
+Output written in memoria.acr.
+Transcript written in memoria.alg.
+makeglossaries: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: applying rule 'bibtex memoria'...
+Rule 'bibtex memoria':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex memoria' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex memoria'
+------------
+------------
+Running 'bibtex  "memoria.aux"'
+------------
+This is BibTeX, Version 0.99e (MiKTeX 25.12)
+The top-level auxiliary file: memoria.aux
+The style file: unsrtnat.bst
+Database file #1: bibliografia.bib
+bibtex: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  memoria.acr
+  memoria.aux
+  memoria.bbl
+  memoria.gls
+  memoria.loa
+  memoria.lof
+  memoria.lot
+  memoria.out
+  memoria.tex
+  memoria.toc
+Category 'changed_user':
+  memoria.tex
+Category 'never_run':
+  pdflatex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex --shell-escape -interaction=nonstopmode -synctex=1 -file-line-error  -interaction=nonstopmode -recorder  "memoria.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ \write18 enabled.
+entering extended mode
+(memoria.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(class_diss.cls
+Document Class: class_diss 1999/09/10 v1.4a Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size11.clo))
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def)))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsxtra.sty)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\latexsym.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
+put line 265.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\MiKTeX\tex/latex/xcolor\svgnam.def)
+(C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty))
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)))
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.
+tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
+de.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
+tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
+cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
+ex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
+x)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
+.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
+x) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty))
+ (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty)
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xfor\xfor.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-base.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tracklang\tracklang.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/tracklang\tracklang.tex))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-l3fp.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-utf8.ldf))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-hyp
+ernav.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-lis
+t.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-lon
+g.sty (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-sup
+er.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/supertabular\supertabular.sty)
+)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-tre
+e.sty)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\helvet.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxtext.sty
+`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def))
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/figureversions\figureversions.
+sty))) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (C:\Program Files\MiKTeX\tex/latex/oberdiek\centernot.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+amsthm NOT loaded
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\bbold.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty)
+(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithmic.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/float\float.sty)
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata
+.sty (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty)))
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+(C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\flafter.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.geometric.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geom
+etric.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.misc.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc
+.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.symbols.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symb
+ols.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.arrows.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arro
+ws.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.callouts.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.call
+outs.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.multipart.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.mult
+ipart.code.tex))) (secciones/glosario.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypernat\hypernat.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/notoccite\notoccite.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.st
+y) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestrin
+g.sty (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty)
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.
+sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.
+sty))) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypcap\hypcap.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1phv.fd) (memoria.aux)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd)
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty)
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(memoria.out) (memoria.out) (secciones/portada.tex [1{C:/Users/josec/AppData/Lo
+cal/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips
+/base/8r.enc} <./figuras/portada.png>])
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 162.
+
+(secciones/frase-favorita.tex
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg)
+(C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd))
+(secciones/agradecimientos.tex [2 <./figuras/logo_viu.png>]) [3] (memoria.toc
+[4] [5] [6]) [7] (memoria.lof) [8{C:/Users/josec/AppData/Roaming/MiKTeX/fonts/e
+nc/dvips/newtx/ntx-ot1-tlf.enc}] (memoria.lot) [9] (memoria.loa) [10]
+(secciones/resumen.tex) (secciones/abstract.tex [11])
+(secciones/introduccion.tex [12]
+Cap\'{\i }tulo 1.
+
+Underfull \hbox (badness 2096) in paragraph at lines 15--16
+[]\T1/phv/m/n/10.95 (+15) Frente a es-ta li-mi-ta-ción fun-da-men-tal, la co-mu
+-ni-dad sis-mo-ló-gi-ca ha des-pla-za-do
+[13]
+Underfull \hbox (badness 1297) in paragraph at lines 29--30
+[]\T1/phv/b/n/10.95 (+15) Madurez tec-no-ló-gi-ca. \T1/phv/m/n/10.95 (+15) La d
+is-po-ni-bi-li-dad de da-ta-sets ma-si-vos eti-que-ta-dos [[]],
+[14] [15] [16]
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\t1ntxtt.fd) [17])
+(secciones/objetivos.tex [18]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 1320) in paragraph at lines 28--29
+\T1/phv/m/sl/10.95 (+15) de-clus-te-red \T1/phv/m/n/10.95 (+15) ([]Al-go-rit-mo
+ de de-clus-te-ring de Gard-ner y Kno-poff (1974) (G-K)) y
+[19]) (secciones/estado-del-arte.tex [20]
+Cap\'{\i }tulo 3.
+[21]
+
+pdfTeX warning: pdflatex.exe (file ./figuras/ondas_p_s.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+[22 <./figuras/ondas_p_s.pdf>] [23] [24 <./figuras/figura_gr_california.pdf>]
+Underfull \hbox (badness 1603) in paragraph at lines 85--86
+[]\T1/phv/b/sl/10.95 (+15) Entire-magnitude-range method \T1/phv/b/n/10.95 (+15
+) (EMR). \T1/phv/m/n/10.95 (+15) El mé-to-do más ro-bus-to ac-tual-men-te
+[25] [26] [27 <./figuras/figura_UCERF3.png>]
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\ubbold.fd) [28]
+Underfull \hbox (badness 1270) in paragraph at lines 180--182
+[]\T1/phv/m/n/10.95 (+15) El pro-nós-ti-co sís-mi-co es un pro-ble-ma fuer-te-m
+en-te des-ba-lan-cea-do: en Ca-li-for-nia
+[29] [30 <./figuras/figura_dropout.pdf>]
+Underfull \hbox (badness 1308) in paragraph at lines 232--233
+\T1/phv/m/n/10.95 (+15) con-vo-lu-cio-nal a gra-fos ar-bi-tra-rios y son por ta
+n-to la ar-qui-tec-tu-ra na-tu-ral pa-ra es-ta
+[31] [32 <./figuras/figura_tcn.pdf>] [33] [34] [35] [36 <./figuras/figura_mapa_
+riesgo.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figuras/figura_eqtransformer.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+[37] [38 <./figuras/figura_eqtransformer.pdf>] [39] [40] [41]
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/txfonts\t1txtt.fd)
+Underfull \hbox (badness 3088) in paragraph at lines 410--411
+[]\T1/phv/b/n/10.95 (+15) Terremotos lo-ca-les (\T1/txtt/bx/n/10.95 earthquake_
+local\T1/phv/b/n/10.95 (+15) ): \T1/phv/m/n/10.95 (+15) Al-re-de-dor de $\OT1/m
+inntx/m/n/10.95 1 050 000$ \T1/phv/m/n/10.95 (+15) tra-zas que
+[42 <./figuras/figura_histograma_stead.pdf>]
+Overfull \hbox (13.62904pt too wide) in paragraph at lines 425--426
+[]\T1/txtt/bx/n/10.95 receiver_code\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.9
+5 receiver_latitude\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.95 receiver_longi
+tude \T1/phv/b/n/10.95 (-15) y \T1/txtt/bx/n/10.95 receiver_elevation_m\T1/phv/
+b/n/10.95 (-15) :
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+[]\T1/txtt/bx/n/10.95 source_latitude\T1/phv/b/n/10.95 (+15) , \T1/txtt/bx/n/10
+.95 source_longitude \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/10.95 source_depth
+_km\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Des-cri-ben las
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+[]\T1/txtt/bx/n/10.95 p_arrival_sample \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/
+10.95 s_arrival_sample\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Va-ria-
+bles ob-je-ti-vo (\T1/phv/m/sl/10.95 (+15) ground truth\T1/phv/m/n/10.95 (+15) 
+)
+[43]
+Underfull \hbox (badness 1297) in paragraph at lines 437--438
+\T1/phv/m/n/10.95 (+15) en la li-te-ra-tu-ra, ta-les co-mo Pha-se-Net [[]] y EQ
+-Trans-for-mer [[]], apro-ve-chan-do su
+
+Underfull \hbox (badness 1062) in paragraph at lines 447--448
+\T1/phv/m/n/10.95 (+15) me-tro-ló-gi-ca-men-te sig-ni-fi-ca-ti-va so-bre los \T
+1/phv/m/sl/10.95 (+15) ba-se-li-nes \T1/phv/m/n/10.95 (+15) clá-si-cos en una r
+e-gión bien
+[44]) (secciones/desarrollo-resultados.tex [45]
+Cap\'{\i }tulo 4.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 46.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 46.
+
+
+LaTeX Font Warning: Font shape `U/bbold/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 46.
+
+[46]
+Underfull \hbox (badness 1552) in paragraph at lines 81--90
+\T1/phv/m/n/10.95 (+15) pro-fun-di-da-des. La ac-ti-vi-dad anual es re-la-ti-va
+-men-te es-ta-ble, con pi-cos aso-cia-dos a
+[47]
+Underfull \hbox (badness 7869) in paragraph at lines 120--123
+[]\T1/phv/b/n/10.95 (+15) Literatura de re-fe-ren-cia abun-dan-te. \T1/phv/m/n/
+10.95 (+15) Am-bas re-gio-nes es-tán am-plia-men-te
+[48 <./figuras/03_eda_catalogo.png>] [49] [50] [51 <./figuras/05b_grid_espacial
+_M4.5_min30.png>] [52] [53 <./figuras/05b_grafo_celdas_d100km.png>]
+Underfull \hbox (badness 1509) in paragraph at lines 367--374
+\T1/phv/m/n/10.95 (+15) de-no-mi-na-da \T1/phv/m/sl/10.95 (+15) Spa-tio-Tem-po-
+ral-GNN\T1/phv/m/n/10.95 (+15) , com-bi-na dos blo-ques. En pri-mer lu-gar, una
+ \T1/phv/b/n/10.95 (+15) TCN
+[54] [55] [56] [57] [58] [59] [60] [61 <./figuras/04_desbalance.png>] [62]
+[63] [64] [65] [66 <./figuras/03_roc_test.png>] [67 <./figuras/05_curvas_multis
+eed.png>] [68 <./figuras/comparativa_modelos.png>] [69 <./figuras/05_roc_test.p
+ng>] [70 <./figuras/05_molchan.png> <./figuras/05_lift_curve.png>] [71 <./figur
+as/05_pr_curve.png>] [72 <./figuras/05_score_dist.png> <./figuras/05_auc_tempor
+al.png>] [73 <./figuras/04_roc_test.png> <./figuras/04_molchan.png> <./figuras/
+04_auc_temporal.png>] [74] [75 <./figuras/06_calibracion.png>] [76 <./figuras/0
+6_mapa_riesgo_gp_california.png> <./figuras/06_mapa_riesgo_gp_alaska.png>]
+[77 <./figuras/07_stead_vs_usgs_cobertura.png> <./figuras/07_stead_vs_usgs_magn
+itud_mc.png>]) (secciones/conclusion-trabajos-futuros.tex [78] [79]
+Cap\'{\i }tulo 5.
+[80] [81] [82]
+Underfull \hbox (badness 2547) in paragraph at lines 158--166
+[] []\T1/phv/b/n/10.95 (+15) Trans-fe-ren-cia en-tre re-gio-nes.[] \T1/phv/m/n/
+10.95 (+15) Co-mo los mo-de-los apren-den una fun-ción de las
+[83]) [84] (memoria.acr [85] [86] [87]) (memoria.gls) (secciones/apendices.tex
+[88]
+Ap\'{e}ndice A.
+) (secciones/anexos.tex [89]
+Ap\'{e}ndice B.
+(tablas/tabla_tcn_vs_lstm.tex)) [90] [91] (memoria.bbl
+Underfull \hbox (badness 1152) in paragraph at lines 9--15
+\T1/phv/m/n/9 (+15) Risk Re-duc-tion 2015--2030.  Adop-ted at the
+
+Underfull \hbox (badness 2564) in paragraph at lines 9--15
+\T1/phv/m/n/9 (+15) Third UN World Con-fe-ren-ce, Sen-dai, Ja-pan,
+
+Underfull \hbox (badness 6510) in paragraph at lines 9--15
+\T1/phv/m/n/9 (+15) 2015.  URL [][]$\T1/ntxtt/m/n/9 https : / / www . undrr . o
+rg /
+
+Underfull \hbox (badness 2302) in paragraph at lines 9--15
+\T1/ntxtt/m/n/9 publication / sendai -[] framework -[] disaster -[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--30
+[]\T1/phv/m/n/9 (+15) Thomas H. Jor-dan, Yun-Tai Chen, Pao-lo
+
+Underfull \hbox (badness 4441) in paragraph at lines 23--30
+\T1/phv/m/n/9 (+15) Ope-ra-tio-nal earth-qua-ke fo-re-cas-ting: sta-te of
+
+Underfull \hbox (badness 1558) in paragraph at lines 42--51
+[]\T1/phv/m/n/9 (+15) Edward H. Field, Glenn P. Bia-si, Pe-ter Bird,
+
+Underfull \hbox (badness 1152) in paragraph at lines 42--51
+\T1/phv/m/n/9 (+15) Po-wers, Bru-ce E. Shaw, Way-ne R. That-cher,
+
+Underfull \hbox (badness 1303) in paragraph at lines 54--61
+[]\T1/phv/m/n/9 (+15) Edward H. Field, Ke-vin R. Mil-ner, Jean-ne L.
+
+Underfull \hbox (badness 1688) in paragraph at lines 64--69
+\T1/phv/m/n/9 (+15) maps for earth-qua-kes in Southern Ca-li-for-nia.
+
+Underfull \hbox (badness 4279) in paragraph at lines 77--80
+[]\T1/phv/m/n/9 (+15) Ian Good-fe-llow, Yoshua Ben-gio, and Aa-ron
+
+Underfull \hbox (badness 4048) in paragraph at lines 90--95
+\T1/phv/m/n/9 (+15) pro-cess un-ders-tan-ding for data-driven Earth
+
+Underfull \hbox (badness 1147) in paragraph at lines 90--95
+\T1/phv/m/n/9 (+15) sys-tem scien-ce.  \T1/phv/m/sl/9 (+15) Na-tu-re\T1/phv/m/n
+/9 (+15) , 566(7743):195--204,
+
+Underfull \hbox (badness 6188) in paragraph at lines 105--108
+[]\T1/phv/m/n/9 (+15) Gregory C. Be-ro-za, Mar-ga-ri-ta Se-gou, and
+
+Underfull \hbox (badness 1466) in paragraph at lines 105--108
+\T1/phv/m/n/9 (+15) S. Mos-ta-fa Mou-sa-vi.  Ma-chi-ne lear-ning and
+
+Underfull \hbox (badness 2573) in paragraph at lines 105--108
+\T1/phv/m/n/9 (+15) earth-qua-ke fo-re-cas-ting^^Vnext steps.  \T1/phv/m/sl/9 (
++15) Na-tu-re
+
+Underfull \hbox (badness 1472) in paragraph at lines 110--114
+[]\T1/phv/m/n/9 (+15) S. Mos-ta-fa Mou-sa-vi and Gre-gory C. Be-ro-za.
+
+Underfull \hbox (badness 5533) in paragraph at lines 110--114
+\T1/phv/m/n/9 (+15) Ma-chi-ne lear-ning in earth-qua-ke seis-mo-logy.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+[]\T1/phv/m/n/9 (+15) S. Mos-ta-fa Mou-sa-vi, Wi-lliam L. Ells-worth,
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+\T1/phv/m/n/9 (+15) Wei-qiang Zhu, Lind-say Y. Chuang, and
+
+Underfull \hbox (badness 7433) in paragraph at lines 132--136
+[]\T1/phv/m/n/9 (+15) Zachary E. Ross, Men-Andrin Meier, Egill
+
+Underfull \hbox (badness 3158) in paragraph at lines 132--136
+\T1/phv/m/n/9 (+15) seis-mic pha-se de-tec-tion with deep lear-ning.
+
+Underfull \hbox (badness 3769) in paragraph at lines 138--141
+\T1/phv/m/n/9 (+15) Con-vo-lu-tio-nal neu-ral net-work for earth-qua-ke
+[92]
+Underfull \hbox (badness 1762) in paragraph at lines 152--159
+[]\T1/phv/m/n/9 (+15) Jack Woo-llam, Jan-nes Münch-me-yer, Fre-de-rik
+
+Underfull \hbox (badness 4479) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Til-mann, An-dreas Riet-brock, Die-trich Lan-ge,
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Flo-rian Has-lin-ger, Da-rio Jo-zi-no-vi¢, Al-ber-to
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Mi-che-li-ni, Joa-chim Saul, and Hu-go So-to.
+
+Underfull \hbox (badness 6380) in paragraph at lines 152--159
+\T1/phv/m/n/9 (+15) Seis-Bench^^Va tool-box for ma-chi-ne lear-ning
+
+Underfull \hbox (badness 1297) in paragraph at lines 163--172
+[]\T1/phv/m/n/9 (+15) Adam Pasz-ke, Sam Gross, Fran-cis-co Mas-sa,
+
+Underfull \hbox (badness 3039) in paragraph at lines 163--172
+\T1/phv/m/n/9 (+15) Alykhan Te-ja-ni, Sa-sank Chi-lam-kurthy, Be-noit
+
+Underfull \hbox (badness 4168) in paragraph at lines 180--185
+\T1/phv/m/n/9 (+15) oc-cu-rren-ces and re-si-dual analy-sis for point
+
+Underfull \hbox (badness 1038) in paragraph at lines 193--197
+\T1/phv/m/n/9 (+15) of earth-qua-kes in Ca-li-for-nia.  \T1/phv/m/sl/9 (+15) Bu
+-lle-tin of the
+
+Underfull \hbox (badness 4403) in paragraph at lines 199--203
+[]\T1/phv/m/n/9 (+15) Fusakichi Omo-ri.  On the after-shocks of
+
+Underfull \hbox (badness 1603) in paragraph at lines 211--216
+\T1/phv/m/n/9 (+15) for Southern Ca-li-for-nia (1981 to Ju-ne 2011).
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--223
+\T1/phv/m/n/9 (+15) re-lo-ca-tion of two de-ca-des of Northern
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--223
+\T1/phv/m/n/9 (+15) Ca-li-for-nia seis-mi-city using cross-correlation
+
+Underfull \hbox (badness 2744) in paragraph at lines 218--223
+\T1/phv/m/n/9 (+15) and double-difference methods.  \T1/phv/m/sl/9 (+15) Jour-n
+al of
+
+Underfull \hbox (badness 6001) in paragraph at lines 226--231
+\T1/phv/m/n/9 (+15) The graph neu-ral net-work mo-del.  \T1/phv/m/sl/9 (+15) IE
+EE
+
+Underfull \hbox (badness 1642) in paragraph at lines 255--260
+[]\T1/phv/m/n/9 (+15) Kelian Dascher-Cousineau, Olek-sandr Sh-chur,
+
+Underfull \hbox (badness 2302) in paragraph at lines 269--272
+\T1/phv/m/n/9 (+15) Wi-lliams.  \T1/phv/m/sl/9 (+15) Gaus-sian Pro-ces-ses for 
+Ma-chi-ne
+
+Underfull \hbox (badness 4353) in paragraph at lines 274--279
+\T1/phv/m/n/9 (+15) of earth-qua-kes in Southern Ca-li-for-nia, with
+
+Underfull \hbox (badness 2119) in paragraph at lines 274--279
+\T1/phv/m/sl/9 (+15) the Seis-mo-lo-gi-cal So-ciety of Ame-ri-ca\T1/phv/m/n/9 (
++15) , 64(5):
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\t1ntxtlf.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg)
+Underfull \hbox (badness 3291) in paragraph at lines 289--294
+[]\T1/phv/m/n/9 (+15) Stefan Wie-mer and Max Wyss.  Mi-ni-mum
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--294
+\T1/phv/m/n/9 (+15) mag-ni-tu-de of com-ple-te-ness in earth-qua-ke
+[93{C:/Users/josec/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}
+]
+Underfull \hbox (badness 1062) in paragraph at lines 310--315
+[]\T1/phv/m/n/9 (+15) Ashish Vas-wa-ni, Noam Sha-zeer, Ni-ki Par-mar,
+
+Underfull \hbox (badness 3895) in paragraph at lines 310--315
+\T1/phv/m/n/9 (+15) is all you need.  In \T1/phv/m/sl/9 (+15) Ad-van-ces in Neu
+-ral
+
+Underfull \hbox (badness 7151) in paragraph at lines 323--328
+[]\T1/phv/m/n/9 (+15) Peter Bor-mann, edi-tor.  \T1/phv/m/sl/9 (+15) New Ma-nua
+l of
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--328
+\T1/phv/m/n/9 (+15) Deu-ts-ches Geo-Fors-chungs-Zen-trum (GFZ),
+
+Underfull \hbox (badness 1622) in paragraph at lines 337--341
+[]\T1/phv/m/n/9 (+15) Thomas C. Hanks and Hi-roo Ka-na-mo-ri.  A
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
+[]\T1/phv/m/n/9 (+15) Beno Gu-ten-berg and Char-les F. Rich-ter.
+
+Underfull \hbox (badness 2165) in paragraph at lines 343--348
+\T1/phv/m/n/9 (+15) Earth-qua-ke mag-ni-tu-de, in-ten-sity, energy, and
+
+Underfull \hbox (badness 1248) in paragraph at lines 343--348
+\T1/phv/m/n/9 (+15) ac-ce-le-ra-tion (se-cond pa-per).  \T1/phv/m/sl/9 (+15) Bu
+-lle-tin of the
+
+Underfull \hbox (badness 1810) in paragraph at lines 356--359
+\T1/phv/m/n/9 (+15) Cam-brid-ge Uni-ver-sity Press, Cam-brid-ge, 2nd
+
+Underfull \hbox (badness 1038) in paragraph at lines 361--366
+[]\T1/phv/m/n/9 (+15) IRIS Con-sor-tium.  Ex-plo-ring the Earth using
+
+Underfull \hbox (badness 1122) in paragraph at lines 368--373
+\OML/ntxmi/m/it/9 b$ \T1/phv/m/n/9 (+15) va-lues; or, much ado about 1.0.  \T1/
+phv/m/sl/9 (+15) Jour-nal
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--380
+[]\T1/phv/m/n/9 (+15) Danijel Schor-lem-mer and Ste-fan Wie-mer.
+
+Underfull \hbox (badness 1112) in paragraph at lines 382--387
+\T1/phv/m/sl/9 (+15) Bu-lle-tin of the Earth-qua-ke Re-search Ins-ti-tu-te,
+
+Underfull \hbox (badness 1371) in paragraph at lines 404--408
+[]\T1/phv/m/n/9 (+15) Paul Reasen-berg.  Second-order mo-ment of
+
+Underfull \hbox (badness 3375) in paragraph at lines 410--414
+\T1/phv/m/n/9 (+15) fault sys-tem.  Fact Sheet 2015-3009, U.S.
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--452
+[]\T1/phv/m/n/9 (+15) Petar Ve-li£-ko-vi¢, Gui-llem Cu-cu-rull, Arantxa
+
+Underfull \hbox (badness 2790) in paragraph at lines 447--452
+\T1/phv/m/n/9 (+15) Ca-sa-no-va, Adria-na Ro-me-ro, Pie-tro Liò, and
+[94]
+Underfull \hbox (badness 1221) in paragraph at lines 467--472
+[]\T1/phv/m/n/9 (+15) John Platt.  Pro-ba-bi-lis-tic out-puts for sup-port
+
+Underfull \hbox (badness 4279) in paragraph at lines 482--486
+[]\T1/phv/m/n/9 (+15) Ian W. Mc-Brearty and Gre-gory C. Be-ro-za.
+
+Underfull \hbox (badness 3690) in paragraph at lines 488--493
+\T1/phv/m/n/9 (+15) deep graph neu-ral net-works.  \T1/phv/m/sl/9 (+15) Geophy-
+si-cal
+
+Underfull \hbox (badness 2538) in paragraph at lines 502--507
+[]\T1/phv/m/n/9 (+15) Takaya Sai-to and Marc Rehms-meier.  The
+) [95] (memoria.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+ )
+(see the transcript file for additional information) <C:\Users\josec\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/public/bbold/dpi657\bbold10.pk><C:/Users/josec/AppDa
+ta/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/josec/AppData/
+Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/josec/AppData/Ro
+aming/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/josec/AppData/Roam
+ing/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/josec/AppData/Roamin
+g/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/josec/AppData/Roaming/M
+iKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/josec/AppData/Roaming/MiKT
+eX/fonts/type1/public/newtx/txexs.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fo
+nts/type1/public/newtx/txmiaX.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/
+type1/public/newtx/txsym.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1
+/public/newtx/txsys.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8
+a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/font
+s/type1/urw/helvetic/uhvro8a.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/t
+ype1/public/newtx/ztmb.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/p
+ublic/newtx/ztmr.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/
+newtx/ztmri.pfb>
+Output written on memoria.pdf (95 pages, 9263034 bytes).
+SyncTeX written on memoria.synctex.gz.
+Transcript written on memoria.log.
+pdflatex: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: Getting log file 'memoria.log'
+Latexmk: Examining 'memoria.fls'
+Latexmk: Examining 'memoria.log'
+Latexmk: Found input bbl file 'memoria.bbl'
+Latexmk: Log file says output to 'memoria.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'memoria.bbl' for 'pdflatex'
+kpsewhich: major issue: So far, you have not checked for updates as a MiKTeX user.
+kpsewhich: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: Found bibliography file(s):
+  ./bibliografia.bib
+Latexmk: All targets (memoria.pdf) are up-to-date
+
+latexmk: major issue: So far, you have not checked for updates as a MiKTeX user.

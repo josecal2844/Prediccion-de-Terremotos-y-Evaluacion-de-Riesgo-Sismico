@@ -1,0 +1,24 @@
+\begin{table}[ht!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+\textbf{Tarea} & \textbf{Métrica} & \textbf{LSTM} & \textbf{GRU} & \textbf{RNN} & \textbf{TCN} \\
+\midrule
+Sequential MNIST          & Accuracy (\%) $\uparrow$ & 87.2          & 96.2            & 21.5   & \textbf{99.0}   \\
+Permuted MNIST            & Accuracy (\%) $\uparrow$ & 85.7          & 87.3            & 25.3   & \textbf{97.2}   \\
+Adding problem ($T=600$)  & Loss $\downarrow$        & 0.164         & \textbf{5.3e-5} & 0.177  & 5.8e-5          \\
+Copy memory ($T=1000$)    & Loss $\downarrow$        & 0.0204        & 0.0197          & 0.0202 & \textbf{3.5e-5} \\
+Music JSB Chorales        & NLL $\downarrow$         & 8.45          & 8.43            & 8.91   & \textbf{8.10}   \\
+Music Nottingham          & NLL $\downarrow$         & 3.29          & 3.46            & 4.05   & \textbf{3.07}   \\
+Word-level Penn TreeBank  & Perplexity $\downarrow$  & \textbf{78.93} & 92.48          & 114.50 & 88.68           \\
+Word-level Wikitext-103   & Perplexity $\downarrow$  & 48.4          & n/a             & n/a    & \textbf{45.19}  \\
+LAMBADA                   & Perplexity $\downarrow$  & 4186          & n/a             & n/a    & \textbf{1279}   \\
+Char-level Penn TreeBank  & bpc $\downarrow$         & 1.36          & 1.37            & 1.48   & \textbf{1.31}   \\
+Char-level text8          & bpc $\downarrow$         & \textbf{1.41} & 1.42            & 1.69   & 1.45            \\
+\bottomrule
+\end{tabular}%
+}
+\caption[Comparación empírica TCN vs RNN/LSTM/GRU en \textit{benchmarks} de modelado de secuencias (\citealp{bai2018tcn})]{\textbf{Comparación empírica TCN vs RNN/LSTM/GRU en \textit{benchmarks} de modelado de secuencias.} Reproducido de la Tabla~1 de \citet{bai2018tcn}. Los valores en negrita indican el mejor resultado por tarea. La flecha $\uparrow$ indica que valores más altos son mejores; $\downarrow$, que valores más bajos son mejores. \texttt{n/a} cuando el modelo no fue evaluado por los autores. TCN obtiene el mejor resultado en 8 de las 11 tareas, frente a 2 de LSTM y 1 de GRU.}
+\label{tab:tcn-vs-lstm}
+\end{table}

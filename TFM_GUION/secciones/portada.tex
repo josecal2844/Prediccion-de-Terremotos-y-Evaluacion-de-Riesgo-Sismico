@@ -1,0 +1,49 @@
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture,overlay]
+        % --- Imagen de fondo ---
+        \node[inner sep=0pt,outer sep=0pt] at (current page.center) {
+            \includegraphics[width=\paperwidth,height=\paperheight]{figuras/portada.png}
+        };
+
+        % --- Título (arriba izquierda, sobre fondo naranja) ---
+        \node[anchor=north west, text=white, align=left, text width=14cm]
+        at ([xshift=1.5cm, yshift=-1.5cm]current page.north west) {
+            {\LARGE\bfseries Predicción de Terremotos y Evaluación de}\\[0.15cm]
+            {\LARGE\bfseries Riesgo Sísmico mediante Deep Learning}\\[0.15cm]
+            {\LARGE\bfseries con Datos de Estaciones}\\[0.15cm]
+            {\LARGE\bfseries Sismológicas Globales}
+        };
+
+        % --- Fecha (debajo del título, izquierda) ---
+        \node[anchor=north west, text=white]
+        at ([xshift=1.5cm, yshift=-7.0cm]current page.north west) {
+            \large 13 julio 2026
+        };
+
+        % --- Caja izquierda: Titulación ---
+        \node[anchor=north west, text=white, align=left]
+        at ([xshift=1.7cm, yshift=-21.8cm]current page.north west) {
+            \textbf{Titulación:}\\[0.4cm]
+            Máster Universitario\\ en Inteligencia Artificial\\[0.4cm]
+            \textbf{Curso académico}\\[0.2cm]
+            2025 -- 2026
+        };
+
+        % --- Caja central: Alumno/a ---
+        \node[anchor=north west, text=white, align=left]
+        at ([xshift=7.8cm, yshift=-21.8cm]current page.north west) {
+            \textbf{Alumno/a:}\\[0.4cm]
+            Calderón Lorca, José\\[0.4cm]
+            \textbf{D.N.I:} 20521927Q\\[0.4cm]
+            \textbf{Director/a de TFM:}\\[0.2cm]
+            Jesús Gil Ruiz
+        };
+
+        % --- Caja derecha: Convocatoria ---
+        \node[anchor=north west, text=white, align=left]
+        at ([xshift=14.0cm, yshift=-21.8cm]current page.north west) {
+            \textbf{Convocatoria:}\\[0.4cm]
+            Primera
+        };
+    \end{tikzpicture}
+\end{titlepage}

@@ -1,0 +1,16 @@
+Warning: File 'memoria.glo' is empty.
+Have you used any entries defined in glossary 'main'?
+Remember to use package option 'nomain' if you
+don't want to use the main glossary.
+makeglossaries version 5.1 (2026-04-21)
+added glossary type 'main' (glg,gls,glo)
+added glossary type 'acronym' (alg,acr,acn)
+makeindex  -s "memoria.ist" -t "memoria.alg" -o "memoria.acr" "memoria.acn"
+This is makeindex, version 2.16 [MiKTeX 25.12].
+Scanning style file ./memoria.ist...........................done (27 attributes redefined, 0 ignored).
+Scanning input file memoria.acn....done (67 entries accepted, 0 rejected).
+Sorting entries....done (424 comparisons).
+Generating output file memoria.acr....done (125 lines written, 0 warnings).
+Output written in memoria.acr.
+Transcript written in memoria.alg.
+makeglossaries: major issue: So far, you have not checked for updates as a MiKTeX user.

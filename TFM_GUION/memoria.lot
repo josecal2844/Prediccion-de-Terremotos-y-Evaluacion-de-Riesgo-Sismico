@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Estructura del \textit {pipeline} experimental en cinco fases}}{46}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Características de entrada de los modelos de pronóstico}}{52}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Hiperparámetros más relevantes del sistema}}{59}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Resultados de detección y \textit {picking} de fases P y S}}{66}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Sensibilidad de la detección a la tolerancia temporal}}{68}{table.4.5}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Comparativa de los modelos de pronóstico frente a las referencias}}{68}{table.4.6}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces AUC de test por semilla de los modelos espaciales}}{69}{table.4.7}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Métricas operativas del Transformer frente al Poisson}}{72}{table.4.8}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Resumen de los estudios de ablación}}{77}{table.4.9}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Transferencia del Transformer a otras regiones}}{80}{table.4.10}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Hiperparámetros de arquitectura de los modelos de pronóstico}}{92}{table.Alph1.1}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Hiperparámetros de entrenamiento de los modelos de pronóstico}}{93}{table.Alph1.2}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Resultados completos de detección y \textit {picking}}}{94}{table.Alph1.3}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Métricas operativas completas del Transformer y el Poisson}}{95}{table.Alph1.4}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces Resultados completos de transferencia entre regiones}}{95}{table.Alph1.5}%
+\contentsline {table}{\numberline {A.6}{\ignorespaces Contrastes estadísticos entre modelos}}{96}{table.Alph1.6}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Comparación empírica TCN vs RNN/LSTM/GRU en \textit {benchmarks} de modelado de secuencias (\citealp {bai2018tcn})}}{97}{table.Alph2.1}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Ventanas de \textit {declustering} de Gardner--Knopoff}}{98}{table.Alph2.2}%

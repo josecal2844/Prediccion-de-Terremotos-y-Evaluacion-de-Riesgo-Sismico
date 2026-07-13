@@ -1,0 +1,48 @@
+% =============================================================================
+%                                 OBJETIVOS
+% =============================================================================
+
+\cleardoublepage
+
+\chapter{Objetivos}
+\label{objetivos}
+
+\section{Objetivo general}
+\label{objetivo-general}
+
+Diseñar, implementar y validar empíricamente un \emph{pipeline} \textit{end-to-end} de aprendizaje profundo que, a partir de fuentes de datos sísmicos abiertas (\gls{stead} y catálogo del \gls{usgs}), sea capaz de \textbf{detectar} eventos sísmicos, \textbf{identificar} patrones precursores estadísticamente significativos, y \textbf{generar} mapas de probabilidad de riesgo sísmico a corto plazo, con un nivel de rigor metodológico compatible con los estándares de las revistas científicas Q1 del área (\textit{Nature Geoscience}, \textit{Journal of Geophysical Research}, \textit{Seismological Research Letters}).
+
+\section{Objetivos parciales}
+\label{objetivos-parciales}
+
+El objetivo general se descompone en seis objetivos parciales, cada uno asociado a una fase concreta del trabajo experimental:
+
+\medskip
+\begin{enumerate}[label=\destacado{\arabic*.}]
+  \setlength\itemsep{1em}
+
+  \item \textbf{Construir una base de datos experimental coherente y reproducible} a partir de \gls{stead} (formas de onda etiquetadas a 100\,Hz, tres componentes E/N/Z) y el catálogo del \gls{usgs} vía el web service FDSN, definiendo regiones geográficas de estudio, ventanas temporales y umbrales de magnitud con justificación geofísica documentada \citep{mousavi2019stead, wiemer2000mc, mignan2012mc}.
+
+  \item \textbf{Implementar la fase de detección y \textit{picking} de fases P/S} mediante las arquitecturas preentrenadas \emph{PhaseNet} \citep{zhu2018phasenet} y \emph{EQTransformer} \citep{mousavi2020eqtransformer}, evaluando su desempeño sobre subconjuntos de \gls{stead} con métricas de tolerancia diferenciadas por fase.
+
+  \item \textbf{Modelar la dimensión temporal de la sismicidad} mediante una \gls{tcn} \citep{bai2018tcn} entrenada sobre \textit{features} globales del catálogo USGS, con el target definido sobre \emph{mainshocks declustered} (\gls{gk}) y comparación cuantitativa frente a \textit{baselines} clásicos (predicción estática y regresión logística aplicada a datos agregados).
+
+  \item \textbf{Modelar la dimensión espacial de la sismicidad} mediante una \gls{gnn} \citep{kipf2017gcn, scarselli2009gnn} sobre una discretización en celdas activas de $0.5^{\circ} \times 0.5^{\circ}$ con un grafo de vecindades de Haversine. El diseño experimental contrasta deliberadamente la \gls{tcn} global (sin dimensión espacial) contra la GNN espacial, para analizar cómo influye la información espacial en el pronóstico de sismicidad.
+
+  \item \textbf{Incorporar atención geoespacial} mediante un \emph{Transformer} con codificación de coordenadas \citep{vaswani2017attention} como segunda arquitectura espacial, sirviendo a su vez de \emph{ablation study} de la GNN.
+
+  \item \textbf{Cuantificar la incertidumbre} de las predicciones mediante un Proceso Gaussiano (\gls{gp}) \citep{rasmussen2006gp} con un \textit{kernel} específico para datos sísmicos, generando finalmente mapas espacio-temporales de probabilidad de riesgo a corto plazo (ventana de \(30\) días) en cumplimiento del objetivo 3 del \textit{Sendai Framework} de la \gls{onu} \citep{un2015sendai}.
+
+\end{enumerate}
+
+\section{Resultados esperados}
+\label{resultados-esperados}
+
+Para cada objetivo parcial se espera obtener un resultado concreto y medible:
+
+\begin{itemize}
+  \item Un catálogo de eventos sísmicos estructurado y fácil de replicar para la región de estudio, al que se le habrá aplicado un filtrado de réplicas (\textit{declustering}) y una clasificación clara de las variables espacio-temporales.
+  \item Los modelos entrenados con sus correspondientes puntos de control (\textit{checkpoints}), acompañados de métricas de rendimiento detalladas (como medias, desviaciones típicas e intervalos de confianza al 95\%) y pruebas estadísticas para compararlos con los modelos de referencia (\textit{baselines}).
+  \item Una serie de gráficos y representaciones visuales en alta resolución (como curvas ROC --\textit{Receiver Operating Characteristic}--, curvas de entrenamiento y mapas de probabilidad) que ayuden a explicar y validar el comportamiento del sistema.
+  \item La memoria final del Trabajo Fin de Máster (TFM), redactada de manera clara y ordenada, que sirva como documento académico completo del proyecto.
+\end{itemize}

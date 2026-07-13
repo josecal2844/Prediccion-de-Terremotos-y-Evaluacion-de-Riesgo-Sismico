@@ -1,0 +1,546 @@
+\begin{thebibliography}{76}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{United Nations}(2015)]{un2015sendai}
+{United Nations}.
+\newblock Sendai {F}ramework for {D}isaster {R}isk {R}eduction 2015--2030.
+\newblock Adopted at the {T}hird {UN} {W}orld {C}onference, {S}endai, {J}apan,
+  2015.
+\newblock URL
+  \url{https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030}.
+
+\bibitem[Geller(1997)]{geller1997unpredictable}
+Robert~J. Geller.
+\newblock Earthquakes cannot be predicted.
+\newblock \emph{Science}, 275\penalty0 (5306):\penalty0 1616, 1997.
+
+\bibitem[Jordan et~al.(2011)Jordan, Chen, Gasparini, Madariaga, Main,
+  Marzocchi, Papadopoulos, Sobolev, Yamaoka, and Zschau]{jordan2011oef}
+Thomas~H. Jordan, Yun-Tai Chen, Paolo Gasparini, Ra{\'u}l Madariaga, Ian Main,
+  Warner Marzocchi, Gerassimos Papadopoulos, Gennady Sobolev, Koshun Yamaoka,
+  and Jochen Zschau.
+\newblock Operational earthquake forecasting: state of knowledge and guidelines
+  for utilization.
+\newblock \emph{Annals of Geophysics}, 54\penalty0 (4):\penalty0 315--391,
+  2011.
+
+\bibitem[Marzocchi et~al.(2014)Marzocchi, Lombardi, and
+  Casarotti]{marzocchi2014oef}
+Warner Marzocchi, Anna~Maria Lombardi, and Emanuele Casarotti.
+\newblock The establishment of an operational earthquake forecasting system in
+  {I}taly.
+\newblock \emph{Seismological Research Letters}, 85\penalty0 (5):\penalty0
+  961--969, 2014.
+
+\bibitem[Field et~al.(2014)Field, Biasi, Bird, Dawson, Felzer, Jackson,
+  Johnson, Jordan, Madden, Michael, Milner, Page, Parsons, Powers, Shaw,
+  Thatcher, Weldon, and Zeng]{field2014ucerf3}
+Edward~H. Field, Glenn~P. Biasi, Peter Bird, Timothy~E. Dawson, Karen~R.
+  Felzer, David~D. Jackson, Kaj~M. Johnson, Thomas~H. Jordan, Christopher
+  Madden, Andrew~J. Michael, Kevin~R. Milner, Morgan~T. Page, Tom Parsons,
+  Peter~M. Powers, Bruce~E. Shaw, Wayne~R. Thatcher, Ray~J. Weldon, and Yuehua
+  Zeng.
+\newblock Uniform {C}alifornia earthquake rupture forecast, version 3
+  ({UCERF3})—{T}he time-independent model.
+\newblock \emph{Bulletin of the Seismological Society of America}, 104\penalty0
+  (3):\penalty0 1122--1180, 2014.
+
+\bibitem[Field et~al.(2017)Field, Milner, Hardebeck, Page, van~der Elst,
+  Jordan, Michael, Shaw, and Werner]{field2017ucerf3etas}
+Edward~H. Field, Kevin~R. Milner, Jeanne~L. Hardebeck, Morgan~T. Page, Nicholas
+  van~der Elst, Thomas~H. Jordan, Andrew~J. Michael, Bruce~E. Shaw, and
+  Maximilian~J. Werner.
+\newblock A spatiotemporal clustering model for the third {U}niform
+  {C}alifornia {E}arthquake {R}upture {F}orecast ({UCERF3-ETAS}).
+\newblock \emph{Bulletin of the Seismological Society of America}, 107\penalty0
+  (3):\penalty0 1049--1081, 2017.
+
+\bibitem[Wald et~al.(1999)Wald, Quitoriano, Heaton, Kanamori, Scrivner, and
+  Worden]{wald1999shakemap}
+David~J. Wald, Vincent Quitoriano, Thomas~H. Heaton, Hiroo Kanamori, Craig~W.
+  Scrivner, and C.~Bruce Worden.
+\newblock {TriNet} ``{ShakeMaps}'': rapid generation of peak ground motion and
+  intensity maps for earthquakes in {S}outhern {C}alifornia.
+\newblock \emph{Earthquake Spectra}, 15\penalty0 (3):\penalty0 537--555, 1999.
+
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{lecun2015deep}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock Deep learning.
+\newblock \emph{Nature}, 521\penalty0 (7553):\penalty0 436--444, 2015.
+
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
+  Courville]{goodfellow2016deep}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock \emph{Deep Learning}.
+\newblock MIT Press, 2016.
+
+\bibitem[Bergen et~al.(2019)Bergen, Johnson, de~Hoop, and
+  Beroza]{bergen2019sciencedata}
+Karianne~J. Bergen, Paul~A. Johnson, Maarten~V. de~Hoop, and Gregory~C. Beroza.
+\newblock Machine learning for data-driven discovery in solid {E}arth
+  geoscience.
+\newblock \emph{Science}, 363\penalty0 (6433):\penalty0 eaau0323, 2019.
+
+\bibitem[Reichstein et~al.(2019)Reichstein, Camps-Valls, Stevens, Jung,
+  Denzler, Carvalhais, and Prabhat]{reichstein2019deep}
+Markus Reichstein, Gustau Camps-Valls, Bjorn Stevens, Martin Jung, Joachim
+  Denzler, Nuno Carvalhais, and Prabhat.
+\newblock Deep learning and process understanding for data-driven {E}arth
+  system science.
+\newblock \emph{Nature}, 566\penalty0 (7743):\penalty0 195--204, 2019.
+
+\bibitem[Kong et~al.(2019)Kong, Trugman, Ross, Bianco, Meade, and
+  Gerstoft]{kong2019mlseismology}
+Qingkai Kong, Daniel~T. Trugman, Zachary~E. Ross, Michael~J. Bianco, Brendan~J.
+  Meade, and Peter Gerstoft.
+\newblock Machine learning in seismology: turning data into insights.
+\newblock \emph{Seismological Research Letters}, 90\penalty0 (1):\penalty0
+  3--14, 2019.
+
+\bibitem[Beroza et~al.(2021)Beroza, Segou, and Mousavi]{beroza2021dlreview}
+Gregory~C. Beroza, Margarita Segou, and S.~Mostafa Mousavi.
+\newblock Machine learning and earthquake forecasting—next steps.
+\newblock \emph{Nature Communications}, 12\penalty0 (1):\penalty0 4761, 2021.
+
+\bibitem[Mousavi and Beroza(2023)]{mousavi2023review}
+S.~Mostafa Mousavi and Gregory~C. Beroza.
+\newblock Machine learning in earthquake seismology.
+\newblock \emph{Annual Review of Earth and Planetary Sciences}, 51:\penalty0
+  105--129, 2023.
+
+\bibitem[Zhu and Beroza(2018)]{zhu2018phasenet}
+Weiqiang Zhu and Gregory~C. Beroza.
+\newblock {PhaseNet}: a deep-neural-network-based seismic arrival-time picking
+  method.
+\newblock \emph{Geophysical Journal International}, 216\penalty0 (1):\penalty0
+  261--273, 2018.
+
+\bibitem[Mousavi et~al.(2020)Mousavi, Ellsworth, Zhu, Chuang, and
+  Beroza]{mousavi2020eqtransformer}
+S.~Mostafa Mousavi, William~L. Ellsworth, Weiqiang Zhu, Lindsay~Y. Chuang, and
+  Gregory~C. Beroza.
+\newblock Earthquake transformer—an attentive deep-learning model for
+  simultaneous earthquake detection and phase picking.
+\newblock \emph{Nature Communications}, 11\penalty0 (1):\penalty0 3952, 2020.
+
+\bibitem[Ross et~al.(2018)Ross, Meier, Hauksson, and
+  Heaton]{ross2018generalized}
+Zachary~E. Ross, Men-Andrin Meier, Egill Hauksson, and Thomas~H. Heaton.
+\newblock Generalized seismic phase detection with deep learning.
+\newblock \emph{Bulletin of the Seismological Society of America}, 108\penalty0
+  (5A):\penalty0 2894--2901, 2018.
+
+\bibitem[Perol et~al.(2018)Perol, Gharbi, and Denolle]{perol2018convnetquake}
+Thibaut Perol, Micha{\"e}l Gharbi, and Marine Denolle.
+\newblock Convolutional neural network for earthquake detection and location.
+\newblock \emph{Science Advances}, 4\penalty0 (2):\penalty0 e1700578, 2018.
+
+\bibitem[Mousavi et~al.(2019{\natexlab{a}})Mousavi, Sheng, Zhu, and
+  Beroza]{mousavi2019stead}
+S.~Mostafa Mousavi, Yixiao Sheng, Weiqiang Zhu, and Gregory~C. Beroza.
+\newblock {STanford EArthquake Dataset (STEAD)}: a global data set of seismic
+  signals for {AI}.
+\newblock \emph{IEEE Access}, 7:\penalty0 179464--179476, 2019{\natexlab{a}}.
+
+\bibitem[Woollam et~al.(2022)Woollam, M{\"u}nchmeyer, Tilmann, Rietbrock,
+  Lange, Bornstein, Diehl, Giunchi, Haslinger, Jozinovi{\'c}, Michelini, Saul,
+  and Soto]{woollam2022seisbench}
+Jack Woollam, Jannes M{\"u}nchmeyer, Frederik Tilmann, Andreas Rietbrock,
+  Dietrich Lange, Thomas Bornstein, Tobias Diehl, Carlo Giunchi, Florian
+  Haslinger, Dario Jozinovi{\'c}, Alberto Michelini, Joachim Saul, and Hugo
+  Soto.
+\newblock {SeisBench}—a toolbox for machine learning in seismology.
+\newblock \emph{Seismological Research Letters}, 93\penalty0 (3):\penalty0
+  1695--1709, 2022.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, Desmaison, K{\"o}pf, Yang, DeVito, Raison,
+  Tejani, Chilamkurthy, Steiner, Fang, Bai, and Chintala]{paszke2019pytorch}
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+  Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban
+  Desmaison, Andreas K{\"o}pf, Edward Yang, Zachary DeVito, Martin Raison,
+  Alykhan Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu~Fang, Junjie Bai, and
+  Soumith Chintala.
+\newblock {P}y{T}orch: an imperative style, high-performance deep learning
+  library.
+\newblock In \emph{Advances in Neural Information Processing Systems 32
+  (NeurIPS)}, pages 8024--8035, 2019.
+
+\bibitem[Fey and Lenssen(2019)]{fey2019pyg}
+Matthias Fey and Jan~Eric Lenssen.
+\newblock Fast graph representation learning with {P}y{T}orch {G}eometric.
+\newblock In \emph{ICLR Workshop on Representation Learning on Graphs and
+  Manifolds}, 2019.
+
+\bibitem[Ogata(1988)]{ogata1988etas}
+Yosihiko Ogata.
+\newblock Statistical models for earthquake occurrences and residual analysis
+  for point processes.
+\newblock \emph{Journal of the American Statistical Association}, 83\penalty0
+  (401):\penalty0 9--27, 1988.
+
+\bibitem[Ogata(1998)]{ogata1998spacetime}
+Yosihiko Ogata.
+\newblock Space-time point-process models for earthquake occurrences.
+\newblock \emph{Annals of the Institute of Statistical Mathematics},
+  50\penalty0 (2):\penalty0 379--402, 1998.
+
+\bibitem[Gutenberg and Richter(1944)]{gutenberg1944frequency}
+Beno Gutenberg and Charles~F. Richter.
+\newblock Frequency of earthquakes in {C}alifornia.
+\newblock \emph{Bulletin of the Seismological Society of America}, 34\penalty0
+  (4):\penalty0 185--188, 1944.
+
+\bibitem[Omori(1894)]{omori1894aftershocks}
+Fusakichi Omori.
+\newblock On the after-shocks of earthquakes.
+\newblock \emph{Journal of the College of Science, Imperial University of
+  Tokyo}, 7:\penalty0 111--200, 1894.
+
+\bibitem[Utsu(1961)]{utsu1961statistical}
+Tokuji Utsu.
+\newblock A statistical study on the occurrence of aftershocks.
+\newblock \emph{Geophysical Magazine}, 30:\penalty0 521--605, 1961.
+
+\bibitem[Hauksson et~al.(2012)Hauksson, Yang, and
+  Shearer]{hauksson2012relocated}
+Egill Hauksson, Wenzheng Yang, and Peter~M. Shearer.
+\newblock Waveform relocated earthquake catalog for {S}outhern {C}alifornia
+  (1981 to {J}une 2011).
+\newblock \emph{Bulletin of the Seismological Society of America}, 102\penalty0
+  (5):\penalty0 2239--2244, 2012.
+
+\bibitem[Waldhauser and Schaff(2008)]{waldhauser2008doubledifference}
+Felix Waldhauser and David~P. Schaff.
+\newblock Large-scale relocation of two decades of {N}orthern {C}alifornia
+  seismicity using cross-correlation and double-difference methods.
+\newblock \emph{Journal of Geophysical Research}, 113\penalty0 (B8):\penalty0
+  B08311, 2008.
+
+\bibitem[Scarselli et~al.(2009)Scarselli, Gori, Tsoi, Hagenbuchner, and
+  Monfardini]{scarselli2009gnn}
+Franco Scarselli, Marco Gori, Ah~Chung Tsoi, Markus Hagenbuchner, and Gabriele
+  Monfardini.
+\newblock The graph neural network model.
+\newblock \emph{IEEE Transactions on Neural Networks}, 20\penalty0
+  (1):\penalty0 61--80, 2009.
+
+\bibitem[Kipf and Welling(2017)]{kipf2017gcn}
+Thomas~N. Kipf and Max Welling.
+\newblock Semi-supervised classification with graph convolutional networks.
+\newblock In \emph{Proceedings of the 5th International Conference on Learning
+  Representations (ICLR)}, 2017.
+
+\bibitem[DeVries et~al.(2018)DeVries, Vi{\'e}gas, Wattenberg, and
+  Meade]{devries2018aftershocks}
+Phoebe M.~R. DeVries, Fernanda Vi{\'e}gas, Martin Wattenberg, and Brendan~J.
+  Meade.
+\newblock Deep learning of aftershock patterns following large earthquakes.
+\newblock \emph{Nature}, 560\penalty0 (7720):\penalty0 632--634, 2018.
+
+\bibitem[Rouet-Leduc et~al.(2017)Rouet-Leduc, Hulbert, Lubbers, Barros,
+  Humphreys, and Johnson]{rouetleroy2017slowslip}
+Bertrand Rouet-Leduc, Claudia Hulbert, Nicholas Lubbers, Kipton Barros,
+  Colin~J. Humphreys, and Paul~A. Johnson.
+\newblock Machine learning predicts laboratory earthquakes.
+\newblock \emph{Geophysical Research Letters}, 44\penalty0 (18):\penalty0
+  9276--9282, 2017.
+
+\bibitem[Dascher-Cousineau et~al.(2023)Dascher-Cousineau, Shchur, Brodsky, and
+  G{\"u}nnemann]{vandenende2024forecasting}
+Kelian Dascher-Cousineau, Oleksandr Shchur, Emily~E. Brodsky, and Stephan
+  G{\"u}nnemann.
+\newblock Using deep learning for flexible and scalable earthquake forecasting.
+\newblock \emph{Geophysical Research Letters}, 50\penalty0 (17):\penalty0
+  e2023GL103909, 2023.
+
+\bibitem[Gal and Ghahramani(2016)]{gal2016mcdropout}
+Yarin Gal and Zoubin Ghahramani.
+\newblock Dropout as a {B}ayesian approximation: representing model uncertainty
+  in deep learning.
+\newblock In \emph{Proceedings of the 33rd International Conference on Machine
+  Learning (ICML)}, pages 1050--1059, 2016.
+
+\bibitem[Rasmussen and Williams(2006)]{rasmussen2006gp}
+Carl~Edward Rasmussen and Christopher K.~I. Williams.
+\newblock \emph{{G}aussian {P}rocesses for {M}achine {L}earning}.
+\newblock MIT Press, 2006.
+
+\bibitem[Gardner and Knopoff(1974)]{gardner1974poissonian}
+J.~K. Gardner and L.~Knopoff.
+\newblock Is the sequence of earthquakes in {S}outhern {C}alifornia, with
+  aftershocks removed, {P}oissonian?
+\newblock \emph{Bulletin of the Seismological Society of America}, 64\penalty0
+  (5):\penalty0 1363--1367, 1974.
+
+\bibitem[van Stiphout et~al.(2012)van Stiphout, Zhuang, and
+  Marsan]{vanstiphout2012declustering}
+Thomas van Stiphout, Jiancang Zhuang, and David Marsan.
+\newblock Seismicity declustering.
+\newblock \emph{Community Online Resource for Statistical Seismicity Analysis
+  (CORSSA)}, pages 1--25, 2012.
+\newblock \doi{10.5078/corssa-52382934}.
+
+\bibitem[Wiemer and Wyss(2000)]{wiemer2000mc}
+Stefan Wiemer and Max Wyss.
+\newblock Minimum magnitude of completeness in earthquake catalogs: examples
+  from {A}laska, the {W}estern {US}, and {J}apan.
+\newblock \emph{Bulletin of the Seismological Society of America}, 90\penalty0
+  (4):\penalty0 859--869, 2000.
+
+\bibitem[Mignan and Woessner(2012)]{mignan2012mc}
+Arnaud Mignan and Jochen Woessner.
+\newblock Estimating the magnitude of completeness for earthquake catalogues.
+\newblock \emph{Community Online Resource for Statistical Seismicity Analysis
+  (CORSSA)}, pages 1--45, 2012.
+\newblock \doi{10.5078/corssa-00180805}.
+
+\bibitem[Bai et~al.(2018)Bai, Kolter, and Koltun]{bai2018tcn}
+Shaojie Bai, J.~Zico Kolter, and Vladlen Koltun.
+\newblock An empirical evaluation of generic convolutional and recurrent
+  networks for sequence modeling.
+\newblock \emph{arXiv preprint arXiv:1803.01271}, 2018.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Advances in Neural Information Processing Systems 30
+  (NeurIPS)}, pages 5998--6008, 2017.
+
+\bibitem[Stein and Wysession(2003)]{stein2003introduction}
+Seth Stein and Michael Wysession.
+\newblock \emph{An Introduction to Seismology, Earthquakes, and Earth
+  Structure}.
+\newblock Blackwell Publishing, 2003.
+
+\bibitem[Bormann(2012)]{bormann2012nmsop}
+Peter Bormann, editor.
+\newblock \emph{New Manual of Seismological Observatory Practice 2
+  ({NMSOP-2})}.
+\newblock Deutsches GeoForschungsZentrum (GFZ), Potsdam, 2012.
+\newblock \doi{10.2312/GFZ.NMSOP-2}.
+
+\bibitem[Bormann and Di~Giacomo(2011)]{bormann2011mw}
+Peter Bormann and Domenico Di~Giacomo.
+\newblock The moment magnitude $m_w$ and the energy magnitude $m_e$: common
+  roots and differences.
+\newblock \emph{Journal of Seismology}, 15\penalty0 (2):\penalty0 411--427,
+  2011.
+
+\bibitem[Hanks and Kanamori(1979)]{hanks1979moment}
+Thomas~C. Hanks and Hiroo Kanamori.
+\newblock A moment magnitude scale.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 84\penalty0
+  (B5):\penalty0 2348--2350, 1979.
+
+\bibitem[Gutenberg and Richter(1956)]{gutenberg1956energy}
+Beno Gutenberg and Charles~F. Richter.
+\newblock Earthquake magnitude, intensity, energy, and acceleration (second
+  paper).
+\newblock \emph{Bulletin of the Seismological Society of America}, 46\penalty0
+  (2):\penalty0 105--145, 1956.
+
+\bibitem[Kanamori(1977)]{kanamori1977energy}
+Hiroo Kanamori.
+\newblock The energy release in great earthquakes.
+\newblock \emph{Journal of Geophysical Research}, 82\penalty0 (20):\penalty0
+  2981--2987, 1977.
+
+\bibitem[Shearer(2009)]{shearer2009introduction}
+Peter~M. Shearer.
+\newblock \emph{Introduction to Seismology}.
+\newblock Cambridge University Press, Cambridge, 2nd edition, 2009.
+
+\bibitem[{IRIS Consortium}(2010)]{iris2010seismology}
+{IRIS Consortium}.
+\newblock Exploring the {E}arth using seismology.
+\newblock Education and Outreach Series No.~5, in cooperation with the {U.S.}
+  Geological Survey and {P}urdue {U}niversity, 2010.
+\newblock URL \url{https://www.iris.edu/hq/inclass/}.
+
+\bibitem[Frohlich and Davis(1993)]{frohlich1993bvalues}
+Cliff Frohlich and Scott~D. Davis.
+\newblock Teleseismic $b$ values; or, much ado about 1.0.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 98\penalty0
+  (B1):\penalty0 631--644, 1993.
+\newblock \doi{10.1029/92JB01891}.
+
+\bibitem[Schorlemmer and Wiemer(2005)]{schorlemmer2005bvalue}
+Danijel Schorlemmer and Stefan Wiemer.
+\newblock Earthquake statistics at {P}arkfield: 1. {S}tationarity of $b$
+  values.
+\newblock \emph{Journal of Geophysical Research}, 110\penalty0 (B12):\penalty0
+  B12309, 2005.
+
+\bibitem[Aki(1965)]{aki1965bvalue}
+Keiiti Aki.
+\newblock Maximum likelihood estimate of $b$ in the formula $\log n = a - bm$
+  and its confidence limits.
+\newblock \emph{Bulletin of the Earthquake Research Institute, University of
+  Tokyo}, 43:\penalty0 237--239, 1965.
+
+\bibitem[Wiemer and Wyss(2002)]{wiemer2002mapping}
+Stefan Wiemer and Max Wyss.
+\newblock Mapping spatial variability of the frequency-magnitude distribution
+  of earthquakes.
+\newblock \emph{Advances in Geophysics}, 45:\penalty0 259--302, 2002.
+\newblock \doi{10.1016/S0065-2687(02)80007-3}.
+
+\bibitem[Woessner and Wiemer(2005)]{woessner2005assessing}
+Jochen Woessner and Stefan Wiemer.
+\newblock Assessing the quality of earthquake catalogues: estimating the
+  magnitude of completeness and its uncertainty.
+\newblock \emph{Bulletin of the Seismological Society of America}, 95\penalty0
+  (2):\penalty0 684--698, 2005.
+\newblock \doi{10.1785/0120040007}.
+
+\bibitem[Reasenberg(1985)]{reasenberg1985declustering}
+Paul Reasenberg.
+\newblock Second-order moment of central {C}alifornia seismicity, 1969--1982.
+\newblock \emph{Journal of Geophysical Research}, 90\penalty0 (B7):\penalty0
+  5479--5495, 1985.
+
+\bibitem[Field and Milner(2015)]{field2015ucerf3factsheet}
+Edward~H. Field and Kevin~R. Milner.
+\newblock {UCERF3}: A new earthquake forecast for {C}alifornia's complex fault
+  system.
+\newblock Fact Sheet 2015-3009, U.S. Geological Survey, 2015.
+
+\bibitem[{Wikipedia contributors}(2026)]{wikipediaucerf3}
+{Wikipedia contributors}.
+\newblock {UCERF3}.
+\newblock Wikipedia, The Free Encyclopedia, 2026.
+\newblock URL \url{https://en.wikipedia.org/wiki/UCERF3}.
+
+\bibitem[Kingma and Ba(2015)]{kingma2015adam}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock {A}dam: a method for stochastic optimization.
+\newblock In \emph{Proceedings of the 3rd International Conference on Learning
+  Representations (ICLR)}, 2015.
+
+\bibitem[He and Garcia(2009)]{he2009imbalanced}
+Haibo He and Edwardo~A. Garcia.
+\newblock Learning from imbalanced data.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering},
+  21\penalty0 (9):\penalty0 1263--1284, 2009.
+
+\bibitem[Lin et~al.(2017)Lin, Goyal, Girshick, He, and
+  Doll{\'a}r]{lin2017focal}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Doll{\'a}r.
+\newblock Focal loss for dense object detection.
+\newblock In \emph{Proceedings of the IEEE International Conference on Computer
+  Vision (ICCV)}, pages 2980--2988, 2017.
+
+\bibitem[Hochreiter and Schmidhuber(1997)]{hochreiter1997lstm}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock \emph{Neural Computation}, 9\penalty0 (8):\penalty0 1735--1780, 1997.
+
+\bibitem[Veli{\v{c}}kovi{\'c} et~al.(2018)Veli{\v{c}}kovi{\'c}, Cucurull,
+  Casanova, Romero, Li{\`o}, and Bengio]{velickovic2018gat}
+Petar Veli{\v{c}}kovi{\'c}, Guillem Cucurull, Arantxa Casanova, Adriana Romero,
+  Pietro Li{\`o}, and Yoshua Bengio.
+\newblock Graph attention networks.
+\newblock In \emph{Proceedings of the 6th International Conference on Learning
+  Representations (ICLR)}, 2018.
+
+\bibitem[Cornell(1968)]{cornell1968engineering}
+C.~Allin Cornell.
+\newblock Engineering seismic risk analysis.
+\newblock \emph{Bulletin of the Seismological Society of America}, 58\penalty0
+  (5):\penalty0 1583--1606, 1968.
+
+\bibitem[McGuire(1995)]{mcguire1995probabilistic}
+Robin~K. McGuire.
+\newblock Probabilistic seismic hazard analysis and design earthquakes: closing
+  the loop.
+\newblock \emph{Bulletin of the Seismological Society of America}, 85\penalty0
+  (5):\penalty0 1275--1284, 1995.
+
+\bibitem[Platt(1999)]{platt1999probabilistic}
+John Platt.
+\newblock Probabilistic outputs for support vector machines and comparisons to
+  regularized likelihood methods.
+\newblock \emph{Advances in large margin classifiers}, 10\penalty0
+  (3):\penalty0 61--74, 1999.
+
+\bibitem[Mousavi et~al.(2019{\natexlab{b}})Mousavi, Zhu, Sheng, and
+  Beroza]{mousavi2019cred}
+S.~Mostafa Mousavi, Weiqiang Zhu, Yixiao Sheng, and Gregory~C. Beroza.
+\newblock {CRED}: a deep residual network of convolutional and recurrent units
+  for earthquake signal detection.
+\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 10267,
+  2019{\natexlab{b}}.
+
+\bibitem[McBrearty and Beroza(2023)]{mcbrearty2023gnn}
+Ian~W. McBrearty and Gregory~C. Beroza.
+\newblock Earthquake phase association with graph neural networks.
+\newblock \emph{Bulletin of the Seismological Society of America}, 113\penalty0
+  (2):\penalty0 524--547, 2023.
+
+\bibitem[van~den Ende and Ampuero(2020)]{vandenende2020tcnseismic}
+Martijn P.~A. van~den Ende and Jean-Paul Ampuero.
+\newblock Automated seismic source characterization using deep graph neural
+  networks.
+\newblock \emph{Geophysical Research Letters}, 47\penalty0 (17):\penalty0
+  e2020GL088690, 2020.
+
+\bibitem[Davis and Goadrich(2006)]{davis2006relationship}
+Jesse Davis and Mark Goadrich.
+\newblock The relationship between {P}recision-{R}ecall and {ROC} curves.
+\newblock In \emph{Proceedings of the 23rd International Conference on Machine
+  Learning (ICML)}, pages 233--240, 2006.
+\newblock \doi{10.1145/1143844.1143874}.
+
+\bibitem[Saito and Rehmsmeier(2015)]{saito2015precision}
+Takaya Saito and Marc Rehmsmeier.
+\newblock The precision-recall plot is more informative than the {ROC} plot
+  when evaluating binary classifiers on imbalanced datasets.
+\newblock \emph{PLOS ONE}, 10\penalty0 (3):\penalty0 e0118432, 2015.
+\newblock \doi{10.1371/journal.pone.0118432}.
+
+\bibitem[Molchan(1991)]{molchan1991structure}
+G.~M. Molchan.
+\newblock Structure of optimal strategies in earthquake prediction.
+\newblock \emph{Tectonophysics}, 193\penalty0 (4):\penalty0 267--276, 1991.
+\newblock \doi{10.1016/0040-1951(91)90336-Q}.
+
+\bibitem[Zechar and Jordan(2008)]{zechar2008testing}
+J.~Douglas Zechar and Thomas~H. Jordan.
+\newblock Testing alarm-based earthquake predictions.
+\newblock \emph{Geophysical Journal International}, 172\penalty0 (2):\penalty0
+  715--724, 2008.
+\newblock \doi{10.1111/j.1365-246X.2007.03676.x}.
+
+\bibitem[Helmstetter et~al.(2006)Helmstetter, Kagan, and
+  Jackson]{helmstetter2006comparison}
+Agn{\`e}s Helmstetter, Yan~Y. Kagan, and David~D. Jackson.
+\newblock Comparison of short-term and time-independent earthquake forecast
+  models for southern california.
+\newblock \emph{Bulletin of the Seismological Society of America}, 96\penalty0
+  (1):\penalty0 90--106, 2006.
+
+\bibitem[Mignan and Broccardo(2019)]{mignan2019oneneuron}
+Arnaud Mignan and Marco Broccardo.
+\newblock One neuron versus deep learning in aftershock prediction.
+\newblock \emph{Nature}, 574\penalty0 (7776):\penalty0 E1--E3, 2019.
+
+\bibitem[M{\"u}nchmeyer et~al.(2022)M{\"u}nchmeyer, Woollam, Rietbrock,
+  Tilmann, Lange, Bornstein, Diehl, Giunchi, Haslinger, Jozinovi{\'c},
+  Michelini, Saul, and Soto]{munchmeyer2022picker}
+Jannes M{\"u}nchmeyer, Jack Woollam, Andreas Rietbrock, Frederik Tilmann,
+  Dietrich Lange, Thomas Bornstein, Tobias Diehl, Carlo Giunchi, Florian
+  Haslinger, Dario Jozinovi{\'c}, Alberto Michelini, Joachim Saul, and Hugo
+  Soto.
+\newblock Which picker fits my data? a quantitative evaluation of deep learning
+  based seismic pickers.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 127\penalty0
+  (1):\penalty0 e2021JB023499, 2022.
+
+\end{thebibliography}

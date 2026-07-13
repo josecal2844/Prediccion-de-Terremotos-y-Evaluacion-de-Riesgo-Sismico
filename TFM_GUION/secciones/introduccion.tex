@@ -1,0 +1,119 @@
+% =============================================================================
+%                              INTRODUCCIÓN
+% =============================================================================
+
+\cleardoublepage
+
+\chapter{Introducción}
+\label{introduccion}
+
+\section{Contexto y motivación}
+\label{contexto-motivacion}
+
+Los terremotos se encuentran entre los desastres naturales con mayor capacidad de causar pérdidas humanas y económicas a escala mundial. Solo durante el siglo XX, distintos eventos sísmicos catastróficos --como el de Tangshan (1976), Sumatra (2004), Haití (2010) o Tōhoku (2011)-- provocaron en conjunto más de un millón de víctimas mortales y daños directos valorados en cientos de miles de millones de dólares \citep{un2015sendai}. La distribución temporal de estos eventos es muy irregular: a largos períodos de calma les suceden episodios de gran actividad, sin que exista a día de hoy un método científicamente validado capaz de anticipar con exactitud el lugar, momento y magnitud de un terremoto destructivo \citep{geller1997unpredictable, jordan2011oef}.
+
+Frente a esta limitación fundamental, la comunidad sismológica ha desplazado progresivamente su objeto de estudio desde la \emph{predicción determinista} hacia el \emph{pronóstico probabilístico} y la \emph{alerta temprana}. El primero estima distribuciones de probabilidad de ocurrencia condicionadas a la sismicidad reciente; el segundo busca detectar lo antes posible un evento que ya ha ocurrido para emitir avisos antes de que las ondas destructivas alcancen áreas pobladas. Ambos enfoques han mostrado avances importantes en las últimas dos décadas: el sistema \textit{Operational Earthquake Forecasting} (OEF) institucionalizado por el INGV italiano \citep{marzocchi2014oef}, el modelo \textit{Uniform California Earthquake Rupture Forecast} (UCERF3) del U.S. Geological Survey \citep{field2014ucerf3, field2017ucerf3etas} o el sistema operativo \textit{ShakeMap} \citep{wald1999shakemap} son ejemplos representativos.
+
+Al mismo tiempo, en los últimos años ha habido una gran revolución metodológica en áreas que tradicionalmente dependían de modelos paramétricos: el aprendizaje profundo \citep{lecun2015deep, goodfellow2016deep}. Su capacidad para extraer representaciones jerárquicas de datos masivos sin necesidad de un diseño manual de \textit{features} ha hecho que entre con fuerza en geociencias \citep{bergen2019sciencedata, reichstein2019deep} y, en particular, en sismología \citep{kong2019mlseismology, beroza2021dlreview, mousavi2023review}. Tareas como la detección de eventos, el \textit{picking} automático de fases o la clasificación de señales sísmicas, antes apoyadas en heurísticas como STA/LTA o cross-correlation, están siendo desplazadas por arquitecturas de tipo \textit{convolutional}, \textit{recurrent} o \textit{transformer} preentrenadas sobre grandes cantidades de datos globales \citep{zhu2018phasenet, mousavi2020eqtransformer, ross2018generalized, perol2018convnetquake}.
+
+\section{Relevancia del problema}
+\label{relevancia-problema}
+
+Hay tres razones principales que explican la necesidad de avanzar en el pronóstico de terremotos:
+
+\begin{itemize}
+  \item \textbf{Impacto humanitario.} El \textit{Sendai Framework for Disaster Risk Reduction 2015--2030} de Naciones Unidas \citep{un2015sendai} fija como meta la reducción sustancial de la mortalidad por desastres naturales para 2030. Los terremotos, aun siendo menos frecuentes que otros peligros (inundaciones, ciclones), generan en proporción un número elevado de víctimas debido a la imposibilidad actual de evacuar con antelación las zonas potencialmente afectadas.
+
+  \item \textbf{Impacto económico.} Los modelos de pérdidas esperadas integrados en la planificación urbana (códigos sísmicos, seguros catastróficos, infraestructura crítica) dependen de estimaciones de peligrosidad robustas. Un pronóstico probabilístico a corto plazo, aun con tasas realistas de acierto y falsas alarmas, mejora la asignación óptima de recursos de protección civil \citep{jordan2011oef, marzocchi2014oef}.
+
+  \item \textbf{Madurez tecnológica.} La disponibilidad de datasets masivos etiquetados \citep{mousavi2019stead}, catálogos históricos abiertos del USGS, infraestructuras de computación asequibles (unidades de procesamiento gráfico --GPU-- de gama de consumo, plataformas \textit{cloud}) y un ecosistema software específico para aprendizaje automático en sismología \citep{woollam2022seisbench, paszke2019pytorch, fey2019pyg} hace que el coste de entrada al problema sea hoy menor que nunca.
+\end{itemize}
+
+\section{Limitaciones de los enfoques tradicionales}
+\label{limitaciones-tradicionales}
+
+Las metodologías estadísticas clásicas --con la familia de modelos \emph{Epidemic-Type Aftershock Sequence} (ETAS) como máximo exponente \citep{ogata1988etas, ogata1998spacetime}-- describen la sismicidad como un proceso de puntos cuyos parámetros se ajustan empíricamente a partir de la ley de Gutenberg--Richter \citep{gutenberg1944frequency} y la ley de Omori--Utsu para la decadencia de réplicas \citep{omori1894aftershocks, utsu1961statistical}. Sus ventajas son notables: interpretabilidad, parámetros con significado físico, y la posibilidad de definir métricas de calibración bayesiana sobre sus salidas. Sin embargo, también tienen tres limitaciones fundamentales:
+
+\begin{enumerate}
+  \item \textbf{Forma funcional fija.} La interacción espacio-temporal está definida \textit{a priori} mediante kernels exponenciales o leyes de potencia, lo que restringe el descubrimiento de patrones no previstos en el diseño.
+
+  \item \textbf{Pobre uso del contenido de forma de onda.} ETAS y derivados consumen únicamente metadatos de catálogo (tiempo, latitud, longitud, magnitud), ignorando la información contenida en los sismogramas continuos \citep{beroza2021dlreview}.
+
+  \item \textbf{Dificultad para integrar fuentes heterogéneas.} Combinar catálogos relocalizados \citep{hauksson2012relocated, waldhauser2008doubledifference}, formas de onda etiquetadas \citep{mousavi2019stead}, e información geológica de fallas requiere soluciones hechas a medida en los métodos clásicos.
+\end{enumerate}
+
+\section{Oportunidad del aprendizaje profundo}
+\label{oportunidad-dl}
+
+El aprendizaje profundo ofrece, en principio, una vía para superar estas tres limitaciones:
+
+\begin{enumerate}
+  \item Sus representaciones jerárquicas aprenden formas funcionales arbitrarias a partir de los datos.
+
+  \item Sus arquitecturas convolucionales y recurrentes pueden procesar de forma natural series temporales largas, como las formas de onda sísmicas.
+
+  \item Los grafos heterogéneos permiten fusionar fuentes muy distintas en un único modelo \citep{scarselli2009gnn, kipf2017gcn}.
+\end{enumerate}
+
+Estudios recientes han demostrado la viabilidad empírica de este enfoque. \citet{devries2018aftershocks} mostraron en \textit{Nature} que una red densa entrenada con metadatos históricos mejora a los modelos clásicos en la predicción espacial de réplicas. \citet{rouetleroy2017slowslip} aplicaron \textit{Random Forests} sobre señales acústicas de laboratorio para anticipar deslizamientos en fallas controladas. PhaseNet \citep{zhu2018phasenet} y EQTransformer \citep{mousavi2020eqtransformer} han establecido el estado del arte en detección y \textit{picking} con saltos cualitativos sobre los métodos tradicionales. En el frente del pronóstico, \citet{vandenende2024forecasting} han mostrado recientemente la viabilidad de \textit{deep neural temporal point processes} en sustitución de ETAS.
+
+Sin embargo, dos retos clave siguen abiertos en la literatura científica actual: (i) la \emph{generalización espacial}, es decir, la capacidad de transferir un modelo entrenado en una región con características tectónicas y de red sismológica particulares (como California) a otras zonas geográficas con dinámicas de falla y densidades de estaciones distintas, superando la tendencia de las redes neuronales a sobreajustarse a la instrumentación local; y (ii) la \emph{cuantificación de incertidumbre} en las predicciones, un aspecto crítico para la toma de decisiones en protección civil. Debido a que las redes de aprendizaje profundo tienden a ser excesivamente confiadas en sus salidas erróneas, y dado que tanto un falso positivo (que genera fatiga por alarma y altos costes socioeconómicos de evacuación) como un falso negativo (con consecuencias catastróficas) conllevan un impacto severo, es indispensable dotar a los modelos de mecanismos bayesianos o probabilísticos para medir de manera fiable la confianza de cada predicción \citep{gal2016mcdropout, rasmussen2006gp, jordan2011oef}.
+
+\section{Aportación del trabajo}
+\label{aportacion}
+
+Este Trabajo de Fin de Máster (TFM) propone un \textbf{\textit{framework} unificado \textit{end-to-end}} que integra cinco familias de modelos de aprendizaje profundo en un único \emph{pipeline} científico reproducible:
+
+\begin{enumerate}[label=\destacado{\arabic*.}]
+  \setlength\itemsep{0.5em}
+  \item Detección y \textit{picking} automático de fases P/S mediante PhaseNet y EQTransformer preentrenados.
+  \item Modelado temporal de precursores con una \gls{tcn}.
+  \item Modelado espacial mediante una \gls{gnn} sobre una rejilla de celdas activas.
+  \item Atención geoespacial a través de un \textit{Transformer} con codificación de coordenadas.
+  \item Cuantificación de incertidumbre con un \gls{gp} bayesiano.
+\end{enumerate}
+
+Las contribuciones específicas del trabajo se pueden resumir en cuatro puntos:
+
+\begin{itemize}
+  \item \textbf{Comparación rigurosa con \textit{baselines}.} Toda predicción de los modelos profundos se contrasta frente a un modelo base sencillo y una regresión logística sobre \textit{features} agregadas, con tests estadísticos no paramétricos (Wilcoxon pareado, $t$-test de una muestra) en escenarios multi-semilla. Esto permite separar \emph{ganancia real} de \emph{ruido optimista de una sola ejecución}, un estándar metodológico cada vez más exigido en publicaciones Q1 \citep{beroza2021dlreview}.
+
+  \item \textbf{Aislamiento de mainshocks independientes.} El objetivo del pronóstico se define exclusivamente sobre \emph{mainshocks declustered} mediante el algoritmo Gardner--Knopoff \citep{gardner1974poissonian, vanstiphout2012declustering}, eliminando réplicas y \emph{foreshocks} dependientes que sesgarían artificialmente la métrica.
+
+  \item \textbf{Ablation espacial vs.\ temporal.} El diseño experimental contrasta deliberadamente la TCN global (sin dimensión espacial) contra la GNN espacial, lo que permite atribuir cualquier mejora observada a la incorporación de información espacial explícita.
+
+  \item \textbf{Reproducibilidad estricta.} Todo el código está publicado en un repositorio Git, todas las semillas están fijadas y todas las figuras se generan a 300 DPI (puntos por pulgada), en cumplimiento de las recomendaciones de transparencia experimental de este tipo de trabajos \citep{reichstein2019deep, bergen2019sciencedata}.
+
+\end{itemize}
+
+Para facilitar el seguimiento de las pruebas y de los resultados obtenidos, todo el proceso experimental ha sido registrado en un documento (\texttt{HISTORIAL\_TFM.md}) donde se documentan hipótesis fallidas y decisiones de diseño, permitiendo comparar cambios realizados y restaurar puntos de partida. Tanto este registro como todo el código del proyecto (\textit{notebooks} y módulos auxiliares) están disponibles en el repositorio público \url{https://github.com/josecal2844/Prediccion-de-Terremotos-y-Evaluacion-de-Riesgo-Sismico}.
+
+\section{Alcance y delimitaciones}
+\label{alcance}
+
+Conviene precisar tres delimitaciones del trabajo:
+
+\begin{itemize}
+  \item \textbf{No se trata de predicción determinista.} Coincidiendo con la postura mayoritaria de la comunidad sismológica \citep{geller1997unpredictable, jordan2011oef}, este trabajo no pretende anticipar tiempo, lugar y magnitud exactos de un terremoto futuro. La salida fundamental es una distribución de probabilidad sobre celdas espaciales y ventanas temporales (\(30\) días).
+
+  \item \textbf{Región principal:} El estudio se construye sobre dos zonas sísmicamente muy activas y bien instrumentadas de Estados Unidos: \textbf{California} (32 a 42$^{\circ}$N, $-124^{\circ}$ a $-114^{\circ}$W) y \textbf{Alaska} (51 a 72$^{\circ}$N, $-180^{\circ}$ a $-130^{\circ}$W), en el periodo 2000--2024. La elección de ambas responde a tres razones: (i) una magnitud de completitud baja y estable ($M_c \approx 2.5$) garantizada por redes sismológicas densas --SCSN (\textit{Southern California Seismic Network}) y NCSN (\textit{Northern California Seismic Network}) en California, y AEC (\textit{Alaska Earthquake Center}) en Alaska--; (ii) un acceso uniforme a ambos catálogos a través del web service FDSN (\textit{International Federation of Digital Seismograph Networks}) del USGS; y (iii) la abundancia de literatura de referencia para las dos zonas \citep{hauksson2012relocated, waldhauser2008doubledifference, field2014ucerf3}. Las dos regiones son, además, tectónicamente complementarias --California está dominada por el régimen transformante de la falla de San Andrés y Alaska por la subducción del arco de las Aleutianas--, lo que expone al sistema a dos dinámicas sísmicas muy distintas y refuerza la generalidad de las conclusiones. Otras regiones del mundo se emplean únicamente en inferencia, para evaluar la capacidad de transferencia del modelo (Capítulo~\ref{desarrollo-del-proyecto-y-resultados}).
+
+  \item \textbf{Umbral de magnitud: $M \geq 4.5$.} El target se fija en $M \geq 4.5$ por dos razones: (i) genera un volumen suficiente de mainshocks ($\sim 13$/año en California, $\sim 60$/año en California + Alaska) tras \emph{declustering}; (ii) es el umbral operativamente relevante en términos del \textit{Sendai Framework} \citep{un2015sendai}: eventos $M \geq 4.5$ son ya potencialmente dañinos en condiciones urbanas vulnerables.
+\end{itemize}
+
+\section{Estructura de la memoria}
+\label{estructura-memoria}
+
+Este TFM se organiza siguiendo el formato IMRaD (Introducción, Métodos, Resultados y Discusión) adaptado al estándar académico del Máster:
+
+\begin{itemize}
+  \item El \textbf{Capítulo \ref{objetivos}} formaliza el objetivo general del trabajo y los objetivos parciales que se pretenden conseguir.
+
+  \item El \textbf{Capítulo \ref{estado-del-arte-marco-teorico}} revisa el \emph{estado del arte} en pronóstico y predicción sísmica, dedicando secciones diferenciadas a los fundamentos sismológicos clásicos, a los modelos estadísticos de referencia (ETAS, UCERF3), y a las arquitecturas de aprendizaje profundo aplicadas al dominio. Incluye además el \emph{marco teórico} necesario para comprender las cinco familias de modelos integradas en el sistema propuesto.
+
+  \item El \textbf{Capítulo \ref{desarrollo-del-proyecto-y-resultados}} describe la \emph{metodología} aplicada, el \emph{planteamiento del problema} en términos formales, el \emph{desarrollo} de cada uno de los notebooks que constituyen el \emph{pipeline} experimental y, finalmente, los \emph{resultados} obtenidos junto con su valoración estadística.
+
+  \item El \textbf{Capítulo final} recoge las \emph{conclusiones}, las limitaciones del trabajo y un programa de \emph{trabajos futuros} orientado a su evolución hacia publicación científica.
+
+  \item Los \textbf{apéndices} contienen detalles técnicos de implementación, listados completos de hiperparámetros y tablas extendidas de resultados.
+\end{itemize}

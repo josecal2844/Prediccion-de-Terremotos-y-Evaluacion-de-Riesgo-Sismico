@@ -1,0 +1,1622 @@
+Rc files read (in order):
+  ./.latexmkrc
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex --shell-escape -interaction=nonstopmode -synctex=1 -file-line-error  -interaction=nonstopmode -recorder  "memoria.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ \write18 enabled.
+entering extended mode
+(memoria.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(class_diss.cls
+Document Class: class_diss 1999/09/10 v1.4a Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size11.clo))
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def)))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsxtra.sty)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\latexsym.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
+put line 265.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\MiKTeX\tex/latex/xcolor\svgnam.def)
+(C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty))
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)))
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.
+tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
+de.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
+tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
+cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
+ex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
+x)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
+.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
+x) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty))
+ (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty)
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xfor\xfor.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-base.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/tracklang\tracklang.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/tracklang\tracklang.tex))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-l3fp.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-utf8.ldf))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-hyp
+ernav.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-lis
+t.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-lon
+g.sty (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-sup
+er.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/supertabular\supertabular.sty)
+)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-tre
+e.sty)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\helvet.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxtext.sty
+`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def))
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/figureversions\figureversions.
+sty))) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (C:\Program Files\MiKTeX\tex/latex/oberdiek\centernot.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
+amsthm NOT loaded
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\bbold.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty)
+(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithmic.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/float\float.sty)
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty)
+(C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata
+.sty (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty)))
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+(C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\flafter.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.geometric.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geom
+etric.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.misc.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc
+.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.symbols.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symb
+ols.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.arrows.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arro
+ws.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.callouts.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.call
+outs.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryshapes.multipart.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.mult
+ipart.code.tex))) (secciones/glosario.tex)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypernat\hypernat.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/notoccite\notoccite.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.st
+y) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestrin
+g.sty (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty)
+)) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.
+sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.
+sty))) (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/hypcap\hypcap.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty))
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1phv.fd) (memoria.aux)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd)
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty)
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(secciones/portada.tex [1{C:/Users/josec/AppData/Local/MiKTeX/fonts/map/pdftex/
+pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./figuras/por
+tada.png>])
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 160.
+
+(secciones/frase-favorita.tex
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg)
+(C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd)
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd))
+(secciones/agradecimientos.tex [2 <./figuras/logo_viu.png>]) [3]
+No file memoria.toc.
+[4]
+No file memoria.lof.
+[5]
+No file memoria.lot.
+[6] (memoria.loa) [7] (secciones/resumen.tex) (secciones/abstract.tex [8{C:/Use
+rs/josec/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}])
+(secciones/introduccion.tex [9]
+Cap\'{\i }tulo 1.
+
+Package natbib Warning: Citation `un2015sendai' on page 10 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `geller1997unpredictable' on page 10 undefined
+ on input line 13.
+
+
+Package natbib Warning: Citation `jordan2011oef' on page 10 undefined on input 
+line 13.
+
+
+Package natbib Warning: Citation `marzocchi2014oef' on page 10 undefined on inp
+ut line 15.
+
+
+Package natbib Warning: Citation `field2014ucerf3' on page 10 undefined on inpu
+t line 15.
+
+
+Package natbib Warning: Citation `field2017ucerf3etas' on page 10 undefined on 
+input line 15.
+
+
+Package natbib Warning: Citation `wald1999shakemap' on page 10 undefined on inp
+ut line 15.
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 15--16
+[]\T1/phv/m/n/10.95 (+15) Frente a es-ta li-mi-ta-ción fun-da-men-tal, la co-mu
+-ni-dad sis-mo-ló-gi-ca ha des-pla-za-do
+
+Package natbib Warning: Citation `lecun2015deep' on page 10 undefined on input 
+line 17.
+
+
+Package natbib Warning: Citation `goodfellow2016deep' on page 10 undefined on i
+nput line 17.
+
+
+Package natbib Warning: Citation `bergen2019sciencedata' on page 10 undefined o
+n input line 17.
+
+
+Package natbib Warning: Citation `reichstein2019deep' on page 10 undefined on i
+nput line 17.
+
+
+Package natbib Warning: Citation `kong2019mlseismology' on page 10 undefined on
+ input line 17.
+
+
+Package natbib Warning: Citation `beroza2021dlreview' on page 10 undefined on i
+nput line 17.
+
+
+Package natbib Warning: Citation `mousavi2023review' on page 10 undefined on in
+put line 17.
+
+
+Package natbib Warning: Citation `zhu2018phasenet' on page 10 undefined on inpu
+t line 17.
+
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 10 undefine
+d on input line 17.
+
+
+Package natbib Warning: Citation `ross2018generalized' on page 10 undefined on 
+input line 17.
+
+
+Package natbib Warning: Citation `perol2018convnetquake' on page 10 undefined o
+n input line 17.
+
+[10]
+
+Package natbib Warning: Citation `un2015sendai' on page 11 undefined on input l
+ine 25.
+
+
+Package natbib Warning: Citation `jordan2011oef' on page 11 undefined on input 
+line 27.
+
+
+Package natbib Warning: Citation `marzocchi2014oef' on page 11 undefined on inp
+ut line 27.
+
+
+Package natbib Warning: Citation `mousavi2019stead' on page 11 undefined on inp
+ut line 29.
+
+
+Package natbib Warning: Citation `woollam2022seisbench' on page 11 undefined on
+ input line 29.
+
+
+Package natbib Warning: Citation `paszke2019pytorch' on page 11 undefined on in
+put line 29.
+
+
+Package natbib Warning: Citation `fey2019pyg' on page 11 undefined on input lin
+e 29.
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 29--30
+[]\T1/phv/b/n/10.95 (+15) Madurez tec-no-ló-gi-ca. \T1/phv/m/n/10.95 (+15) La d
+is-po-ni-bi-li-dad de da-ta-sets ma-si-vos eti-que-ta-dos [\T1/phv/b/n/10.95 (+
+15) ? \T1/phv/m/n/10.95 (+15) ],
+
+Package natbib Warning: Citation `ogata1988etas' on page 11 undefined on input 
+line 35.
+
+
+Package natbib Warning: Citation `ogata1998spacetime' on page 11 undefined on i
+nput line 35.
+
+
+Package natbib Warning: Citation `gutenberg1944frequency' on page 11 undefined 
+on input line 35.
+
+
+Package natbib Warning: Citation `omori1894aftershocks' on page 11 undefined on
+ input line 35.
+
+
+Package natbib Warning: Citation `utsu1961statistical' on page 11 undefined on 
+input line 35.
+
+
+Package natbib Warning: Citation `beroza2021dlreview' on page 11 undefined on i
+nput line 40.
+
+[11]
+
+Package natbib Warning: Citation `hauksson2012relocated' on page 12 undefined o
+n input line 42.
+
+
+Package natbib Warning: Citation `waldhauser2008doubledifference' on page 12 un
+defined on input line 42.
+
+
+Package natbib Warning: Citation `mousavi2019stead' on page 12 undefined on inp
+ut line 42.
+
+
+Package natbib Warning: Citation `scarselli2009gnn' on page 12 undefined on inp
+ut line 55.
+
+
+Package natbib Warning: Citation `kipf2017gcn' on page 12 undefined on input li
+ne 55.
+
+
+Package natbib Warning: Citation `devries2018aftershocks' on page 12 undefined 
+on input line 58.
+
+
+Package natbib Warning: Citation `rouetleroy2017slowslip' on page 12 undefined 
+on input line 58.
+
+
+Package natbib Warning: Citation `zhu2018phasenet' on page 12 undefined on inpu
+t line 58.
+
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 12 undefine
+d on input line 58.
+
+
+Package natbib Warning: Citation `vandenende2024forecasting' on page 12 undefin
+ed on input line 58.
+
+
+Package natbib Warning: Citation `gal2016mcdropout' on page 12 undefined on inp
+ut line 60.
+
+
+Package natbib Warning: Citation `rasmussen2006gp' on page 12 undefined on inpu
+t line 60.
+
+
+Package natbib Warning: Citation `jordan2011oef' on page 12 undefined on input 
+line 60.
+
+[12]
+
+Package natbib Warning: Citation `beroza2021dlreview' on page 13 undefined on i
+nput line 79.
+
+
+Package natbib Warning: Citation `gardner1974poissonian' on page 13 undefined o
+n input line 81.
+
+
+Package natbib Warning: Citation `vanstiphout2012declustering' on page 13 undef
+ined on input line 81.
+
+
+Package natbib Warning: Citation `reichstein2019deep' on page 13 undefined on i
+nput line 85.
+
+
+Package natbib Warning: Citation `bergen2019sciencedata' on page 13 undefined o
+n input line 85.
+
+[13] (C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/newtx\t1ntxtt.fd)
+
+Package natbib Warning: Citation `geller1997unpredictable' on page 14 undefined
+ on input line 97.
+
+
+Package natbib Warning: Citation `jordan2011oef' on page 14 undefined on input 
+line 97.
+
+
+Package natbib Warning: Citation `hauksson2012relocated' on page 14 undefined o
+n input line 99.
+
+
+Package natbib Warning: Citation `waldhauser2008doubledifference' on page 14 un
+defined on input line 99.
+
+
+Package natbib Warning: Citation `field2014ucerf3' on page 14 undefined on inpu
+t line 99.
+
+
+Package natbib Warning: Citation `un2015sendai' on page 14 undefined on input l
+ine 101.
+
+
+LaTeX Warning: Reference `objetivos' on page 14 undefined on input line 110.
+
+
+LaTeX Warning: Reference `estado-del-arte-marco-teorico' on page 14 undefined o
+n input line 112.
+
+[14]
+
+LaTeX Warning: Reference `desarrollo-del-proyecto-y-resultados' on page 15 unde
+fined on input line 114.
+
+) (secciones/objetivos.tex [15]
+Cap\'{\i }tulo 2.
+
+Package natbib Warning: Citation `mousavi2019stead' on page 16 undefined on inp
+ut line 24.
+
+
+Package natbib Warning: Citation `wiemer2000mc' on page 16 undefined on input l
+ine 24.
+
+
+Package natbib Warning: Citation `mignan2012mc' on page 16 undefined on input l
+ine 24.
+
+
+Package natbib Warning: Citation `zhu2018phasenet' on page 16 undefined on inpu
+t line 26.
+
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 16 undefine
+d on input line 26.
+
+
+Package natbib Warning: Citation `bai2018tcn' on page 16 undefined on input lin
+e 28.
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 28--29
+\T1/phv/m/sl/10.95 (+15) de-clus-te-red \T1/phv/m/n/10.95 (+15) ([]Al-go-rit-mo
+ de de-clus-te-ring de Gard-ner y Kno-poff (1974) (G-K)) y
+[16]
+
+Package natbib Warning: Citation `kipf2017gcn' on page 17 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `scarselli2009gnn' on page 17 undefined on inp
+ut line 30.
+
+
+Package natbib Warning: Citation `vaswani2017attention' on page 17 undefined on
+ input line 32.
+
+
+Package natbib Warning: Citation `rasmussen2006gp' on page 17 undefined on inpu
+t line 34.
+
+
+Package natbib Warning: Citation `un2015sendai' on page 17 undefined on input l
+ine 34.
+
+) (secciones/estado-del-arte.tex [17]
+Cap\'{\i }tulo 3.
+
+LaTeX Warning: Reference `fundamentos-sismologia' on page 18 undefined on input
+ line 10.
+
+
+LaTeX Warning: Reference `metodos-estadisticos-clasicos' on page 18 undefined o
+n input line 10.
+
+
+LaTeX Warning: Reference `dl-fundamentos' on page 18 undefined on input line 10
+.
+
+
+LaTeX Warning: Reference `dl-incertidumbre' on page 18 undefined on input line 
+10.
+
+
+LaTeX Warning: Reference `trabajos-relacionados' on page 18 undefined on input 
+line 10.
+
+
+Package natbib Warning: Citation `stein2003introduction' on page 18 undefined o
+n input line 18.
+
+
+Package natbib Warning: Citation `bormann2012nmsop' on page 18 undefined on inp
+ut line 18.
+
+
+Package natbib Warning: Citation `bormann2011mw' on page 18 undefined on input 
+line 18.
+
+
+Package natbib Warning: Citation `hanks1979moment' on page 18 undefined on inpu
+t line 25.
+
+
+Package natbib Warning: Citation `gutenberg1956energy' on page 18 undefined on 
+input line 25.
+
+
+Package natbib Warning: Citation `kanamori1977energy' on page 18 undefined on i
+nput line 25.
+
+
+Package natbib Warning: Citation `bormann2012nmsop' on page 18 undefined on inp
+ut line 25.
+
+
+Package natbib Warning: Citation `bormann2011mw' on page 18 undefined on input 
+line 25.
+
+
+Package natbib Warning: Citation `gutenberg1956energy' on page 18 undefined on 
+input line 32.
+
+
+LaTeX Warning: Reference `eq:kanamori' on page 18 undefined on input line 32.
+
+
+LaTeX Warning: Reference `desarrollo-del-proyecto-y-resultados' on page 18 unde
+fined on input line 32.
+
+[18]
+
+Package natbib Warning: Citation `shearer2009introduction' on page 19 undefined
+ on input line 37.
+
+
+Package natbib Warning: Citation `stein2003introduction' on page 19 undefined o
+n input line 37.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figuras/ondas_p_s.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+
+Package natbib Warning: Citation `iris2010seismology' on page 19 undefined on i
+nput line 42.
+
+
+Package natbib Warning: Citation `iris2010seismology' on page 19 undefined on i
+nput line 42.
+
+
+Package natbib Warning: Citation `zhu2018phasenet' on page 19 undefined on inpu
+t line 46.
+
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 19 undefine
+d on input line 46.
+
+
+LaTeX Warning: Reference `dl-sismologia' on page 19 undefined on input line 46.
+
+
+[19 <./figuras/ondas_p_s.pdf>]
+
+Package natbib Warning: Citation `gutenberg1944frequency' on page 20 undefined 
+on input line 51.
+
+
+Package natbib Warning: Citation `frohlich1993bvalues' on page 20 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `schorlemmer2005bvalue' on page 20 undefined o
+n input line 58.
+
+
+LaTeX Warning: Reference `desarrollo-del-proyecto-y-resultados' on page 20 unde
+fined on input line 58.
+
+
+Package natbib Warning: Citation `aki1965bvalue' on page 20 undefined on input 
+line 60.
+
+
+LaTeX Warning: Reference `fig:gr-cal-alaska' on page 20 undefined on input line
+ 67.
+
+
+Package natbib Warning: Citation `schorlemmer2005bvalue' on page 20 undefined o
+n input line 67.
+
+
+Package natbib Warning: Citation `frohlich1993bvalues' on page 20 undefined on 
+input line 67.
+
+
+Package natbib Warning: Citation `wiemer2002mapping' on page 20 undefined on in
+put line 67.
+
+
+Package natbib Warning: Citation `frohlich1993bvalues' on page 20 undefined on 
+input line 67.
+
+
+Package natbib Warning: Citation `aki1965bvalue' on page 20 undefined on input 
+line 72.
+
+
+Package natbib Warning: Citation `schorlemmer2005bvalue' on page 20 undefined o
+n input line 72.
+
+
+Package natbib Warning: Citation `frohlich1993bvalues' on page 20 undefined on 
+input line 72.
+
+
+Package natbib Warning: Citation `wiemer2002mapping' on page 20 undefined on in
+put line 72.
+
+
+Package natbib Warning: Citation `aki1965bvalue' on page 20 undefined on input 
+line 72.
+
+
+Package natbib Warning: Citation `schorlemmer2005bvalue' on page 20 undefined o
+n input line 72.
+
+
+Package natbib Warning: Citation `frohlich1993bvalues' on page 20 undefined on 
+input line 72.
+
+
+Package natbib Warning: Citation `wiemer2002mapping' on page 20 undefined on in
+put line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 76.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+
+LaTeX Warning: Reference `eq:b-aki' on page 20 undefined on input line 79.
+
+[20]
+
+Package natbib Warning: Citation `wiemer2000mc' on page 21 undefined on input l
+ine 82.
+
+[21 <./figuras/figura_gr_california.pdf>]
+
+Package natbib Warning: Citation `wiemer2000mc' on page 22 undefined on input l
+ine 83.
+
+
+Package natbib Warning: Citation `mignan2012mc' on page 22 undefined on input l
+ine 84.
+
+
+Package natbib Warning: Citation `woessner2005assessing' on page 22 undefined o
+n input line 85.
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 85--86
+[]\T1/phv/b/sl/10.95 (+15) Entire-magnitude-range method \T1/phv/b/n/10.95 (+15
+) (EMR). \T1/phv/m/n/10.95 (+15) El mé-to-do más ro-bus-to ac-tual-men-te
+
+Package natbib Warning: Citation `wiemer2000mc' on page 22 undefined on input l
+ine 88.
+
+
+Package natbib Warning: Citation `omori1894aftershocks' on page 22 undefined on
+ input line 93.
+
+
+Package natbib Warning: Citation `utsu1961statistical' on page 22 undefined on 
+input line 93.
+
+
+Package natbib Warning: Citation `vanstiphout2012declustering' on page 22 undef
+ined on input line 98.
+
+
+Package natbib Warning: Citation `gardner1974poissonian' on page 22 undefined o
+n input line 103.
+
+
+Package natbib Warning: Citation `vanstiphout2012declustering' on page 22 undef
+ined on input line 103.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 107.
+
+[22]
+
+Package natbib Warning: Citation `reasenberg1985declustering' on page 23 undefi
+ned on input line 108.
+
+
+Package natbib Warning: Citation `hauksson2012relocated' on page 23 undefined o
+n input line 113.
+
+
+Package natbib Warning: Citation `waldhauser2008doubledifference' on page 23 un
+defined on input line 113.
+
+
+Package natbib Warning: Citation `geller1997unpredictable' on page 23 undefined
+ on input line 121.
+
+
+Package natbib Warning: Citation `jordan2011oef' on page 23 undefined on input 
+line 121.
+
+
+Package natbib Warning: Citation `marzocchi2014oef' on page 23 undefined on inp
+ut line 121.
+
+
+Package natbib Warning: Citation `field2014ucerf3' on page 23 undefined on inpu
+t line 121.
+
+
+Package natbib Warning: Citation `field2017ucerf3etas' on page 23 undefined on 
+input line 121.
+
+[23]
+
+Package natbib Warning: Citation `field2014ucerf3' on page 24 undefined on inpu
+t line 126.
+
+
+Package natbib Warning: Citation `field2017ucerf3etas' on page 24 undefined on 
+input line 126.
+
+
+LaTeX Warning: Reference `fig:ucerf3-map' on page 24 undefined on input line 12
+6.
+
+
+Package natbib Warning: Citation `wald1999shakemap' on page 24 undefined on inp
+ut line 126.
+
+
+Package natbib Warning: Citation `field2015ucerf3factsheet' on page 24 undefine
+d on input line 131.
+
+
+Package natbib Warning: Citation `wikipediaucerf3' on page 24 undefined on inpu
+t line 131.
+
+
+Package natbib Warning: Citation `field2015ucerf3factsheet' on page 24 undefine
+d on input line 131.
+
+
+Package natbib Warning: Citation `field2015ucerf3factsheet' on page 24 undefine
+d on input line 131.
+
+
+Package natbib Warning: Citation `wikipediaucerf3' on page 24 undefined on inpu
+t line 131.
+
+
+Package natbib Warning: Citation `field2015ucerf3factsheet' on page 24 undefine
+d on input line 131.
+
+
+Package natbib Warning: Citation `ogata1988etas' on page 24 undefined on input 
+line 138.
+
+
+Package natbib Warning: Citation `ogata1998spacetime' on page 24 undefined on i
+nput line 138.
+
+[24 <./figuras/figura_UCERF3.png>]
+
+Package natbib Warning: Citation `field2017ucerf3etas' on page 25 undefined on 
+input line 143.
+
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/bbold\ubbold.fd)
+
+Package natbib Warning: Citation `goodfellow2016deep' on page 25 undefined on i
+nput line 154.
+
+
+Package natbib Warning: Citation `lecun2015deep' on page 25 undefined on input 
+line 154.
+
+
+Package natbib Warning: Citation `kingma2015adam' on page 25 undefined on input
+ line 158.
+
+[25]
+
+Package natbib Warning: Citation `gal2016mcdropout' on page 26 undefined on inp
+ut line 168.
+
+
+LaTeX Warning: Reference `dl-incertidumbre' on page 26 undefined on input line 
+168.
+
+
+Package natbib Warning: Citation `he2009imbalanced' on page 26 undefined on inp
+ut line 180.
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 180--182
+[]\T1/phv/m/n/10.95 (+15) El pro-nós-ti-co sís-mi-co es un pro-ble-ma fuer-te-m
+en-te des-ba-lan-cea-do: en Ca-li-for-nia
+
+Package natbib Warning: Citation `lin2017focal' on page 26 undefined on input l
+ine 183.
+
+
+Package natbib Warning: Citation `hochreiter1997lstm' on page 26 undefined on i
+nput line 191.
+
+[26]
+
+Package natbib Warning: Citation `bai2018tcn' on page 27 undefined on input lin
+e 196.
+
+[27 <./figuras/figura_dropout.pdf>]
+
+LaTeX Warning: Reference `tab:tcn-vs-lstm' on page 28 undefined on input line 2
+09.
+
+
+LaTeX Warning: Reference `anexo-tcn-lstm' on page 28 undefined on input line 20
+9.
+
+
+LaTeX Warning: Reference `desarrollo-del-proyecto-y-resultados' on page 28 unde
+fined on input line 209.
+
+
+Package natbib Warning: Citation `bai2018tcn' on page 28 undefined on input lin
+e 214.
+
+
+Package natbib Warning: Citation `bai2018tcn' on page 28 undefined on input lin
+e 214.
+
+
+Package natbib Warning: Citation `vaswani2017attention' on page 28 undefined on
+ input line 220.
+
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 28 undefine
+d on input line 225.
+
+
+Package natbib Warning: Citation `scarselli2009gnn' on page 28 undefined on inp
+ut line 232.
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 232--233
+\T1/phv/m/n/10.95 (+15) con-vo-lu-cio-nal a gra-fos ar-bi-tra-rios y son por ta
+n-to la ar-qui-tec-tu-ra na-tu-ral pa-ra es-ta
+[28]
+
+Package natbib Warning: Citation `kipf2017gcn' on page 29 undefined on input li
+ne 237.
+
+[29 <./figuras/figura_tcn.pdf>]
+
+LaTeX Warning: Reference `desarrollo-del-proyecto-y-resultados' on page 30 unde
+fined on input line 244.
+
+
+Package natbib Warning: Citation `velickovic2018gat' on page 30 undefined on in
+put line 249.
+
+
+Package natbib Warning: Citation `fey2019pyg' on page 30 undefined on input lin
+e 266.
+
+
+Package natbib Warning: Citation `paszke2019pytorch' on page 30 undefined on in
+put line 266.
+
+
+Package natbib Warning: Citation `rasmussen2006gp' on page 30 undefined on inpu
+t line 271.
+
+[30]
+
+Package natbib Warning: Citation `cornell1968engineering' on page 31 undefined 
+on input line 287.
+
+
+Package natbib Warning: Citation `mcguire1995probabilistic' on page 31 undefine
+d on input line 287.
+
+[31]
+
+Package natbib Warning: Citation `jordan2011oef' on page 32 undefined on input 
+line 289.
+
+
+LaTeX Warning: Reference `fig:mapa-riesgo' on page 32 undefined on input line 2
+92.
+
+
+Package natbib Warning: Citation `platt1999probabilistic' on page 32 undefined 
+on input line 294.
+
+
+LaTeX Warning: Reference `dl-incertidumbre' on page 32 undefined on input line 
+294.
+
+
+Package natbib Warning: Citation `wald1999shakemap' on page 32 undefined on inp
+ut line 304.
+
+
+Package natbib Warning: Citation `field2014ucerf3' on page 32 undefined on inpu
+t line 304.
+
+
+LaTeX Warning: Reference `sendai' on page 32 undefined on input line 304.
+
+[32]
+
+Package natbib Warning: Citation `zhu2018phasenet' on page 33 undefined on inpu
+t line 312.
+
+[33 <./figuras/figura_mapa_riesgo.pdf>]
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 34 undefine
+d on input line 314.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figuras/figura_eqtransformer.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 34 undefine
+d on input line 327.
+
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 34 undefine
+d on input line 327.
+
+
+Package natbib Warning: Citation `ross2018generalized' on page 34 undefined on 
+input line 331.
+
+
+Package natbib Warning: Citation `perol2018convnetquake' on page 34 undefined o
+n input line 331.
+
+
+Package natbib Warning: Citation `mousavi2019cred' on page 34 undefined on inpu
+t line 331.
+
+
+Package natbib Warning: Citation `woollam2022seisbench' on page 34 undefined on
+ input line 331.
+
+[34]
+
+Package natbib Warning: Citation `devries2018aftershocks' on page 35 undefined 
+on input line 336.
+
+
+Package natbib Warning: Citation `rouetleroy2017slowslip' on page 35 undefined 
+on input line 336.
+
+
+Package natbib Warning: Citation `vandenende2024forecasting' on page 35 undefin
+ed on input line 336.
+
+[35 <./figuras/figura_eqtransformer.pdf>]
+
+Package natbib Warning: Citation `mcbrearty2023gnn' on page 36 undefined on inp
+ut line 338.
+
+
+Package natbib Warning: Citation `vandenende2020tcnseismic' on page 36 undefine
+d on input line 338.
+
+
+Package natbib Warning: Citation `kong2019mlseismology' on page 36 undefined on
+ input line 342.
+
+
+Package natbib Warning: Citation `beroza2021dlreview' on page 36 undefined on i
+nput line 342.
+
+
+Package natbib Warning: Citation `mousavi2023review' on page 36 undefined on in
+put line 342.
+
+
+Package natbib Warning: Citation `he2009imbalanced' on page 36 undefined on inp
+ut line 350.
+
+[36]
+
+Package natbib Warning: Citation `davis2006relationship' on page 37 undefined o
+n input line 373.
+
+
+Package natbib Warning: Citation `saito2015precision' on page 37 undefined on i
+nput line 373.
+
+
+Package natbib Warning: Citation `saito2015precision' on page 37 undefined on i
+nput line 375.
+
+
+Package natbib Warning: Citation `davis2006relationship' on page 37 undefined o
+n input line 375.
+
+[37]
+
+Package natbib Warning: Citation `molchan1991structure' on page 38 undefined on
+ input line 380.
+
+
+Package natbib Warning: Citation `zechar2008testing' on page 38 undefined on in
+put line 380.
+
+
+Package natbib Warning: Citation `field2017ucerf3etas' on page 38 undefined on 
+input line 389.
+
+
+Package natbib Warning: Citation `marzocchi2014oef' on page 38 undefined on inp
+ut line 389.
+
+
+Package natbib Warning: Citation `zechar2008testing' on page 38 undefined on in
+put line 389.
+
+
+Package natbib Warning: Citation `mousavi2019stead' on page 38 undefined on inp
+ut line 396.
+
+[38]
+
+LaTeX Warning: Reference `fig:histograma-stead' on page 39 undefined on input l
+ine 398.
+
+(C:\Users\josec\AppData\Roaming\MiKTeX\tex/latex/txfonts\t1txtt.fd)
+Underfull \hbox (badness 3088) in paragraph at lines 410--411
+[]\T1/phv/b/n/10.95 (+15) Terremotos lo-ca-les (\T1/txtt/bx/n/10.95 earthquake_
+local\T1/phv/b/n/10.95 (+15) ): \T1/phv/m/n/10.95 (+15) Al-re-de-dor de $\OT1/m
+inntx/m/n/10.95 1 050 000$ \T1/phv/m/n/10.95 (+15) tra-zas que
+[39 <./figuras/figura_histograma_stead.pdf>]
+Overfull \hbox (13.62904pt too wide) in paragraph at lines 425--426
+[]\T1/txtt/bx/n/10.95 receiver_code\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.9
+5 receiver_latitude\T1/phv/b/n/10.95 (-15) , \T1/txtt/bx/n/10.95 receiver_longi
+tude \T1/phv/b/n/10.95 (-15) y \T1/txtt/bx/n/10.95 receiver_elevation_m\T1/phv/
+b/n/10.95 (-15) :
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+[]\T1/txtt/bx/n/10.95 source_latitude\T1/phv/b/n/10.95 (+15) , \T1/txtt/bx/n/10
+.95 source_longitude \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/10.95 source_depth
+_km\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Des-cri-ben las
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+[]\T1/txtt/bx/n/10.95 p_arrival_sample \T1/phv/b/n/10.95 (+15) y \T1/txtt/bx/n/
+10.95 s_arrival_sample\T1/phv/b/n/10.95 (+15) : \T1/phv/m/n/10.95 (+15) Va-ria-
+bles ob-je-ti-vo (\T1/phv/m/sl/10.95 (+15) ground truth\T1/phv/m/n/10.95 (+15) 
+)
+[40]
+
+Package natbib Warning: Citation `zhu2018phasenet' on page 41 undefined on inpu
+t line 437.
+
+
+Package natbib Warning: Citation `mousavi2020eqtransformer' on page 41 undefine
+d on input line 437.
+
+
+Package natbib Warning: Citation `woollam2022seisbench' on page 41 undefined on
+ input line 437.
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 437--438
+\T1/phv/m/n/10.95 (+15) en la li-te-ra-tu-ra, ta-les co-mo Pha-se-Net [\T1/phv/
+b/n/10.95 (+15) ? \T1/phv/m/n/10.95 (+15) ] y EQ-Trans-for-mer [\T1/phv/b/n/10.
+95 (+15) ? \T1/phv/m/n/10.95 (+15) ], apro-ve-chan-do su
+
+Package natbib Warning: Citation `ogata1998spacetime' on page 41 undefined on i
+nput line 445.
+
+
+Package natbib Warning: Citation `vandenende2024forecasting' on page 41 undefin
+ed on input line 445.
+
+
+Package natbib Warning: Citation `field2017ucerf3etas' on page 41 undefined on 
+input line 447.
+
+[41]
+
+Package natbib Warning: Citation `beroza2021dlreview' on page 42 undefined on i
+nput line 453.
+
+
+Package natbib Warning: Citation `reichstein2019deep' on page 42 undefined on i
+nput line 453.
+
+) (secciones/desarrollo-resultados.tex [42]
+Cap\'{\i }tulo 4.
+
+LaTeX Warning: Reference `metodologia' on page 43 undefined on input line 11.
+
+
+LaTeX Warning: Reference `planteamiento-del-problema' on page 43 undefined on i
+nput line 14.
+
+
+LaTeX Warning: Reference `desarrollo-del-proyecto' on page 43 undefined on inpu
+t line 16.
+
+
+LaTeX Warning: Reference `resultados' on page 43 undefined on input line 18.
+
+
+LaTeX Warning: Reference `tab:pipeline' on page 43 undefined on input line 40.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 48.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 48.
+
+
+LaTeX Font Warning: Font shape `U/bbold/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 48.
+
+[43]
+
+LaTeX Warning: Reference `res-stead-usgs' on page 44 undefined on input line 79
+.
+
+
+LaTeX Warning: Reference `fig:eda' on page 44 undefined on input line 82.
+
+
+LaTeX Warning: Reference `eq:gr' on page 44 undefined on input line 86.
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 81--90
+\T1/phv/m/n/10.95 (+15) pro-fun-di-da-des. La ac-ti-vi-dad anual es re-la-ti-va
+-men-te es-ta-ble, con pi-cos aso-cia-dos a
+[44]
+Underfull \hbox (badness 7869) in paragraph at lines 120--123
+[]\T1/phv/b/n/10.95 (+15) Literatura de re-fe-ren-cia abun-dan-te. \T1/phv/m/n/
+10.95 (+15) Am-bas re-gio-nes es-tán am-plia-men-te
+[45 <./figuras/03_eda_catalogo.png>]
+
+LaTeX Warning: Reference `eq:gk-L' on page 46 undefined on input line 147.
+
+
+LaTeX Warning: Reference `eq:gk-T' on page 46 undefined on input line 147.
+
+
+LaTeX Warning: Reference `res-ablations' on page 46 undefined on input line 157
+.
+
+[46]
+
+LaTeX Warning: Reference `planteamiento-del-problema' on page 47 undefined on i
+nput line 183.
+
+
+LaTeX Warning: Reference `fig:grid' on page 47 undefined on input line 193.
+
+
+LaTeX Warning: Reference `eq:kanamori' on page 47 undefined on input line 212.
+
+
+LaTeX Warning: Reference `eq:b-aki' on page 47 undefined on input line 219.
+
+[47]
+
+LaTeX Warning: Reference `eq:haversine' on page 48 undefined on input line 238.
+
+
+
+LaTeX Warning: Reference `fig:grafo' on page 48 undefined on input line 244.
+
+[48 <./figuras/05b_grid_espacial_M4.5_min30.png>] [49 <./figuras/05b_grafo_celd
+as_d100km.png>]
+
+LaTeX Warning: Reference `eq:rf-tcn' on page 50 undefined on input line 283.
+
+
+LaTeX Warning: Reference `eq:gcn' on page 50 undefined on input line 307.
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 301--312
+\T1/phv/m/n/10.95 (+15) de-no-mi-na-da \T1/phv/m/sl/10.95 (+15) Spa-tio-Tem-po-
+ral-GNN\T1/phv/m/n/10.95 (+15) , com-bi-na dos blo-ques. En pri-mer lu-gar, una
+ \T1/phv/b/n/10.95 (+15) TCN
+[50]
+
+LaTeX Warning: Reference `eq:attention' on page 51 undefined on input line 325.
+
+
+[51]
+
+LaTeX Warning: Reference `tab:hiperparametros' on page 52 undefined on input li
+ne 377.
+
+[52]
+
+LaTeX Warning: Reference `eq:precision-recall' on page 53 undefined on input li
+ne 418.
+
+[53]
+
+LaTeX Warning: Reference `fig:desbalance' on page 54 undefined on input line 47
+3.
+
+[54]
+
+LaTeX Warning: Reference `resultados' on page 55 undefined on input line 501.
+
+[55 <./figuras/04_desbalance.png>]
+
+LaTeX Warning: Reference `md-grafo' on page 56 undefined on input line 545.
+
+[56]
+
+LaTeX Warning: Reference `tab:deteccion' on page 57 undefined on input line 585
+.
+
+
+LaTeX Warning: Reference `eq:f1' on page 57 undefined on input line 588.
+
+[57]
+
+LaTeX Warning: Reference `tab:comparativa' on page 58 undefined on input line 6
+16.
+
+
+LaTeX Warning: Reference `fig:roctcn' on page 58 undefined on input line 646.
+
+
+LaTeX Warning: Reference `tab:perseed' on page 58 undefined on input line 661.
+
+
+LaTeX Warning: Reference `fig:curvas' on page 58 undefined on input line 664.
+
+[58]
+
+LaTeX Warning: Reference `fig:roc' on page 59 undefined on input line 692.
+
+
+LaTeX Warning: Reference `fig:molchan' on page 59 undefined on input line 694.
+
+[59 <./figuras/03_roc_test.png>]
+
+LaTeX Warning: Reference `res-temporal' on page 60 undefined on input line 714.
+
+
+
+LaTeX Warning: Reference `tab:operativas' on page 60 undefined on input line 72
+4.
+
+
+LaTeX Warning: Reference `fig:lift' on page 60 undefined on input line 725.
+
+secciones/desarrollo-resultados.tex:730: Incompatible glue units.
+\es@sppercent ...fnum \gluestretchorder \lastskip 
+                                                  =\z@ \unskip \fi \textorma...
+l.730 ... mejora respecto a una alerta aleatoria.}
+                                                  
+secciones/desarrollo-resultados.tex:730: Incompatible glue units.
+\es@sppercent ...fnum \gluestretchorder \lastskip 
+                                                  =\z@ \unskip \fi \textorma...
+l.730 ... mejora respecto a una alerta aleatoria.}
+                                                  
+secciones/desarrollo-resultados.tex:750: Incompatible glue units.
+\es@sppercent ...fnum \gluestretchorder \lastskip 
+                                                  =\z@ \unskip \fi \textorma...
+l.750 ...mer y del Poisson son casi coincidentes.}
+                                                  
+secciones/desarrollo-resultados.tex:750: Incompatible glue units.
+\es@sppercent ...fnum \gluestretchorder \lastskip 
+                                                  =\z@ \unskip \fi \textorma...
+l.750 ...mer y del Poisson son casi coincidentes.}
+                                                  
+
+LaTeX Warning: Reference `fig:pr' on page 60 undefined on input line 757.
+
+[60 <./figuras/05_curvas_multiseed.png>]
+
+LaTeX Warning: Reference `md-metricas' on page 61 undefined on input line 773.
+
+[61 <./figuras/05_roc_test.png>] [62 <./figuras/05_molchan.png> <./figuras/05_l
+ift_curve.png>]
+
+LaTeX Warning: Reference `fig:auctemporal' on page 63 undefined on input line 7
+79.
+
+[63 <./figuras/05_pr_curve.png>]
+
+LaTeX Warning: Reference `fig:gnncomp' on page 64 undefined on input line 803.
+
+
+LaTeX Warning: Reference `tab:ablations' on page 64 undefined on input line 823
+.
+
+[64 <./figuras/05_auc_temporal.png>]
+
+LaTeX Warning: Text page 65 contains only floats.
+
+[65 <./figuras/04_roc_test.png> <./figuras/04_molchan.png> <./figuras/04_auc_te
+mporal.png>]
+
+LaTeX Warning: Reference `fig:calibracion' on page 66 undefined on input line 8
+62.
+
+
+LaTeX Warning: Reference `fig:mapacali' on page 66 undefined on input line 877.
+
+
+
+LaTeX Warning: Reference `fig:mapaalaska' on page 66 undefined on input line 87
+7.
+
+[66 <./figuras/06_calibracion.png>] [67 <./figuras/06_mapa_riesgo_gp_california
+.png> <./figuras/06_mapa_riesgo_gp_alaska.png>]
+
+LaTeX Warning: Reference `fig:steadcobertura' on page 68 undefined on input lin
+e 914.
+
+
+LaTeX Warning: Reference `fig:steadmc' on page 68 undefined on input line 914.
+
+) (secciones/conclusion-trabajos-futuros.tex [68 <./figuras/07_stead_vs_usgs_co
+bertura.png>] [69 <./figuras/07_stead_vs_usgs_magnitud_mc.png>]
+Cap\'{\i }tulo 5.
+[70] [71]
+Underfull \hbox (badness 2547) in paragraph at lines 117--122
+[] []\T1/phv/b/n/10.95 (+15) Trans-fe-ren-cia en-tre re-gio-nes.[] \T1/phv/m/n/
+10.95 (+15) Co-mo los mo-de-los apren-den una fun-ción de las
+[72]) [73] (memoria.acr [74]) (memoria.gls) (secciones/apendices.tex [75]
+Ap\'{e}ndice A.
+) (secciones/anexos.tex [76]
+Ap\'{e}ndice B.
+
+LaTeX Warning: Reference `tab:tcn-vs-lstm' on page 77 undefined on input line 1
+1.
+
+
+Package natbib Warning: Citation `bai2018tcn' on page 77 undefined on input lin
+e 11.
+
+
+LaTeX Warning: Reference `desarrollo-del-proyecto-y-resultados' on page 77 unde
+fined on input line 11.
+
+(tablas/tabla_tcn_vs_lstm.tex
+
+Package natbib Warning: Citation `bai2018tcn' on page 77 undefined on input lin
+e 3.
+
+
+Package natbib Warning: Citation `bai2018tcn' on page 77 undefined on input lin
+e 3.
+
+)) [77] [78] (memoria.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[79] (memoria.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information) <C:\Users\josec\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/public/bbold/dpi657\bbold10.pk><C:/Users/josec/AppDa
+ta/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/josec/AppData/
+Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/josec/AppData/Ro
+aming/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/josec/AppData/Roam
+ing/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/josec/AppData/Roamin
+g/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/josec/AppData/Roaming/M
+iKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/josec/AppData/Roaming/MiKT
+eX/fonts/type1/public/newtx/txexs.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fo
+nts/type1/public/newtx/txmiaX.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/
+type1/public/newtx/txsym.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1
+/public/newtx/txsys.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8
+a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/font
+s/type1/urw/helvetic/uhvro8a.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/t
+ype1/public/newtx/ztmb.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/p
+ublic/newtx/ztmr.pfb><C:/Users/josec/AppData/Roaming/MiKTeX/fonts/type1/public/
+newtx/ztmri.pfb>
+Output written on memoria.pdf (79 pages, 8825721 bytes).
+SyncTeX written on memoria.synctex.gz.
+Transcript written on memoria.log.
+pdflatex: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: Getting log file 'memoria.log'
+Latexmk: Examining 'memoria.fls'
+Latexmk: Examining 'memoria.log'
+Latexmk: Missing input file 'memoria.toc' message in .log file:
+  No file memoria.toc.
+Latexmk: Missing input file 'memoria.lof' message in .log file:
+  No file memoria.lof.
+Latexmk: Missing input file 'memoria.lot' message in .log file:
+  No file memoria.lot.
+Latexmk: Found input bbl file 'memoria.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'memoria.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'memoria.bbl' for 'pdflatex'
+Create bibtex memoria
+kpsewhich: major issue: So far, you have not checked for updates as a MiKTeX user.
+kpsewhich: major issue: So far, you have not checked for updates as a MiKTeX user.
+Latexmk: Found bibliography file(s):
+  ./bibliografia.bib
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 77 reference(s)
+  Latex failed to resolve 189 citation(s)
+Latexmk: ====Problematic refs and citations with line #s in .tex file:
+  Citation `un2015sendai' on page 10 undefined on input line 13
+  Citation `geller1997unpredictable' on page 10 undefined on input line 13
+  Citation `jordan2011oef' on page 10 undefined on input line 13
+  Citation `marzocchi2014oef' on page 10 undefined on input line 15
+  Citation `field2014ucerf3' on page 10 undefined on input line 15
+  Citation `field2017ucerf3etas' on page 10 undefined on input line 15
+  Citation `wald1999shakemap' on page 10 undefined on input line 15
+ And 259 more --- see log file 'memoria.log'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'memoria.log' and/or above output for details
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+latexmk: major issue: So far, you have not checked for updates as a MiKTeX user.

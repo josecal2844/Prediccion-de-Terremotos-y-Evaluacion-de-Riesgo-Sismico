@@ -1,0 +1,134 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Índice de figuras}{7}{chapter*.2}%
+\contentsline {chapter}{Índice de tablas}{8}{chapter*.3}%
+\contentsline {chapter}{Índice de algoritmos}{9}{chapter*.4}%
+\contentsline {chapter}{Resumen}{10}{chapter*.5}%
+\contentsline {chapter}{Abstract}{11}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Introducción}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contexto y motivación}{12}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Relevancia del problema}{13}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Limitaciones de los enfoques tradicionales}{13}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Oportunidad del aprendizaje profundo}{14}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Aportación del trabajo}{15}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Alcance y delimitaciones}{16}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Estructura de la memoria}{17}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Objetivos}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Objetivo general}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Objetivos parciales}{18}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Resultados esperados}{19}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Estado del Arte y Marco Teórico}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fundamentos sismológicos clásicos}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Caracterización de un terremoto}{20}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Las ondas P y S}{21}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Ley de Gutenberg--Richter y \textit {b-value}}{22}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Magnitud de completitud $M_c$}{23}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Ley de Omori--Utsu y réplicas}{24}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}\textit {Declustering}: el algoritmo de Gardner--Knopoff}{24}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Catálogos sísmicos: USGS, SCSN, AEC y catalogos relocados}{25}{subsection.3.1.7}%
+\contentsline {section}{\numberline {3.2}Métodos estadísticos clásicos de pronóstico sísmico}{25}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}De la predicción determinista al pronóstico probabilístico}{25}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}El modelo UCERF3 y \textit {ShakeMap}}{26}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}La familia ETAS}{27}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Aprendizaje profundo: fundamentos generales}{27}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Marco general y notación}{27}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Optimizador Adam}{28}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Regularización y \textit {dropout}}{28}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Desbalance de clases: \textit {pos\_weight} y \textit {Focal Loss}}{28}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Arquitecturas para series temporales}{29}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Redes recurrentes y LSTM}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Temporal Convolutional Networks}{30}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Mecanismo de atención y Transformers}{30}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Arquitecturas para datos estructurados en grafo}{31}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Motivación geofísica}{31}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Graph Convolutional Networks (GCN)}{31}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Graph Attention Networks (GAT)}{32}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Construcción del grafo: distancia de Haversine y \textit {KNN fallback}}{32}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Software: PyTorch Geometric}{33}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}Cuantificación de incertidumbre: Procesos Gaussianos}{33}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Mapas de peligrosidad y riesgo sísmico}{33}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Peligro, exposición, vulnerabilidad y riesgo}{33}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}PSHA (\textit {Probabilistic Seismic Hazard Assessment}) vs. OEF}{34}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}De probabilidad por celda a mapa continuo}{34}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Visualización y comunicación}{35}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Aprendizaje profundo aplicado a sismología}{36}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Detección y \textit {picking}: PhaseNet, EQTransformer y GPD}{36}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Pronóstico y detección de precursores}{38}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}Revisiones del campo}{38}{subsection.3.8.3}%
+\contentsline {section}{\numberline {3.9}Métricas de evaluación en escenarios de desbalance extremo}{38}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}La paradoja del \textit {accuracy}}{38}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Precision, recall y F1-score}{39}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Curva Precision-Recall y PR-AUC}{39}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Diagrama de Molchan}{40}{subsection.3.9.4}%
+\contentsline {section}{\numberline {3.10}Datasets de referencia: STEAD}{41}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Organización del catálogo}{42}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Los ficheros y sus columnas}{42}{subsection.3.10.2}%
+\contentsline {paragraph}{Uso en este TFM.}{43}{paragraph*.7}%
+\contentsline {section}{\numberline {3.11}Trabajos relacionados y huecos identificados}{43}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Síntesis}{44}{section.3.12}%
+\contentsline {chapter}{\numberline {4}Desarrollo del proyecto y resultados}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología}{45}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Esquema general del \textit {pipeline}}{45}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Fuentes de datos y exploración del catálogo}{46}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Región de estudio y ventana temporal}{46}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Magnitud de completitud y declustering}{48}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Definición del objetivo}{49}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}Ingeniería de características}{49}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}Construcción del grafo espacial}{52}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.1.8}Particiones temporales}{53}{subsection.4.1.8}%
+\contentsline {subsection}{\numberline {4.1.9}Arquitecturas de los modelos}{54}{subsection.4.1.9}%
+\contentsline {subsubsection}{\numberline {4.1.9.1}Red convolucional temporal (TCN)}{54}{subsubsection.4.1.9.1}%
+\contentsline {subsubsection}{\numberline {4.1.9.2}Red neuronal de grafos (GNN)}{55}{subsubsection.4.1.9.2}%
+\contentsline {subsubsection}{\numberline {4.1.9.3}Transformer geoespacial}{56}{subsubsection.4.1.9.3}%
+\contentsline {subsubsection}{\numberline {4.1.9.4}Proceso Gaussiano para la cartografía del riesgo}{57}{subsubsection.4.1.9.4}%
+\contentsline {subsection}{\numberline {4.1.10}Función de pérdida y manejo del desbalance}{58}{subsection.4.1.10}%
+\contentsline {subsection}{\numberline {4.1.11}Optimización, entrenamiento y reproducibilidad}{58}{subsection.4.1.11}%
+\contentsline {subsection}{\numberline {4.1.12}Métricas de evaluación}{59}{subsection.4.1.12}%
+\contentsline {subsection}{\numberline {4.1.13}Modelos de referencia y evaluación multi-semilla}{60}{subsection.4.1.13}%
+\contentsline {section}{\numberline {4.2}Planteamiento del problema}{61}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Desarrollo del proyecto}{62}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Fase 1: detección y \textit {picking} de fases}{62}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Fase 2: red convolucional temporal global}{63}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Fase 3: red neuronal de grafos espacial}{64}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Fase 4: Transformer geoespacial}{64}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Fase 5: Proceso Gaussiano y mapas de riesgo}{65}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Resultados}{66}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detección y \textit {picking} de fases}{66}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Comparación de los modelos de pronóstico}{68}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Curvas ROC y diagrama de Molchan}{71}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Métricas operativas: el sistema como herramienta de alerta}{71}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Análisis de la dimensión espacial y temporal}{74}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Estudios de ablación}{75}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Calibración y mapas de riesgo}{77}{subsection.4.4.7}%
+\contentsline {subsection}{\numberline {4.4.8}Generalización a otras regiones del mundo}{79}{subsection.4.4.8}%
+\contentsline {subsection}{\numberline {4.4.9}Discusión de los resultados en el contexto del estado del arte}{80}{subsection.4.4.9}%
+\contentsline {subsection}{\numberline {4.4.10}Síntesis de los resultados}{82}{subsection.4.4.10}%
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajos futuros}{83}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusiones}{83}{section.5.1}%
+\contentsline {paragraph}{Construcción de una base experimental reproducible.}{83}{paragraph*.8}%
+\contentsline {paragraph}{Detección y \textit {picking} de fases.}{84}{paragraph*.9}%
+\contentsline {paragraph}{Modelado de la dimensión temporal y espacial.}{84}{paragraph*.10}%
+\contentsline {paragraph}{Localización de la información predictiva.}{84}{paragraph*.11}%
+\contentsline {paragraph}{Alcance y generalización del modelo.}{84}{paragraph*.12}%
+\contentsline {paragraph}{Cuantificación de la incertidumbre y mapas de riesgo.}{85}{paragraph*.13}%
+\contentsline {section}{\numberline {5.2}Limitaciones y dificultades}{85}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Trabajos futuros}{86}{section.5.3}%
+\contentsline {paragraph}{Horizontes temporales más cortos.}{86}{paragraph*.14}%
+\contentsline {paragraph}{Información de forma de onda.}{87}{paragraph*.15}%
+\contentsline {paragraph}{Adaptación de dominio entre regiones.}{87}{paragraph*.16}%
+\contentsline {paragraph}{Arquitecturas y características adicionales.}{87}{paragraph*.17}%
+\contentsline {paragraph}{Calibración predictiva y validación operacional.}{87}{paragraph*.18}%
+\contentsline {paragraph}{Fusión de fuentes y producto cartográfico.}{88}{paragraph*.19}%
+\contentsline {chapter}{Lista de Acrónimos}{89}{section*.20}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{92}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Hiperparámetros completos de los modelos de pronóstico}{92}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Validación empírica de la fuente de datos: STEAD frente a USGS}{92}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Resultados completos de detección y \textit {picking}}{94}{section.Alph1.3}%
+\contentsline {section}{\numberline {A.4}Métricas operativas completas}{95}{section.Alph1.4}%
+\contentsline {section}{\numberline {A.5}Resultados completos de transferencia entre regiones}{95}{section.Alph1.5}%
+\contentsline {section}{\numberline {A.6}Contrastes estadísticos}{95}{section.Alph1.6}%
+\contentsline {section}{\numberline {A.7}Entorno de reproducibilidad}{96}{section.Alph1.7}%
+\contentsline {chapter}{\numberline {B}Anexos I}{97}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Comparativa empírica TCN vs redes recurrentes}{97}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Ventanas de \textit {declustering} de Gardner--Knopoff}{98}{section.Alph2.2}%
+\contentsline {chapter}{Declaración del uso de Inteligencia Artificial}{99}{section*.22}%
+\contentsline {chapter}{Bibliografía}{100}{section*.24}%

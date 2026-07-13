@@ -1,0 +1,225 @@
+% DOCUMENTO PRINCIPAL
+
+% Este es el fichero principal de este repositorio. No se recomienda editarlo.
+% Modifica las plantillas incluidas en los directorios:
+% - secciones
+% - tablas
+% - algoritmos
+
+\documentclass[final,a4paper,11pt,oneside]{class_diss}
+
+\usepackage[full]{textcomp}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsxtra}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{setspace}
+\usepackage[margin=3cm,includefoot]{geometry}
+\usepackage[titles]{tocloft}
+\usepackage{latexsym}
+\usepackage{fancyhdr}
+% \usepackage{emptypage}
+\usepackage[svgnames,dvipsnames,usenames,table,xcdraw]{xcolor}
+\usepackage{tikz}
+\usepackage[toc,acronym,nonumberlist,nogroupskip]{glossaries}
+\usepackage[scaled]{helvet}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\spanishdecimal{.}
+\usepackage[explicit]{titlesec}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{float}
+\usepackage[hyphens]{url}
+\Urlmuskip=0mu plus 1mu\relax
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{listings}
+\usepackage{placeins}
+\usepackage{flafter}
+\usepackage[stretch=15,shrink=15]{microtype}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Teorema}[section]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\titleformat{\chapter}[hang]
+  {\normalfont\huge\bfseries}{\thechapter.}{0.5em}{#1}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+\definecolor{VIU}{RGB}{240, 90, 15}
+\definecolor{DESTACADO}{RGB}{130, 34, 145}
+\definecolor{CITA}{RGB}{0, 123, 194}
+
+\renewcommand{\algorithmcfname}{Algoritmo}
+\renewcommand{\acronymname}{Lista de Acrónimos}
+\addto\captionsspanish{
+    \renewcommand*{\acronymname}{Lista de Acrónimos}
+}
+\newcommand{\inhib}{\relbar\mapsfromchar}
+\newcommand{\destacado}[1]{\color{DESTACADO}\textbf{#1}\color{black}\xspace}
+
+\usetikzlibrary{shapes}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+    \node[shape=diamond,fill=black!90,inner sep=1pt,minimum size=1cm] (char) {\textcolor{white}{\small\textbf{#1}}};}
+}
+
+\setlength{\headheight}{65pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\hspace*{-1.5cm}\includegraphics[height=2cm]{figuras/logo_viu.png}}
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{\hspace*{-1.5cm}\includegraphics[height=2cm]{figuras/logo_viu.png}}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+
+
+\makeglossaries
+\renewcommand{\glsnamefont}[1]{\textbf{#1}}
+% Estilo de acrónimos basado en párrafos con sangría francesa (NO longtable):
+% dos "columnas" alineadas (acrónimo | descripción) que se parten de forma
+% natural entre páginas, evitando el error "Infinite glue shrinkage" que
+% producía la longtable al dividirse.
+\newlength{\acrcolwidth}\setlength{\acrcolwidth}{5.5em}
+\newglossarystyle{tfmacronyms}{%
+  \renewenvironment{theglossary}%
+    {\setlength{\parindent}{0pt}}%
+    {}%
+  \renewcommand*{\glossaryheader}{}%
+  \renewcommand*{\glsgroupheading}[1]{}%
+  \renewcommand{\glossentry}[2]{%
+    \noindent\hangindent=\acrcolwidth\hangafter=1
+    \glstarget{##1}{\makebox[\acrcolwidth][l]{\glossentryname{##1}}}%
+    \glossentrydesc{##1}\glspostdescription\par\smallskip
+  }%
+  \renewcommand*{\glsgroupskip}{}%
+}
+\setglossarystyle{tfmacronyms}
+\input{secciones/glosario.tex}
+
+\bibliographystyle{unsrtnat}
+
+\usepackage[numbers,square,sort&compress]{natbib}
+\usepackage{hypernat}
+\usepackage{notoccite} % evita que TOC/LoF/LoT alteren el orden de las citas numéricas
+
+\usepackage[pdftex,plainpages=false,pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap} % hyperref salta a la figura/tabla, no a la página
+
+\hypersetup{
+    linktocpage=true,
+    colorlinks=true,
+    citecolor=CITA,
+    urlcolor=CITA,
+    linkcolor=CITA,
+    citebordercolor={1 0 0},
+    urlbordercolor={1 0 0},
+    linkbordercolor={.7 .8 .8},
+    breaklinks=true,
+    pdfnewwindow=true
+    }
+
+\setcounter{secnumdepth}{3}
+\onehalfspacing
+\renewcommand\familydefault{\sfdefault}
+
+% Sin guionado, justificado mediante microtype + emergencystretch
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\setlength{\emergencystretch}{3em}
+
+% Espacio vertical visible entre párrafos manteniendo la sangría
+\setlength{\parskip}{0.7\baselineskip plus 0.2\baselineskip minus 0.1\baselineskip}
+\setlength{\parindent}{1.5em}
+
+\begin{document}
+
+\input{secciones/portada.tex}
+\setcounter{page}{2}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\hspace*{-1.5cm}\includegraphics[height=2cm]{figuras/logo_viu.png}}
+\fancyhead[RO]{\leftmark}
+\fancyhead[RE]{\rightmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\input{secciones/frase-favorita.tex}
+\cleardoublepage
+\newpage
+
+\pdfbookmark[0]{\contentsname}{contents}
+
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchapfont}{\mdseries}
+\renewcommand{\cftchappagefont}{\mdseries}
+
+% Alinear las entradas de figuras y tablas con sus respectivos títulos
+\setlength{\cftfigindent}{0pt}
+\setlength{\cfttabindent}{0pt}
+\setlength{\cftfignumwidth}{2.8em}
+\setlength{\cfttabnumwidth}{2.8em}
+\renewcommand{\cftfigfont}{\mdseries}
+\renewcommand{\cftfigpagefont}{\mdseries}
+\renewcommand{\cfttabfont}{\mdseries}
+\renewcommand{\cfttabpagefont}{\mdseries}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\renewcommand{\listalgorithmcfname}{Índice de algoritmos}
+\listofalgorithms
+\addcontentsline{toc}{chapter}{Índice de algoritmos}
+
+\newpage
+
+\input{secciones/resumen.tex}
+\input{secciones/abstract.tex}
+\input{secciones/introduccion.tex}
+\input{secciones/objetivos.tex}
+\input{secciones/estado-del-arte.tex}
+\input{secciones/desarrollo-resultados.tex}
+\input{secciones/conclusion-trabajos-futuros.tex}
+
+\glsaddall
+\printglossary[type=\acronymtype]
+\printglossary
+
+\appendix
+\input{secciones/apendices.tex}
+\input{secciones/anexos.tex}
+
+\input{secciones/declaracion-ia.tex}
+
+\begin{singlespace}
+  \begin{footnotesize}
+    \begin{twocolumn}
+      \bibdata{bibliografia}
+      \phantomsection
+      \addcontentsline{toc}{chapter}{Bibliografía}
+      \bibliography{bibliografia}
+    \end{twocolumn}
+  \end{footnotesize}
+\end{singlespace}
+
+\end{document}

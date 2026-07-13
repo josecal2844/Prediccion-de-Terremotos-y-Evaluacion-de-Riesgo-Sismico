@@ -1,0 +1,210 @@
+\cleardoublepage
+
+\chapter{Conclusiones y trabajos futuros}
+\label{conclusion-y-trabajos-futuros}
+
+Este capítulo cierra la memoria. Primero recoge las conclusiones del trabajo en relación con
+los objetivos planteados al inicio, valorando en qué medida se han alcanzado y qué aporta cada
+fase del sistema. A continuación reflexiona sobre las dificultades encontradas durante el
+desarrollo, tanto las de naturaleza física como las de carácter práctico. Por último, propone
+un conjunto de líneas de continuación ordenadas por ambición, que prolongan de forma natural lo
+realizado.
+
+\section{Conclusiones}
+\label{conclusiones}
+
+El objetivo general de este Trabajo de Fin de Máster era diseñar, implementar y validar un
+\textit{pipeline} de aprendizaje profundo de extremo a extremo capaz de detectar eventos
+sísmicos, modelar patrones de actividad y generar mapas de riesgo a corto plazo, con un nivel
+de rigor metodológico comparable al de las publicaciones del área. A la luz de los resultados
+del capítulo anterior, puede afirmarse que ese objetivo se ha cumplido: el sistema integra
+cinco modelos en un flujo coherente y reproducible, y cada fase aporta un resultado claro y
+verificable. Más allá de construir el sistema, el trabajo ha conseguido algo igualmente
+valioso, que es \emph{medir con honestidad} qué parte del problema es abordable con los datos
+disponibles y qué parte no, distinción que constituye la principal aportación científica de la
+memoria. A continuación se detallan las conclusiones por objetivos parciales.
+
+\paragraph{Construcción de una base experimental reproducible.} Se ha construido un conjunto
+de datos coherente a partir de dos fuentes abiertas, STEAD para las formas de onda y el
+catálogo del USGS para el pronóstico, con regiones, ventanas y umbrales justificados. Un
+análisis empírico ha mostrado por qué cada fuente es adecuada para su tarea: STEAD aporta
+trazas etiquetadas de alta calidad para detección, mientras que el catálogo USGS ofrece la
+cobertura completa y homogénea que exige el cálculo de características de pronóstico, como
+confirmó la comparación directa entre ambos catálogos. Todas las decisiones de preprocesado
+--magnitud de completitud, aislamiento de eventos independientes mediante
+\textit{declustering}, particiones estrictamente temporales y normalización ajustada solo en
+entrenamiento-- se han tomado con criterios documentados y reproducibles. Este cuidado
+metodológico, lejos de ser un detalle accesorio, es lo que permite confiar en las conclusiones
+posteriores: sin él, cualquier resultado quedaría en entredicho por posibles fugas de
+información.
+
+\paragraph{Detección y \textit{picking} de fases.} Las arquitecturas preentrenadas PhaseNet y
+EQTransformer alcanzan un rendimiento alto sobre datos no vistos, con un \textit{F1-score} de
+hasta 0.93 en la fase P --que asciende por encima de 0.96 si se relaja ligeramente la
+tolerancia temporal-- y errores de localización de pocas centésimas de segundo, comparables a
+los de un analista humano. Esto confirma que la detección automática de fases es hoy una tarea
+resuelta de forma fiable mediante aprendizaje profundo, y proporciona una base firme sobre la
+que apoyar el resto del sistema. La elección de dos arquitecturas de familias distintas --una
+\textit{U-Net} convolucional y una red multitarea con atención-- ha permitido además comprobar
+que el resultado no depende de un diseño concreto.
+
+\paragraph{Modelado de la dimensión temporal y espacial.} El trabajo ha contrastado de forma
+sistemática un enfoque puramente temporal frente a uno espacial. El modelo temporal global no
+supera a las referencias, lo que indica que la evolución temporal agregada de la sismicidad no
+contiene, por sí sola, información suficiente para el pronóstico. La incorporación de la
+dimensión espacial, en cambio, sí produce una mejora sustancial: tanto la red de grafos como el
+Transformer geoespacial alcanzan un AUC en torno a 0.70--0.73, y el Transformer supera a la
+climatología de Poisson de forma estadísticamente significativa. La representación del espacio
+se revela, por tanto, como el factor decisivo, y el mecanismo de atención del Transformer
+resulta ligeramente más eficaz que la propagación por grafo de la GNN. Este resultado tiene
+valor práctico inmediato: orienta el diseño de futuros sistemas hacia las arquitecturas que
+modelan explícitamente la estructura espacial de la sismicidad.
+
+\paragraph{Localización de la información predictiva.} La aportación metodológica más relevante
+del trabajo es la separación explícita de las dos preguntas que encierra el problema --dónde y
+cuándo-- mediante una métrica diseñada al efecto, la AUC temporal por celda. Su aplicación
+permite afirmar con precisión que la capacidad del sistema reside en la dimensión espacial: el
+modelo identifica muy bien las zonas crónicamente peligrosas, mientras que la anticipación
+temporal a 30 días, una vez aislada del componente espacial, coincide con la tasa base. Este
+resultado, confirmado por varios estudios de ablación que lo mantienen estable frente a cambios
+de arquitectura, de ventana y de preprocesado, es plenamente coherente con el consenso
+científico actual sobre la dificultad del pronóstico a corto plazo. Constituye un hallazgo
+honesto y bien fundamentado, más valioso que una cifra global que mezclase ambas dimensiones y
+diese una impresión inflada del rendimiento. Saber con certeza dónde reside --y dónde no-- la
+información aprovechable es, en sí mismo, un avance.
+
+\paragraph{Alcance y generalización del modelo.} Un experimento de transferencia a nueve regiones
+de los cinco continentes ha permitido delimitar con precisión el alcance del sistema. Aplicado sin
+reentrenar fuera de California+Alaska, el modelo no generaliza: en todas las regiones queda por
+debajo de su climatología local y su AUC medio (0.504) es indistinguible del azar. Este resultado,
+lejos de restar valor al trabajo, lo precisa: confirma que lo que el sistema aprende es el
+\emph{mapa espacial de peligro} de las zonas con las que se entrenó, una estructura propia de cada
+contexto tectónico y no un patrón universal. La lectura del experimento es además coherente con la
+física: el modelo transfiere algo mejor a las subducciones muy activas de Asia --semejantes a la
+de Alaska-- y peor a las regiones de geometría difusa o sísmicamente tranquila. Queda así claro
+que el sistema es una herramienta de cartografía \emph{regional}, que debe ajustarse a cada zona,
+y no un pronosticador global.
+
+\paragraph{Cuantificación de la incertidumbre y mapas de riesgo.} La capa final basada en un
+proceso gaussiano cierra el \textit{pipeline} produciendo mapas continuos de riesgo acompañados
+de su incertidumbre. La calibración previa de las probabilidades, validada de forma
+independiente sobre una partición reservada, reduce el \textit{Brier score} en dos tercios, de
+modo que los mapas expresan frecuencias de ocurrencia realistas y no valores inflados por la
+ponderación de clase. La validación cuantitativa confirma que los mapas concentran el riesgo en
+las zonas donde efectivamente ocurren los terremotos, con un AUC espacial de 0.80 y un riesgo
+medio más del doble en las celdas con eventos reales. El mapa de incertidumbre, además, crece de
+forma coherente en las zonas con menos datos, lo que comunica al usuario dónde debe confiar más
+y dónde menos en la predicción. El sistema entrega, así, un producto cartográfico accionable y
+honesto sobre su propia confianza.
+
+\medskip
+En conjunto, el trabajo demuestra que un \textit{pipeline} de aprendizaje profundo construido
+con rigor es capaz de cartografiar el peligro sísmico espacial con calidad y de acotar con
+precisión los límites de la predicción temporal a corto plazo. Esta combinación --un producto
+útil y una delimitación honesta de lo que es y no es posible-- es, precisamente, lo que
+distingue a un trabajo metodológicamente sólido de una mera optimización de cifras. El sistema
+no solo responde a la pregunta que se le plantea, sino que sabe explicar con datos por qué
+responde mejor a unas preguntas que a otras, lo que lo convierte en una herramienta fiable
+sobre la que seguir construyendo.
+
+\section{Limitaciones y dificultades}
+\label{limitaciones}
+
+El desarrollo del trabajo ha encontrado varias dificultades que conviene explicitar, tanto por
+honestidad científica como porque orientan con claridad las líneas futuras.
+
+La principal limitación es de naturaleza física y no metodológica: la información necesaria para
+anticipar el \emph{momento} de un terremoto a 30 días no parece estar presente en el catálogo de
+eventos. La acumulación de tensión que precede a un sismo se produce en escalas de tiempo de
+años y de forma mayoritariamente silenciosa, por lo que apenas queda registrada en una secuencia
+de eventos discretos. Esto sitúa un techo a lo que cualquier modelo puede aprender de esta fuente
+de datos, con independencia de su sofisticación; es importante subrayar que se trata de un límite
+de la \emph{información disponible}, no del método empleado, y que ese límite ha sido medido, no
+supuesto. Reconocerlo con precisión es preferible a presentar un resultado optimista que no
+resistiría una evaluación rigurosa.
+
+Una segunda limitación es el fuerte desbalance del problema y la rareza de los eventos objetivo,
+que reduce la potencia estadística y obliga a un tratamiento muy cuidadoso de las métricas.
+Aunque la unión de California y Alaska mitiga el problema al aumentar el número de casos
+positivos, el número de mainshocks independientes sigue siendo modesto en términos de aprendizaje
+automático, lo que aconseja interpretar las diferencias pequeñas con cautela y apoyarlas siempre
+en tests estadísticos, como se ha hecho a lo largo del trabajo.
+
+Una tercera limitación es de alcance: el modelo trabaja con una resolución espacial de media
+décima de grado y un horizonte fijo de 30 días. Resoluciones más finas o horizontes distintos
+podrían cambiar el equilibrio entre las dimensiones espacial y temporal, y no se han explorado de
+forma exhaustiva por el coste computacional que implica reentrenar todo el \textit{pipeline} para
+cada configuración.
+
+Por último, una dificultad de carácter práctico ha sido la gestión de la reproducibilidad en un
+entorno de cómputo en la nube, el control de las numerosas configuraciones experimentales y la
+coherencia entre los resultados de las distintas fases. Estas dificultades se han abordado con un
+registro detallado de cada iteración, con la fijación de todas las semillas aleatorias y con un
+protocolo de evaluación uniforme entre modelos, lo que ha permitido que las comparaciones sean
+siempre justas y repetibles.
+
+\section{Trabajos futuros}
+\label{trabajos-futuros}
+
+Los resultados sugieren varias líneas de continuación, ordenadas de menor a mayor ambición. Todas
+ellas parten de una base sólida --el sistema actual funciona y su evaluación es fiable-- y buscan
+ampliar, bien el alcance del producto, bien la frontera de lo que es posible aprender.
+
+\paragraph{Horizontes temporales más cortos.} Dado que la señal precursora, de existir, vive en
+escalas de días más que de semanas, una línea natural es reducir la ventana de predicción a 7 o
+14 días y estudiar si en ese régimen aparece alguna capacidad temporal, manteniendo la
+formulación espacial que ha demostrado funcionar. Esta exploración es de bajo coste, porque
+reutiliza por completo la infraestructura existente, y permitiría trazar una curva de
+rendimiento frente al horizonte que delimitaría con más finura la frontera temporal del
+pronóstico.
+
+\paragraph{Información de forma de onda.} El presente trabajo modela el pronóstico a partir del
+catálogo de eventos, que es una representación discreta y muy comprimida de la actividad
+sísmica. Una extensión prometedora, aunque costosa, consiste en incorporar características
+derivadas de las propias formas de onda --contenido espectral, cambios en la velocidad sísmica
+del medio, tremor de baja frecuencia-- que podrían contener información precursora ausente en el
+catálogo. Esto requeriría procesar señal continua de las estaciones, una fuente de datos mucho
+más voluminosa, pero es quizá la vía con mayor potencial para superar el techo identificado en
+este trabajo.
+
+\paragraph{Adaptación de dominio entre regiones.} El experimento de transferencia
+(Sección~\ref{res-transferencia}) ha mostrado que el modelo entrenado en California+Alaska no
+generaliza sin más a otras regiones: los patrones espaciales que aprende son específicos de cada
+contexto tectónico. La línea natural de continuación es, por tanto, abordar la
+\textbf{adaptación de dominio}: reentrenar o reajustar el modelo con datos de la región objetivo,
+o entrenar un único modelo sobre un conjunto amplio y diverso de regiones para que aprenda
+representaciones más transferibles. Sería especialmente interesante comprobar si un modelo
+entrenado conjuntamente sobre varias subducciones generaliza mejor a una subducción nueva que el
+modelo actual, lo que confirmaría que la similitud tectónica es la variable clave. Este tipo de
+estudio, muy valorado en la literatura, es el paso obligado de cara a un despliegue fuera de la
+región de entrenamiento.
+
+\paragraph{Arquitecturas y características adicionales.} En el plano del modelado, se podrían
+explorar mecanismos de atención más expresivos, redes de grafos con aristas ponderadas por la
+distancia o por la conectividad tectónica conocida, y características derivadas de catálogos de
+fallas. Cualquiera de estas mejoras se integraría sin cambios en el protocolo de evaluación, lo
+que facilitaría medir su aportación real frente a las referencias actuales.
+
+\paragraph{Calibración predictiva y validación operacional.} La calibración empleada para los
+mapas se ha validado sobre una partición independiente del periodo de test, lo que ya evita la
+circularidad. Una línea de mejora consiste en ajustar la calibración de forma prospectiva,
+actualizándola a medida que llegan nuevos datos, y en evaluar el sistema en el formato del
+diagrama de Molchan frente a los sistemas operacionales de referencia, lo que situaría los
+resultados en el marco de comparación estándar de la sismología y acercaría el prototipo a un
+uso real.
+
+\paragraph{Fusión de fuentes y producto cartográfico.} Finalmente, combinar el catálogo del USGS
+con catálogos relocalizados de mayor precisión, o con información geológica de fallas y de
+deformación medida por GPS, podría enriquecer las características espaciales y refinar los mapas
+de riesgo. Sobre esa base se podría construir un producto cartográfico interactivo y actualizado
+de forma periódica, manteniendo siempre el mismo \textit{pipeline} de evaluación que garantiza la
+fiabilidad de los resultados.
+
+\medskip
+En definitiva, este trabajo aporta un sistema completo y una metodología de evaluación rigurosa
+que no solo entrega un producto útil --la cartografía del peligro sísmico con incertidumbre-- sino
+que también delimita con honestidad la frontera actual de la predicción temporal a corto plazo.
+Esa delimitación, lejos de ser un punto final, marca el comienzo de las líneas de investigación
+más prometedoras: sabiendo con precisión dónde está el límite, es posible dirigir el esfuerzo
+futuro exactamente hacia donde puede dar fruto. Esa es, quizá, la contribución más duradera de
+esta memoria.
